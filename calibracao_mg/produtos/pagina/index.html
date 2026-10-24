@@ -66,8 +66,12 @@ header { display: grid; gap: 14px; }
   border-radius: 6px; background: var(--surface); color: var(--ink); }
 button.act { font: 600 0.86rem var(--body); padding: 8px 12px; border-radius: 6px; border: 1px solid var(--accent);
   background: transparent; color: var(--accent); cursor: pointer; }
-.main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; align-items: start; }
-@media (max-width: 900px) { .main { grid-template-columns: 1fr; } }
+.main { display: grid; gap: 24px; }
+#map { max-height: 76vh; }
+.point-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 860px) { .point-grid { grid-template-columns: 1fr; } }
+.col { display: grid; gap: 18px; align-content: start; min-width: 0; }
+.chart { max-height: 190px; }
 .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 16px; min-width: 0; }
 .mapbox { position: relative; }
 svg { display: block; width: 100%; height: auto; }
@@ -112,7 +116,7 @@ details summary { cursor: pointer; font-weight: 600; font-size: 0.88rem; color: 
 <div class="wrap">
   <header>
     <h1>Brazilian Soybean RMG Atlas</h1>
-    <p class="lead">Effective relative maturity group (RMG) and sowing date of soybean inferred from MODIS phenology at 224 grid points (harvests 2001–2024), with the calibrated CROPGRO-Soybean cultivar of each point. Pick a variable, then click a cell to see its series and its DSSAT cultivar.</p>
+    <p class="lead">Effective relative maturity group (RMG) and sowing date of soybean inferred from MODIS phenology at 224 grid points (harvests 2001–2024), with the calibrated CROPGRO-Soybean cultivar of each point. Pick a variable, then click a cell: its series and its DSSAT cultivar appear below the map.</p>
     <div class="controls" role="group" aria-label="Map variable">
       <button class="chip" id="v-rmg" data-v="rmg" aria-pressed="true">Effective RMG, 2001–2024</button>
       <button class="chip" id="v-rmgRecent" data-v="rmgRecent" aria-pressed="false">Effective RMG, 2021–2024</button>
@@ -140,8 +144,16 @@ details summary { cursor: pointer; font-weight: 600; font-size: 0.88rem; color: 
     <div class="panel" id="point" aria-live="polite">
       <div class="row"><h2 id="p-title">Grid point</h2><span id="p-sub" class="lead" style="font-size:.85rem"></span></div>
       <div class="stats" id="p-stats"></div>
+      <div class="point-grid">
+      <div class="col">
       <div><h3>Effective RMG by harvest (median and 90% interval)</h3><svg id="p-rmg" class="chart"></svg></div>
       <div><h3>Sowing date by harvest</h3><svg id="p-sow" class="chart"></svg></div>
+      <details>
+        <summary>Show the data of this point as a table</summary>
+        <div class="scroll" style="margin-top:8px"><table id="p-table"></table></div>
+      </details>
+      </div>
+      <div class="col">
       <div>
         <h3>Soil texture of the soybean area</h3>
         <div class="soil" id="p-soil" style="margin-top:6px"></div>
@@ -154,10 +166,8 @@ details summary { cursor: pointer; font-weight: 600; font-size: 0.88rem; color: 
         <pre id="p-cul"></pre>
         <div class="row" style="margin-top:8px"><button class="act" id="copy">Copy both lines</button></div>
       </div>
-      <details>
-        <summary>Show the data of this point as a table</summary>
-        <div class="scroll" style="margin-top:8px"><table id="p-table"></table></div>
-      </details>
+      </div>
+      </div>
     </div>
   </section>
 
@@ -217,7 +227,7 @@ const W = 10 * Math.cos(15 * Math.PI / 180), H = 10;          // one degree in m
     r.addEventListener("mouseenter", e => showTip(p, e));
     r.addEventListener("mousemove", e => showTip(p, e));
     r.addEventListener("mouseleave", () => tip.hidden = true);
-    r.addEventListener("click", () => select(i));
+    r.addEventListener("click", () => { select(i); document.getElementById("point").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start"}); });
   });
   el("rect", {id: "selbox", class: "sel", width: W, height: H, x: -999, y: -999}, map);
 })();
