@@ -91,6 +91,11 @@ def main():
            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n</head>\n<body>\n"
            + corpo_gh + "\n</body>\n</html>\n")
     (OUT / "index.html").write_text(doc)
+    # cópia para o GitHub Pages: Settings → Pages → branch main, pasta /docs (o Pages só serve / ou /docs)
+    docs = RAIZ.parent / "docs"
+    shutil.rmtree(docs, ignore_errors=True)
+    shutil.copytree(OUT, docs, ignore=shutil.ignore_patterns("artifact.html"))
+    (docs / ".nojekyll").write_text("")          # serve os arquivos como estão, sem processamento do Jekyll
     print(OUT / "index.html", f"{len(doc) / 1024:.0f} KB", len(pts), "pontos")
 
 

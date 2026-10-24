@@ -5,6 +5,10 @@ grupo de maturidade relativa (GMR)** para todo o Brasil, da **inversão da fenol
 GMR efetivo e a data de semeadura da soja entre 2000 e 2024, e da **limitação hídrica da produtividade** simulada com
 essas informações. Este repositório é a base de dois artigos científicos (seção [Artigos](#artigos)).
 
+[![Atlas](https://img.shields.io/badge/atlas-GitHub%20Pages-2f6b3c)](https://fcoliveira-utfpr.github.io/CROPGRO_soybean_br/)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fcoliveira-utfpr/CROPGRO_soybean_br/blob/main/calibracao_mg/produtos/notebooks/usage_example.ipynb)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE-DATA)
+
 > **English summary.** This repository contains the code, data and products of a nationwide calibration of the
 > CROPGRO-Soybean (DSSAT) phenology as functions of the relative maturity group (RMG) for Brazil, using a machine-learning
 > emulator and hierarchical Bayesian inference, and of the amortized inversion (neural posterior estimation) of MODIS
@@ -90,10 +94,14 @@ Em [`calibracao_mg/produtos/`](calibracao_mg/produtos/) (em inglês; detalhes no
 | [`notebooks/usage_example.ipynb`](calibracao_mg/produtos/notebooks/usage_example.ipynb) | Roda o DSSAT com essas cultivares para qualquer local. **Feito para quem sabe pouco de programação: roda no navegador pelo Google Colab, sem instalar nada.** Basta mudar local, safras e datas de semeadura numa célula e executar tudo; o notebook baixa o clima da NASA/POWER, monta a cultivar e o solo, roda o DSSAT e faz os gráficos de data de colheita e limitação hídrica por data de semeadura e GMR, como apoio ao planejamento |
 | [`pagina/index.html`](calibracao_mg/produtos/pagina/index.html) | Atlas estático (pronto para o GitHub Pages): mapa do GMR efetivo, da tendência, da semeadura e da limitação hídrica; série e cultivar de cada ponto; curvas θ(GMR); downloads |
 
-Para publicar o atlas no GitHub Pages, aponte o Pages para a pasta `calibracao_mg/produtos/pagina/` (ou copie o
-conteúdo dela para `docs/`). Para o botão do Colab, use
-`https://colab.research.google.com/github/<usuário>/<repositório>/blob/main/calibracao_mg/produtos/notebooks/usage_example.ipynb`
-e atualize `REPO_RAW` na célula de dados do notebook.
+**Publicar o atlas no GitHub Pages:** *Settings → Pages → Build and deployment → Deploy from a branch*, escolha a branch
+`main` e a pasta **`/docs`**. A pasta [`docs/`](docs/) é uma cópia de `calibracao_mg/produtos/pagina/` (página e arquivos para
+download), refeita por `src/gerar_pagina.py`; o arquivo `.nojekyll` faz o GitHub servir os arquivos sem processamento.
+O atlas fica em <https://fcoliveira-utfpr.github.io/CROPGRO_soybean_br/>.
+
+**Abrir o notebook no Colab:**
+<https://colab.research.google.com/github/fcoliveira-utfpr/CROPGRO_soybean_br/blob/main/calibracao_mg/produtos/notebooks/usage_example.ipynb>
+(o notebook já lê os dados deste repositório quando roda no Colab).
 
 ---
 
@@ -103,6 +111,8 @@ e atualize `REPO_RAW` na célula de dados do notebook.
 .
 ├── README.md                     este arquivo
 ├── .gitignore                    o que não sobe (ver abaixo)
+├── LICENSE-DATA                  licença CC BY 4.0 dos dados e produtos
+├── docs/                         atlas para o GitHub Pages (cópia de calibracao_mg/produtos/pagina/)
 └── calibracao_mg/
     ├── README.md                 etapas do projeto e notas técnicas (português)
     ├── requirements.txt          ambiente principal (.venv)

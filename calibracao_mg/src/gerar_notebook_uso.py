@@ -20,6 +20,8 @@ def py(t):
 md("""
 # Running CROPGRO-Soybean (DSSAT) with Brazilian maturity-group cultivars
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fcoliveira-utfpr/CROPGRO_soybean_br/blob/main/calibracao_mg/produtos/notebooks/usage_example.ipynb)
+
 This notebook shows how to use the soybean cultivars calibrated for Brazil as functions of the relative maturity group
 (RMG), together with the **effective RMG and sowing date inferred from MODIS phenology** for 224 grid points
 (seasons 2000/01 to 2023/24).
@@ -101,7 +103,7 @@ py("""
 # Folder with the data products. When the notebook runs inside the repository, the files are read locally;
 # otherwise they are downloaded from the repository (set REPO_RAW to the raw URL of the 'produtos/dados' folder).
 LOCAL_DIR = Path("../dados")
-REPO_RAW = "https://raw.githubusercontent.com/<user>/<repository>/main/calibracao_mg/produtos/dados/"  # TODO: set after publishing
+REPO_RAW = "https://raw.githubusercontent.com/fcoliveira-utfpr/CROPGRO_soybean_br/main/calibracao_mg/produtos/dados/"
 
 def read_product(name):
     \"\"\"Read a CSV data product from the local folder or, if absent, from the repository.\"\"\"
