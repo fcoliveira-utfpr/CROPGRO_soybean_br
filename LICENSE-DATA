@@ -1,9 +1,10 @@
-Dados e produtos deste repositório — licença CC BY 4.0
+Data and products of this repository — CC BY 4.0 license
 
-Aplica-se a: calibracao_mg/dados/processados/, calibracao_mg/dados/literatura/ (tabelas extraídas pelos autores),
-calibracao_mg/resultados/ e calibracao_mg/produtos/ (tabelas, cultivares .CUL/.ECO, figuras, atlas).
-Dados de terceiros incluídos (IBGE, MapBiomas, BR-DWGD, Harvard Dataverse, exemplos do DSSAT) mantêm as licenças das fontes.
-Atribuição: Oliveira, F. C. et al. (2026), Universidade Tecnológica Federal do Paraná (UTFPR).
+Applies to: calibracao_mg/dados/processados/, calibracao_mg/dados/literatura/ (tables extracted by the authors),
+calibracao_mg/resultados/, calibracao_mg/produtos/ and docs/ (tables, .CUL/.ECO cultivars, figures, atlas).
+Third-party data included (IBGE, MapBiomas, BR-DWGD, Harvard Dataverse, DSSAT example files) keep the licenses of their sources.
+Attribution: Oliveira, F. C. et al. (2026), Federal University of Technology – Paraná (UTFPR).
+https://github.com/fcoliveira-utfpr/CROPGRO_soybean_br
 
 =======================================================================
 
