@@ -1,0 +1,41 @@
+# ---------------------------------------------------------------------------------------------------------
+# Tudo o que não vai para o GitHub. Ver README.md, seção "O que não está no repositório".
+# ---------------------------------------------------------------------------------------------------------
+
+# Pasta com o que foi retirado do repositório (PDFs com direitos autorais, manuscritos, versões obsoletas)
+_nao_sobe/
+
+# Ambientes e ferramentas locais (recriar com requirements*.txt; DSSAT compilado em .tools/)
+.venv/
+.venv_sbi/
+.tools/
+calibracao_mg/.run/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Dados brutos grandes (regeneráveis pelo Google Earth Engine: src/baixar_xavier_*.py)
+calibracao_mg/dados/brutos/xavier/
+
+# Arquivos grandes de resultados (cadeias MCMC, tabelas de treino do emulador, simulações intermediárias).
+# Disponibilizar no Zenodo junto com o DOI do repositório.
+calibracao_mg/resultados/**/*.h5
+calibracao_mg/resultados/**/*.parquet
+calibracao_mg/resultados/**/*.npz
+calibracao_mg/resultados/emulador_fenologia/treino/
+calibracao_mg/resultados/bs2019/sim*/
+calibracao_mg/resultados/solo_mapbiomas/sim_*/
+
+# Saídas temporárias do DSSAT e do LaTeX
+*.OUT
+LUN.LST
+fort.*
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Diário de laboratório interno (decisões e comandos de retomada); fica só no computador
+calibracao_mg/codex.md

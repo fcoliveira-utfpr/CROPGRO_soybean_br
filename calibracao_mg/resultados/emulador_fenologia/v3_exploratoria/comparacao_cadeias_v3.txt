@@ -1,0 +1,12 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/comparar_cadeias.py", line 36, in <module>
+    c = emcee.backends.HDFBackend(str(f), read_only=True).get_chain()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/emcee/backends/backend.py", line 75, in get_chain
+    return self.get_value("chain", **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/emcee/backends/hdf.py", line 152, in get_value
+    raise AttributeError(
+AttributeError: You must run the sampler with 'store == True' before accessing the results

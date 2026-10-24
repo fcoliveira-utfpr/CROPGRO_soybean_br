@@ -1,0 +1,107 @@
+perfis: (837, 47) | carbono MapBiomas 0–30 (t/ha) p10/p50/p90: [32.0, 45.0, 58.0]
+CC = 10 kPa | 349 células | 837 perfis | 4 processos
+25/349
+50/349
+75/349
+100/349
+125/349
+150/349
+175/349
+200/349
+225/349
+250/349
+275/349
+300/349
+325/349
+349/349
+CC = 33 kPa | 349 células | 837 perfis | 4 processos
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/rodar_solo_mb.py", line 20, in <module>
+    import bs2019 as bs  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/bs2019.py", line 11, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    from DSSATTools.crop import Soybean
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py", line 96, in <module>
+    exitcode = _main(fd, parent_sentinel)
+    from DSSATTools.run import DSSAT
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 131, in _main
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/run.py", line 82, in <module>
+    prepare(preparation_data)
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    os.symlink(os.path.join(STATIC_PATH, file), file_link)
+FileExistsError: [Errno 17] File exists: '/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/dssat-csm-os/Data/DSSATPRO.v48' -> '/var/folders/50/s8hjm0h134j6vnljh7hmbhqc0000gn/T/DSSAT048/DSSATPRO.v48'
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/rodar_solo_mb.py", line 20, in <module>
+    import bs2019 as bs  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/bs2019.py", line 11, in <module>
+    from DSSATTools.crop import Soybean
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py", line 96, in <module>
+    from DSSATTools.run import DSSAT
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/run.py", line 82, in <module>
+    os.symlink(os.path.join(STATIC_PATH, file), file_link)
+FileExistsError: [Errno 17] File exists: '/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/dssat-csm-os/Data/WEATHER.CDE' -> '/var/folders/50/s8hjm0h134j6vnljh7hmbhqc0000gn/T/DSSAT048/WEATHER.CDE'
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 131, in _main
+    prepare(preparation_data)
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 246, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/anaconda3/envs/sklearning/lib/python3.11/multiprocessing/spawn.py", line 297, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/rodar_solo_mb.py", line 20, in <module>
+    import bs2019 as bs  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/src/bs2019.py", line 11, in <module>
+    from DSSATTools.crop import Soybean
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py", line 96, in <module>
+    from DSSATTools.run import DSSAT
+  File "/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/run.py", line 82, in <module>
+    os.symlink(os.path.join(STATIC_PATH, file), file_link)
+FileExistsError: [Errno 17] File exists: '/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/dssat-csm-os/Data/WEATHER.CDE' -> '/var/folders/50/s8hjm0h134j6vnljh7hmbhqc0000gn/T/DSSAT048/WEATHER.CDE'
+25/349
+50/349
+75/349
+100/349
+125/349
+150/349
+175/349
+200/349
+225/349
+250/349
+275/349
+300/349
+325/349
+349/349
+FIM

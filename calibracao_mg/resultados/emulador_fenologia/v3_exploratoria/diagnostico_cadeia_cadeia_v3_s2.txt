@@ -1,0 +1,10 @@
+Arquivo: cadeia_v3_s2.h5
+Passos: 4000
+Caminhantes: 40
+Parâmetros: 15
+Aceitação média: 0.1145
+Autocorrelação por parâmetro: a_csdl=287.4, a_ppsen=367.7, a_em-fl=149.2, a_fl-sd=523.6, a_sd-pm=210.4, b_csdl=432.4, b_ppsen=533.5, b_em-fl=223.6, b_fl-sd=365.7, b_sd-pm=411.5, delta8=533.6, ln_s_r1=302.2, ln_s_r7=281.6, ln_s_cat=346.0, ln_s_agr=255.1
+Razão passos/tau: 7.5 (pior parâmetro)
+ESS estimado mínimo entre parâmetros: 150
+Amostras após descarte exploratório de 50%: 80000
+Status: diagnóstico exploratório; não comprova convergência. Rode cadeias independentes e avalie R-hat/ESS antes de usar as estimativas como resultado final.

@@ -1,0 +1,10 @@
+# Ambiente da inferência amortizada (.venv_sbi, Python 3.11): torch 2.2.2 é a última versão para Mac Intel e exige numpy < 2
+# Instalação: pip install --only-binary=grpcio -r requirements_sbi.txt
+torch==2.2.2
+sbi==0.27.0
+nflows==0.14
+zuko==1.6.0
+numpy==1.26.4
+pandas==3.0.6
+scipy==1.17.1
+matplotlib==3.11.2

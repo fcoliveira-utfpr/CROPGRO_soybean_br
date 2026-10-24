@@ -1,0 +1,10 @@
+65 pontos com clima; 3 processos
+10/65  375 s
+20/65  647 s
+30/65  982 s
+40/65  1261 s
+50/65  1597 s
+60/65  1887 s
+65/65  2022 s
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/p02 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/p03 created.

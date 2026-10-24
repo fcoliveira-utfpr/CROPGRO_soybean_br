@@ -1,0 +1,10 @@
+3923 ponto-safra com Yw e IBGE; 107 sem IBGE na célula
+                        yp       yw     ibge  ibge_p95  lacuna  lacuna_rel
+regiao                                                                    
+GO/MG/DF/norte MS  4193.64  3397.05  3078.30   3465.62  318.74        0.08
+MATOPIBA           4225.55  2877.61  2840.85   3370.39   36.76       -0.03
+MT/RO/Norte        3663.44  3379.71  3134.61   3451.38  245.10        0.07
+PR/SP/MS           4166.87  2854.02  2983.28   3584.59 -129.26       -0.12
+RS/SC              4307.39  2275.76  2382.13   3276.66 -106.37       -0.15
+
+fração de ponto-safra com Yw < IBGE: 0.424

@@ -1,0 +1,15 @@
+variavel,zona,artigo,replicado,unidade,dif_pct
+produtividade_atingivel_media,2,3155.0,2931.0,kg/ha,-7.1
+produtividade_atingivel_media,1,2800.0,2760.0,kg/ha,-1.4
+produtividade_atingivel_media,3,2800.0,2507.0,kg/ha,-10.5
+produtividade_atingivel_media,6,1169.0,1268.0,kg/ha,8.5
+produtividade_atingivel_media,7,945.0,1052.0,kg/ha,11.3
+produtividade_potencial_media,4,2654.0,2673.0,kg/ha,0.7
+produtividade_potencial_min,4,2164.0,1885.0,kg/ha,-12.9
+produtividade_potencial_max,4,3074.0,3504.0,kg/ha,14.0
+produtividade_potencial_min,todas,1244.0,61.0,kg/ha,-95.1
+produtividade_potencial_max,todas,4600.0,5440.0,kg/ha,18.3
+perda_por_deficit_hidrico,7,72.0,72.0,%,0.0
+perda_por_deficit_hidrico_max,1,10.0,6.0,%,-40.0
+produtividade_atingivel_min,8-10,395.0,52.0,kg/ha,-86.8
+produtividade_atingivel_max,8-10,4064.0,4851.0,kg/ha,19.4

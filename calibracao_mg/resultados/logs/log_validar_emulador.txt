@@ -1,0 +1,6 @@
+hwam: RMSE 623.4 | viés -4.9 | R² 0.758 | 756 s
+r1: RMSE 1.4 | viés -0.0 | R² 0.991 | 767 s
+r7: RMSE 3.0 | viés 0.1 | R² 0.984 | 761 s
+modelo final hwam salvo
+modelo final r1 salvo
+modelo final r7 salvo

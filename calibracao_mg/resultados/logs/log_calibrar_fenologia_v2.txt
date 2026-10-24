@@ -1,0 +1,23 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 116 ms
+250/5000  421 s  log-post máx -504.1  aceitação 0.17
+500/5000  694 s  log-post máx -497.6  aceitação 0.11
+750/5000  933 s  log-post máx -493.7  aceitação 0.09
+1000/5000  1165 s  log-post máx -492.1  aceitação 0.07
+1250/5000  1430 s  log-post máx -492.0  aceitação 0.07
+1500/5000  1699 s  log-post máx -491.7  aceitação 0.06
+1750/5000  1948 s  log-post máx -491.4  aceitação 0.06
+2000/5000  2198 s  log-post máx -490.6  aceitação 0.06
+2250/5000  2436 s  log-post máx -491.1  aceitação 0.05
+2500/5000  2665 s  log-post máx -489.2  aceitação 0.05
+2750/5000  2909 s  log-post máx -491.7  aceitação 0.05
+3000/5000  3157 s  log-post máx -491.5  aceitação 0.05
+3250/5000  3396 s  log-post máx -492.6  aceitação 0.05
+3500/5000  3625 s  log-post máx -491.6  aceitação 0.05
+3750/5000  3877 s  log-post máx -489.0  aceitação 0.05
+4000/5000  4137 s  log-post máx -490.4  aceitação 0.05
+4250/5000  4372 s  log-post máx -490.4  aceitação 0.04
+4500/5000  4662 s  log-post máx -489.6  aceitação 0.04
+4750/5000  4947 s  log-post máx -489.1  aceitação 0.04
+5000/5000  5207 s  log-post máx -489.7  aceitação 0.04

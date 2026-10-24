@@ -1,0 +1,7 @@
+regiao,r_ponto_safra,r_regiao_ano,n_anos
+GO/MG/DF/norte MS,0.408,0.6,24.0
+MATOPIBA,0.602,0.852,24.0
+MT/RO/Norte,0.309,0.599,24.0
+PR/SP/MS,0.644,0.839,24.0
+RS/SC,0.54,0.756,24.0
+Brasil,0.55,0.757,120.0

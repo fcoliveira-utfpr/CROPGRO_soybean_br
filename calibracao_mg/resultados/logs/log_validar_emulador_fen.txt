@@ -1,0 +1,8 @@
+variáveis por fase: (2639998, 66) em 160 s
+fold 0: 401 s
+fold 1: 630 s
+fold 2: 865 s
+fold 3: 1098 s
+fold 4: 1332 s
+{'saida': 'hwam_fen', 'n': 2639998, 'rmse': 330.0246339112208, 'vies': -2.3269599499687015, 'r2': 0.9320271250168812}
+modelo final salvo

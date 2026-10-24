@@ -1,0 +1,14 @@
+cadeia_v12_a.h5 -1586.0 -1586.0
+cadeia_v12_b.h5 -1602.8 -1602.8
+                            cadeia_v12_a.h5  cadeia_v12_b.h5   dif
+exp Strieder et al. (2013)           -286.0           -297.5 -11.5
+exp Oliveira, A.B. (2010).           -141.1           -151.3 -10.1
+exp Silva et al. (2022). P           -234.4           -241.7  -7.3
+exp Barbosa et al. (2013).            -79.0            -82.7  -3.6
+exp Sampaio et al. (2021),            -59.8            -62.9  -3.1
+exp Bernardo et al. (2024)            -79.1            -80.7  -1.5
+exp Cruz et al. (2010). Sc            -62.2            -62.7  -0.5
+exp Bubans et al. (2021).             -57.4            -55.6   1.9
+catalogos                            -309.9           -305.5   4.4
+prior_lit                              -8.2             -3.5   4.7
+agregados                            -268.8           -259.0   9.9

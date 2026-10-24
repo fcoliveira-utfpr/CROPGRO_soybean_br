@@ -1,0 +1,32 @@
+Sat Oct 17 00:03:19 -03 2026 início
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+70 locais | 6900 tarefas | 6900 pendentes | 4 processos
+1000/6900  654 s  faltam ~1.1 h
+2000/6900  996 s  faltam ~0.7 h
+3000/6900  1339 s  faltam ~0.5 h
+4000/6900  1679 s  faltam ~0.3 h
+5000/6900  2020 s  faltam ~0.2 h
+6000/6900  2359 s  faltam ~0.1 h
+6900/6900  2663 s  faltam ~0.0 h
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/fe04 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/fe01 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/fe03 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/fe02 created.
+                        n   peso  media
+tipo        estadio                    
+agregado    r1       1328   88.0   56.4
+            r8       1328   88.0  127.7
+catalogo    r8       1495   88.0  117.2
+experimento r1        116  116.0   46.5
+            r7         24   24.0   89.0
+            r8        154  154.0  116.5
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+tabela (1685205, 27) em 8 s | locais 70
+saida  rmse  mae  vies   r2
+    e  0.47 0.31  0.00 0.82
+   r1  1.27 0.82 -0.05 0.99
+   r7  1.90 1.37  0.01 0.99 
+1291 s
+modelos salvos

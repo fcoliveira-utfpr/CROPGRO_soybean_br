@@ -1,0 +1,34 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+47 locais | 11750 tarefas | 11750 pendentes | 4 processos
+1000/11750  1226 s  faltam ~3.7 h
+2000/11750  1752 s  faltam ~2.4 h
+3000/11750  2434 s  faltam ~2.0 h
+4000/11750  2811 s  faltam ~1.5 h
+5000/11750  3230 s  faltam ~1.2 h
+6000/11750  3642 s  faltam ~1.0 h
+7000/11750  4040 s  faltam ~0.8 h
+8000/11750  4470 s  faltam ~0.6 h
+9000/11750  4846 s  faltam ~0.4 h
+10000/11750  5190 s  faltam ~0.3 h
+11000/11750  5530 s  faltam ~0.1 h
+11750/11750  5785 s  faltam ~0.0 h
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/fe01 created.
+*RUN-TIME ERRORS OUTPUT FILE
+
+
+
+*DSSAT Cropping System Model Ver. 4.8.2.000 -HEAD  OCT 16, 2026 22:46:02
+
+*RUN  24        : DSSATTools                CRGRO048 BSXV8001    1
+ MODEL          : CRGRO048 - Soybean
+ EXPERIMENT     : BSXV8001 SB
+ DATA PATH      :
+ TREATMENT  1   : DSSATTools                CRGRO048
+  
+BSXV8001.SBX, Trt    1
+
+ Detail.CDE file not found.  Program will stop.                                  
+File: DATA.CDE   Line:     0   Error key: GETDSC
+
+Additional information may be available in WARNING.OUT file.

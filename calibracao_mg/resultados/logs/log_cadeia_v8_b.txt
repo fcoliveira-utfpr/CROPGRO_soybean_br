@@ -1,0 +1,18 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 350 ms
+Nova cadeia (stretch): /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/cadeia_v8_b.h5; inicialização de resultados/emulador_fenologia/cadeia_v7_b.h5
+250 passos totais (+250/3500)  1690 s  log-post máx -1613.1  aceitação acumulada 0.076
+500 passos totais (+500/3500)  3314 s  log-post máx -1610.3  aceitação acumulada 0.061
+750 passos totais (+750/3500)  4965 s  log-post máx -1607.9  aceitação acumulada 0.056
+1000 passos totais (+1000/3500)  6603 s  log-post máx -1607.1  aceitação acumulada 0.052
+1250 passos totais (+1250/3500)  8198 s  log-post máx -1608.0  aceitação acumulada 0.049
+1500 passos totais (+1500/3500)  9808 s  log-post máx -1612.2  aceitação acumulada 0.048
+1750 passos totais (+1750/3500)  11432 s  log-post máx -1605.1  aceitação acumulada 0.048
+2000 passos totais (+2000/3500)  13043 s  log-post máx -1605.8  aceitação acumulada 0.047
+2250 passos totais (+2250/3500)  14566 s  log-post máx -1607.9  aceitação acumulada 0.047
+2500 passos totais (+2500/3500)  19785 s  log-post máx -1606.5  aceitação acumulada 0.047
+2750 passos totais (+2750/3500)  21350 s  log-post máx -1605.9  aceitação acumulada 0.047
+3000 passos totais (+3000/3500)  22944 s  log-post máx -1601.5  aceitação acumulada 0.048
+3250 passos totais (+3250/3500)  24521 s  log-post máx -1602.4  aceitação acumulada 0.048
+3500 passos totais (+3500/3500)  26130 s  log-post máx -1602.8  aceitação acumulada 0.048

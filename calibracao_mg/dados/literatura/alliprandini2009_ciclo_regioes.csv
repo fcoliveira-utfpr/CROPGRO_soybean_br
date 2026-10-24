@@ -1,0 +1,89 @@
+regiao,cultivar,ndf,rgp,ndm,mg
+sul,FT-Cometa,42,64,106,5.0
+sul,NK8350 Spring,42,66,108,5.2
+sul,M-Soy 5942,44,68,112,5.6
+sul,NK412113,45,69,114,5.8
+sul,CD215,48,67,115,5.9
+sul,Fundacep 41,49,67,116,6.0
+sul,CD207,53,64,117,6.1
+sul,Ocepar-14,50,67,117,6.1
+sul,RB501,54,65,119,6.3
+sul,CD203,49,71,120,6.4
+sul,IAS-5,49,71,120,6.4
+sul,BR-16,50,70,120,6.4
+sul,M-Soy 6101,50,70,120,6.4
+sul,CD210,51,70,121,6.5
+sul,CD202,52,69,121,6.5
+sul,BRS 183,54,68,122,6.6
+sul,CD201,51,71,122,6.6
+sul,RB502,52,70,122,6.6
+sul,BRS137,51,71,122,6.6
+sul,RB605,50,73,123,6.7
+sul,BRS 184,53,70,123,6.7
+sul,RB603,49,75,124,6.8
+sul,CD208,53,71,124,6.8
+sul,Embrapa 48,51,73,124,6.8
+sul,CD206,54,70,124,6.8
+sul,RB604,51,74,125,6.9
+sul,Carrera,57,69,126,7.0
+sul,Embrapa 59,56,71,127,7.1
+sul,KIS602,53,74,127,7.1
+sul,BRS 154,53,75,128,7.2
+sul,Fundacep 38,52,76,128,7.2
+sul,BRS 133,60,70,130,7.4
+sul,M-Soy 7501,55,75,130,7.4
+sul,CD204,60,70,130,7.4
+sul,CD209,54,77,131,7.5
+sul,Fundacep 39,59,72,131,7.5
+sul,BRS 134,56,76,132,7.6
+sul,KIS702,57,76,133,7.7
+sul,CD205,58,78,136,8.0
+sul,M-Soy 8001,58,79,137,8.1
+centro_oeste,M-Soy 6101,48,60,108,7.2
+centro_oeste,Emgopa-302,49,61,110,7.3
+centro_oeste,Carrera,53,60,113,7.5
+centro_oeste,Emgopa-316,52,64,116,7.6
+centro_oeste,CD205,50,67,117,7.7
+centro_oeste,Splendor,54,64,118,7.7
+centro_oeste,CD204,56,63,119,7.8
+centro_oeste,DM118,54,65,119,7.8
+centro_oeste,M-Soy 8001,52,69,121,7.9
+centro_oeste,Vencedora,55,67,122,8.0
+centro_oeste,Conquista,55,69,124,8.1
+centro_oeste,BRS GOGoiania,56,69,125,8.1
+centro_oeste,FMT Cachara,55,70,125,8.1
+centro_oeste,CD211,56,70,126,8.2
+centro_oeste,FMT Tucunaré,57,69,126,8.2
+centro_oeste,M-Soy 8326,58,69,127,8.2
+centro_oeste,Emgopa-315,60,68,128,8.3
+centro_oeste,DM247,59,70,129,8.4
+centro_oeste,M-Soy 8411,61,68,129,8.4
+centro_oeste,FMT Pintado,57,73,130,8.4
+centro_oeste,M-Soy 8400,58,72,130,8.4
+centro_oeste,A7002,56,76,132,8.5
+centro_oeste,FMT Tabarana,58,74,132,8.5
+centro_oeste,LA Suprema,58,74,132,8.5
+centro_oeste,Monarca,56,76,132,8.5
+centro_oeste,FMT Mutum,60,73,133,8.6
+centro_oeste,FMT Xingú,64,70,134,8.6
+centro_oeste,UFV-18,62,73,135,8.7
+centro_oeste,FMT Perdiz,63,72,135,8.7
+centro_oeste,Garantia,62,74,136,8.7
+centro_oeste,P98C81,64,72,136,8.7
+centro_oeste,DM339,65,71,136,8.7
+centro_oeste,M-Soy 8866,66,71,137,8.8
+centro_oeste,DM Vitória,62,76,138,8.9
+centro_oeste,BRS GOJatai,60,78,138,8.9
+centro_oeste,DM309,63,75,138,8.9
+centro_oeste,FMT Nambu,62,77,139,8.9
+centro_oeste,FMT Tucano,64,76,140,9.0
+centro_oeste,FMT Kaiabi,63,77,140,9.0
+centro_oeste,M-Soy 8914,64,76,140,9.0
+centro_oeste,FMT Uirapuru,65,75,140,9.0
+centro_oeste,Elite,65,76,141,9.0
+centro_oeste,FMT Maritaca,67,74,141,9.0
+centro_oeste,Emgopa-314,66,76,142,9.1
+centro_oeste,M-Soy 9001,67,75,142,9.1
+centro_oeste,DM Nobre,68,74,142,9.1
+centro_oeste,Sambaíba,65,80,145,9.3
+centro_oeste,FMT Arara Azul,67,80,147,9.4

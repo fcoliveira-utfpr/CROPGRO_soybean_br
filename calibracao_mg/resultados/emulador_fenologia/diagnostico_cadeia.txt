@@ -1,0 +1,9 @@
+Arquivo: cadeia_fenologia.h5
+Passos: 5000
+Caminhantes: 40
+Parâmetros: 14
+Aceitação média: 0.0444
+Autocorrelação por parâmetro: a_csdl=328.4, a_ppsen=301.1, a_em-fl=137.4, a_fl-sd=411.6, a_sd-pm=338.7, b_csdl=380.7, b_ppsen=423.1, b_em-fl=302.8, b_fl-sd=462.4, b_sd-pm=426.6, delta8=422.6, ln_s_r1=236.7, ln_s_r7=250.8, ln_s_cat=315.5
+Razão passos/tau: 10.8 (pior parâmetro)
+Amostras após descarte exploratório de 50%: 100000
+Status: diagnóstico exploratório; não comprova convergência. Rode cadeias independentes e avalie R-hat/ESS antes de usar as estimativas como resultado final.

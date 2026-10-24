@@ -1,0 +1,14 @@
+         emulador  logpost_mediana  logpost_amostras_media  exp_r1  exp_r5  exp_r7  exp_r8  agregado_r1  agregado_r8  catalogo_r8
+gradient_boosting     -1598.708090            -1594.287924   6.300  11.786   3.644  16.594        3.190        2.175        8.524
+              mlp     -1684.821802            -1674.684898   6.239  12.431   4.022  15.844        3.413        3.271        9.551
+
+Diferença das previsões (MLP − GB) nas observações, na mediana da posterior (dias):
+                     mean   std   rms
+tipo        estadio                  
+agregado    r1       0.03  0.86  0.87
+            r8       0.70  2.17  2.28
+catalogo    r8       1.57  1.95  2.51
+experimento r1      -0.02  0.57  0.57
+            r5      -1.01  1.87  2.11
+            r7      -0.42  1.10  1.11
+            r8       0.82  2.24  2.38

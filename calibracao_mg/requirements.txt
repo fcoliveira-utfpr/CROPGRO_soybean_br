@@ -1,0 +1,19 @@
+# Ambiente principal (.venv, Python 3.11): simulações DSSAT, emulador, calibração bayesiana, figuras e produtos
+DSSATTools==3.0.2
+earthengine-api==1.7.48
+emcee==3.1.6
+h5py==3.16.0
+ipykernel==7.4.0
+joblib==1.6.0
+jupyter==1.1.1
+matplotlib==3.11.2
+nbconvert==7.17.2
+nbformat==5.11.1
+numpy==2.4.6
+pandas==3.0.6
+pillow==12.3.0
+pyarrow==26.0.0
+requests==2.34.2
+SALib==1.6.0
+scikit-learn==1.9.1
+scipy==1.17.1

@@ -1,0 +1,47 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 556 ms
+Nova cadeia (mix): /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/cadeia_v13_b.h5; inicialização de resultados/emulador_fenologia/v12_interrompida/cadeia_v12_a.h5
+250 passos totais (+250/3000)  1190 s  log-post máx -1597.0  aceitação acumulada 0.040
+500 passos totais (+500/3000)  2440 s  log-post máx -1595.1  aceitação acumulada 0.030
+750 passos totais (+750/3000)  3600 s  log-post máx -1587.4  aceitação acumulada 0.025
+1000 passos totais (+1000/3000)  4785 s  log-post máx -1582.9  aceitação acumulada 0.022
+1250 passos totais (+1250/3000)  5945 s  log-post máx -1582.9  aceitação acumulada 0.020
+1500 passos totais (+1500/3000)  7060 s  log-post máx -1582.9  aceitação acumulada 0.018
+1750 passos totais (+1750/3000)  8200 s  log-post máx -1582.9  aceitação acumulada 0.017
+2000 passos totais (+2000/3000)  9386 s  log-post máx -1582.9  aceitação acumulada 0.015
+2250 passos totais (+2250/3000)  10498 s  log-post máx -1582.6  aceitação acumulada 0.015
+2500 passos totais (+2500/3000)  11772 s  log-post máx -1582.6  aceitação acumulada 0.014
+2750 passos totais (+2750/3000)  13124 s  log-post máx -1582.1  aceitação acumulada 0.013
+3000 passos totais (+3000/3000)  14081 s  log-post máx -1581.5  aceitação acumulada 0.013
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 258 ms
+Retomando /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/cadeia_v13_b.h5 a partir do passo 3000
+3250 passos totais (+250/6000)  1898 s  log-post máx -1582.8  aceitação acumulada 0.013
+3500 passos totais (+500/6000)  3626 s  log-post máx -1582.0  aceitação acumulada 0.012
+3750 passos totais (+750/6000)  5544 s  log-post máx -1582.0  aceitação acumulada 0.012
+4000 passos totais (+1000/6000)  7442 s  log-post máx -1582.0  aceitação acumulada 0.012
+4250 passos totais (+1250/6000)  9382 s  log-post máx -1582.0  aceitação acumulada 0.011
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 1015 ms
+Retomando /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/cadeia_v13_b.h5 a partir do passo 4285
+4535 passos totais (+250/4715)  2176 s  log-post máx -1583.7  aceitação acumulada 0.011
+4785 passos totais (+500/4715)  3325 s  log-post máx -1579.9  aceitação acumulada 0.011
+5035 passos totais (+750/4715)  4463 s  log-post máx -1579.9  aceitação acumulada 0.011
+5285 passos totais (+1000/4715)  5692 s  log-post máx -1579.9  aceitação acumulada 0.011
+5535 passos totais (+1250/4715)  6878 s  log-post máx -1581.7  aceitação acumulada 0.011
+5785 passos totais (+1500/4715)  8121 s  log-post máx -1582.9  aceitação acumulada 0.010
+6035 passos totais (+1750/4715)  10237 s  log-post máx -1581.5  aceitação acumulada 0.010
+6285 passos totais (+2000/4715)  12195 s  log-post máx -1581.5  aceitação acumulada 0.010
+6535 passos totais (+2250/4715)  13823 s  log-post máx -1581.5  aceitação acumulada 0.010
+6785 passos totais (+2500/4715)  15275 s  log-post máx -1581.5  aceitação acumulada 0.010
+7035 passos totais (+2750/4715)  16602 s  log-post máx -1581.0  aceitação acumulada 0.010
+7285 passos totais (+3000/4715)  17776 s  log-post máx -1580.6  aceitação acumulada 0.010
+7535 passos totais (+3250/4715)  19026 s  log-post máx -1579.4  aceitação acumulada 0.010
+7785 passos totais (+3500/4715)  20348 s  log-post máx -1579.4  aceitação acumulada 0.010
+8035 passos totais (+3750/4715)  21915 s  log-post máx -1580.0  aceitação acumulada 0.010
+8285 passos totais (+4000/4715)  23427 s  log-post máx -1580.7  aceitação acumulada 0.010
+8535 passos totais (+4250/4715)  24610 s  log-post máx -1579.6  aceitação acumulada 0.010
+8785 passos totais (+4500/4715)  25615 s  log-post máx -1580.1  aceitação acumulada 0.010

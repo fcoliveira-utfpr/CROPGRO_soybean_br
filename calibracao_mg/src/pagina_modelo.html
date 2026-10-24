@@ -1,0 +1,344 @@
+<title>Brazilian Soybean RMG Atlas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout: a working atlas. Header with the variable switch, map and point panel side by side (stacked on phones),
+   then the coefficient curves and the notes on use. Data colours come from the validated project scales. */
+:root {
+  --bg: #f6f7f2;
+  --surface: #ffffff;
+  --ink: #1c211a;
+  --muted: #5b6355;
+  --line: #dde2d4;
+  --land: #ecefe5;
+  --border-land: #b9c0ae;
+  --accent: #2f6b3c;
+  --accent-ink: #ffffff;
+  --focus: #2a78d6;
+  --band: rgba(42, 120, 214, 0.18);
+  --series: #2a78d6;
+  --series-2: #eb6834;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141712; --surface: #1c2019; --ink: #e8ebe3; --muted: #a3ab9b; --line: #30362c;
+    --land: #23281f; --border-land: #4a5243; --accent: #7cc08a; --accent-ink: #10140e; --focus: #6da7ec;
+    --band: rgba(109, 167, 236, 0.22); --series: #6da7ec; --series-2: #f08a5d; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141712; --surface: #1c2019; --ink: #e8ebe3; --muted: #a3ab9b; --line: #30362c;
+  --land: #23281f; --border-land: #4a5243; --accent: #7cc08a; --accent-ink: #10140e; --focus: #6da7ec;
+  --band: rgba(109, 167, 236, 0.22); --series: #6da7ec; --series-2: #f08a5d; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 400 15px/1.5 var(--body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(1.6rem, 1.2rem + 1.6vw, 2.3rem); font-weight: 700; }
+h2 { font-size: 1.25rem; font-weight: 600; }
+h3 { font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+p { margin: 0; max-width: 68ch; }
+.lead { color: var(--muted); font-size: 1.02rem; }
+header { display: grid; gap: 14px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chip { font: 600 0.86rem/1 var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  padding: 9px 13px; border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.chip:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.finder { display: flex; flex-wrap: wrap; gap: 8px; align-items: end; margin-left: auto; }
+.finder label { display: grid; gap: 2px; font-size: 0.75rem; color: var(--muted); }
+.finder input { width: 7.5em; font: 400 0.9rem var(--mono); padding: 7px 8px; border: 1px solid var(--line);
+  border-radius: 6px; background: var(--surface); color: var(--ink); }
+button.act { font: 600 0.86rem var(--body); padding: 8px 12px; border-radius: 6px; border: 1px solid var(--accent);
+  background: transparent; color: var(--accent); cursor: pointer; }
+.main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+@media (max-width: 900px) { .main { grid-template-columns: 1fr; } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 18px; display: grid; gap: 16px; min-width: 0; }
+.mapbox { position: relative; }
+svg { display: block; width: 100%; height: auto; }
+.state { fill: var(--land); stroke: var(--border-land); stroke-width: 0.6; }
+.cell { stroke: var(--surface); stroke-width: 0.6; cursor: pointer; }
+.cell:hover { stroke: var(--ink); stroke-width: 1.2; }
+.sel { fill: none; stroke: var(--ink); stroke-width: 2.2; pointer-events: none; }
+.legend { display: grid; gap: 4px; font: 400 0.78rem var(--mono); color: var(--muted); }
+.legend .bar { height: 10px; border-radius: 2px; }
+.legend .ticks { display: flex; justify-content: space-between; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 6px 9px; font: 400 0.8rem/1.35 var(--body); box-shadow: 0 4px 14px rgba(0,0,0,0.12); white-space: nowrap; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 12px; }
+.stat { display: grid; gap: 2px; }
+.stat .v { font: 600 1.35rem/1.1 var(--display); font-variant-numeric: tabular-nums; }
+.stat .k { font-size: 0.78rem; color: var(--muted); }
+.axis text, .chart text { fill: var(--muted); font: 400 10px var(--mono); }
+.axis line, .grid line { stroke: var(--line); }
+table { border-collapse: collapse; width: 100%; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--line); }
+th { font-weight: 600; color: var(--muted); font-size: 0.78rem; }
+td.num { font-family: var(--mono); text-align: right; }
+.scroll { overflow-x: auto; }
+pre { margin: 0; font: 400 0.74rem/1.5 var(--mono); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 10px; overflow-x: auto; white-space: pre; }
+.soil { display: flex; height: 12px; border-radius: 3px; overflow: hidden; gap: 2px; }
+.soil span { display: block; height: 100%; }
+.key { display: flex; flex-wrap: wrap; gap: 12px; font-size: 0.8rem; color: var(--muted); }
+.key i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+.theta { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.note { display: grid; gap: 10px; color: var(--ink); }
+.note p { color: var(--muted); }
+.note code, td code { font: 400 0.85em var(--mono); }
+ul.dl { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; }
+ul.dl a { color: var(--accent); font-family: var(--mono); font-size: 0.9rem; }
+details summary { cursor: pointer; font-weight: 600; font-size: 0.88rem; color: var(--accent); }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
+.copied { font-size: 0.8rem; color: var(--accent); }
+@media (prefers-reduced-motion: no-preference) { .cell { transition: fill 0.25s ease; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Brazilian Soybean RMG Atlas</h1>
+    <p class="lead">Effective relative maturity group (RMG) and sowing date of soybean inferred from MODIS phenology at 224 grid points (harvests 2001–2024), with the calibrated CROPGRO-Soybean cultivar of each point. Pick a variable, then click a cell to see its series and its DSSAT cultivar.</p>
+    <div class="controls" role="group" aria-label="Map variable">
+      <button class="chip" id="v-rmg" data-v="rmg" aria-pressed="true">Effective RMG, 2001–2024</button>
+      <button class="chip" id="v-rmgRecent" data-v="rmgRecent" aria-pressed="false">Effective RMG, 2021–2024</button>
+      <button class="chip" id="v-trend" data-v="trend" aria-pressed="false">RMG trend</button>
+      <button class="chip" id="v-sow" data-v="sow" aria-pressed="false">Sowing date</button>
+      <button class="chip" id="v-ywyp" data-v="ywyp" aria-pressed="false">Water limitation</button>
+      <form class="finder" id="finder">
+        <label for="f-lat">Latitude<input id="f-lat" inputmode="decimal" value="-24.86"></label>
+        <label for="f-lon">Longitude<input id="f-lon" inputmode="decimal" value="-54.33"></label>
+        <button class="act" type="submit">Find nearest point</button>
+      </form>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="panel">
+      <div class="row"><h2 id="map-title">Effective RMG</h2><span id="map-note" class="lead" style="font-size:.85rem"></span></div>
+      <div class="mapbox" id="mapbox">
+        <svg id="map" role="img" aria-label="Map of Brazil with 1-degree cells coloured by the selected variable"></svg>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <div class="legend" id="legend"></div>
+    </div>
+
+    <div class="panel" id="point" aria-live="polite">
+      <div class="row"><h2 id="p-title">Grid point</h2><span id="p-sub" class="lead" style="font-size:.85rem"></span></div>
+      <div class="stats" id="p-stats"></div>
+      <div><h3>Effective RMG by harvest (median and 90% interval)</h3><svg id="p-rmg" class="chart"></svg></div>
+      <div><h3>Sowing date by harvest</h3><svg id="p-sow" class="chart"></svg></div>
+      <div>
+        <h3>Soil texture of the soybean area</h3>
+        <div class="soil" id="p-soil" style="margin-top:6px"></div>
+        <div class="key" id="p-soil-key" style="margin-top:6px"></div>
+      </div>
+      <div>
+        <div class="row"><h3 id="p-cul-title">DSSAT cultivar</h3><span class="copied" id="copied" hidden>Copied</span></div>
+        <div class="scroll" style="margin-top:6px"><table id="p-coef"></table></div>
+        <p class="lead" style="font-size:.82rem;margin-top:8px">Lines of <code>SBGRO048_BR.CUL</code> and <code>SBGRO048_BR.ECO</code> for this point:</p>
+        <pre id="p-cul"></pre>
+        <div class="row" style="margin-top:8px"><button class="act" id="copy">Copy both lines</button></div>
+      </div>
+      <details>
+        <summary>Show the data of this point as a table</summary>
+        <div class="scroll" style="margin-top:8px"><table id="p-table"></table></div>
+      </details>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="row"><h2>Phenological coefficients by RMG</h2><span class="lead" style="font-size:.85rem">posterior median and 90% interval</span></div>
+    <div class="theta" id="theta"></div>
+  </section>
+
+  <!--__DOWNLOADS__-->
+  <section class="panel note">
+    <h2>How to use these cultivars</h2>
+    <p>The files <code>SBGRO048_BR.CUL</code> and <code>SBGRO048_BR.ECO</code> work in any DSSAT 4.8 installation. Codes <code>BRG050</code> to <code>BRG095</code> are generic Brazilian cultivars for RMG 5.0 to 9.5; codes <code>BR0001</code> to <code>BR0224</code> are the cultivars of the grid points, with the median effective RMG of the harvests 2021–2024. </p>
+    <p>A notebook in the same repository runs DSSAT with these cultivars for any location. It was made for people with little or no programming experience: it runs in the browser with Google Colab, with nothing to install. Set the location, seasons and sowing dates in one cell and run all; the notebook downloads the weather from NASA/POWER, runs DSSAT and plots the harvest date and the water limitation for each sowing date and maturity group, to support planning.</p>
+    <p>Phenology was calibrated with a Bayesian model against field experiments, multi-site trials and cultivar catalogues. Growth coefficients are those of BRS 284 (Battisti and Sentelhas, 2019), so simulated yields serve to compare sowing dates, maturity groups and seasons, not to forecast absolute yield. Each cultivar represents the mix grown in a 1° cell. In the South, the effective RMG is higher than that of recommended cultivars, so use those values with care.</p>
+  </section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const SEQ = ["#cde2fb","#b7d3f6","#9ec5f4","#86b6ef","#6da7ec","#5598e7","#3987e5","#2a78d6","#256abf","#1c5cab","#184f95","#104281","#0d366b"];
+const DIV = ["#0d366b","#3987e5","#b7d3f6","#f0efec","#f6c0bf","#e66767","#a32424"];
+const SOIL_COL = ["#8c5a3c", "#c69c6d", "#e6cf9a"];
+const SOIL_NAME = ["Clay", "Sandy clay", "Sandy loam"];
+const fmtDate = d => { const t = new Date(Date.UTC(2001, 8, 10 + Math.round(d))); return t.toLocaleDateString("en-GB", {day: "numeric", month: "short", timeZone: "UTC"}); };
+const VARS = {
+  rmg: {title: "Effective RMG", note: "mean of 2001–2024", get: p => p.rmg, dom: [5.5, 9.5], pal: SEQ, fmt: v => v.toFixed(2)},
+  rmgRecent: {title: "Effective RMG", note: "median of the harvests 2021–2024", get: p => p.rmgRecent, dom: [5.5, 9.5], pal: SEQ, fmt: v => v.toFixed(2)},
+  trend: {title: "Trend of the effective RMG", note: "RMG units per decade (blue: earlier cultivars)", get: p => p.trend, dom: [-1, 1], pal: DIV, fmt: v => (v > 0 ? "+" : "") + v.toFixed(2)},
+  sow: {title: "Sowing date", note: "mean of 2001–2024", get: p => p.sow, dom: [20, 110], pal: SEQ, fmt: fmtDate},
+  ywyp: {title: "Water limitation", note: "water-limited / potential yield (1 = no loss)", get: p => p.ywyp, dom: [0.3, 1], pal: SEQ, fmt: v => v.toFixed(2)},
+};
+let current = "rmg", selected = null;
+
+function color(pal, dom, v) {
+  if (v === null || v === undefined || isNaN(v)) return "var(--line)";
+  const t = Math.max(0, Math.min(1, (v - dom[0]) / (dom[1] - dom[0]))) * (pal.length - 1);
+  const i = Math.floor(t), f = t - i, a = pal[i], b = pal[Math.min(i + 1, pal.length - 1)];
+  const h = s => [1, 3, 5].map(k => parseInt(s.slice(k, k + 2), 16));
+  const [r1, g1, b1] = h(a), [r2, g2, b2] = h(b);
+  return `rgb(${Math.round(r1 + (r2 - r1) * f)},${Math.round(g1 + (g2 - g1) * f)},${Math.round(b1 + (b2 - b1) * f)})`;
+}
+const NS = "http://www.w3.org/2000/svg";
+const el = (tag, attrs = {}, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+
+// ---------- map
+const map = document.getElementById("map");
+const W = 10 * Math.cos(15 * Math.PI / 180), H = 10;          // one degree in map units
+(function drawMap() {
+  const xs = DATA.points.map(p => p.x), ys = DATA.points.map(p => p.y);
+  const x0 = Math.min(...xs) - 60, x1 = Math.max(...xs) + 40, y0 = Math.min(...ys) - 70, y1 = Math.max(...ys) + 40;
+  map.setAttribute("viewBox", `${x0} ${y0} ${x1 - x0} ${y1 - y0}`);
+  const g = el("g", {}, map);
+  DATA.states.forEach(d => el("path", {d, class: "state"}, g));
+  const cells = el("g", {id: "cells"}, map);
+  DATA.points.forEach((p, i) => {
+    const r = el("rect", {x: p.x - W / 2, y: p.y - H / 2, width: W, height: H, class: "cell", "data-i": i}, cells);
+    r.addEventListener("mouseenter", e => showTip(p, e));
+    r.addEventListener("mousemove", e => showTip(p, e));
+    r.addEventListener("mouseleave", () => tip.hidden = true);
+    r.addEventListener("click", () => select(i));
+  });
+  el("rect", {id: "selbox", class: "sel", width: W, height: H, x: -999, y: -999}, map);
+})();
+const tip = document.getElementById("tip");
+function showTip(p, e) {
+  const v = VARS[current], val = v.get(p), box = document.getElementById("mapbox").getBoundingClientRect();
+  tip.innerHTML = `<strong>${p.lat}°, ${p.lon}°</strong> · ${p.region}<br>${v.title}: ${val === null ? "no data" : v.fmt(val)}`;
+  tip.hidden = false;
+  const x = e.clientX - box.left, y = e.clientY - box.top;
+  tip.style.left = Math.min(x + 12, box.width - tip.offsetWidth - 4) + "px";
+  tip.style.top = (y + 14) + "px";
+}
+function paint() {
+  const v = VARS[current];
+  document.querySelectorAll(".cell").forEach(r => r.setAttribute("fill", color(v.pal, v.dom, v.get(DATA.points[+r.dataset.i]))));
+  document.getElementById("map-title").textContent = v.title;
+  document.getElementById("map-note").textContent = v.note;
+  const stops = v.pal.map((c, i) => `${c} ${(i / (v.pal.length - 1) * 100).toFixed(1)}%`).join(",");
+  const n = 5, ticks = Array.from({length: n}, (_, i) => v.dom[0] + (v.dom[1] - v.dom[0]) * i / (n - 1));
+  document.getElementById("legend").innerHTML = `<div class="bar" style="background:linear-gradient(90deg,${stops})"></div>
+    <div class="ticks">${ticks.map(t => `<span>${v.fmt(t)}</span>`).join("")}</div>`;
+}
+document.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
+  current = b.dataset.v;
+  document.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c === b ? "true" : "false"));
+  paint();
+}));
+
+// ---------- point panel
+function lineChart(svg, series, opt) {
+  svg.innerHTML = "";
+  const w = 460, h = 150, m = {l: 38, r: 10, t: 8, b: 22};
+  svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
+  const xs = series.map(d => d[0]);
+  const sx = x => m.l + (x - 2000.5) / (2024.5 - 2000.5) * (w - m.l - m.r);
+  const sy = y => m.t + (1 - (y - opt.dom[0]) / (opt.dom[1] - opt.dom[0])) * (h - m.t - m.b);
+  const grid = el("g", {class: "grid"}, svg), axis = el("g", {class: "axis"}, svg);
+  opt.ticks.forEach(t => { el("line", {x1: m.l, x2: w - m.r, y1: sy(t), y2: sy(t)}, grid); const tx = el("text", {x: m.l - 6, y: sy(t) + 3, "text-anchor": "end"}, axis); tx.textContent = opt.tfmt(t); });
+  [2002, 2008, 2014, 2020, 2024].forEach(t => { const tx = el("text", {x: sx(t), y: h - 6, "text-anchor": "middle"}, axis); tx.textContent = t; });
+  if (opt.band) {
+    const up = series.map(d => `${sx(d[0])},${sy(d[opt.band[1]])}`), lo = series.map(d => `${sx(d[0])},${sy(d[opt.band[0]])}`).reverse();
+    el("polygon", {points: up.concat(lo).join(" "), fill: "var(--band)"}, svg);
+  }
+  el("polyline", {points: series.map(d => `${sx(d[0])},${sy(d[opt.k])}`).join(" "), fill: "none", stroke: opt.color, "stroke-width": 2, "stroke-linejoin": "round"}, svg);
+  series.forEach(d => { const c = el("circle", {cx: sx(d[0]), cy: sy(d[opt.k]), r: 2.6, fill: opt.color}, svg);
+    const t = el("title", {}, c); t.textContent = `${d[0]}: ${opt.tfmt(d[opt.k])}`; });
+}
+function stat(k, v) { return `<div class="stat"><span class="v">${v}</span><span class="k">${k}</span></div>`; }
+function select(i) {
+  selected = i;
+  const p = DATA.points[i];
+  document.getElementById("selbox").setAttribute("x", p.x - W / 2);
+  document.getElementById("selbox").setAttribute("y", p.y - H / 2);
+  document.getElementById("p-title").textContent = `${p.lat}°, ${p.lon}°`;
+  document.getElementById("p-sub").textContent = `${p.region} · ${p.elev} m · ${p.n} seasons`;
+  const sign = v => v === null ? "–" : (v > 0 ? "+" : "") + v.toFixed(2);
+  document.getElementById("p-stats").innerHTML =
+    stat("Effective RMG, 2001–2024", p.rmg.toFixed(2)) +
+    stat("Effective RMG, 2021–2024", p.rmgRecent === null ? "–" : p.rmgRecent.toFixed(2)) +
+    stat("RMG trend per decade", sign(p.trend)) +
+    stat("Mean sowing date", fmtDate(p.sow)) +
+    stat("Sowing trend, days/decade", p.sowTrend === null ? "–" : (p.sowTrend > 0 ? "+" : "") + p.sowTrend.toFixed(1)) +
+    stat("Water-limited / potential", p.ywyp === null ? "–" : p.ywyp.toFixed(2));
+  lineChart(document.getElementById("p-rmg"), p.series, {k: 2, band: [1, 3], dom: [5, 9.5], ticks: [5, 6, 7, 8, 9], tfmt: v => v.toFixed(1), color: "var(--series)"});
+  lineChart(document.getElementById("p-sow"), p.series, {k: 4, dom: [0, 150], ticks: [0, 50, 100, 150], tfmt: fmtDate, color: "var(--series-2)"});
+  document.getElementById("p-soil").innerHTML = p.soil.map((f, j) => f > 0 ? `<span style="width:${f * 100}%;background:${SOIL_COL[j]}" title="${SOIL_NAME[j]} ${(f * 100).toFixed(0)}%"></span>` : "").join("");
+  document.getElementById("p-soil-key").innerHTML = p.soil.map((f, j) => `<span><i style="background:${SOIL_COL[j]}"></i>${SOIL_NAME[j]} ${(f * 100).toFixed(0)}%</span>`).join("");
+  document.getElementById("p-cul-title").textContent = `DSSAT cultivar ${p.id} (RMG ${p.rmgCul.toFixed(2)})`;
+  const names = [["CSDL", "critical short day length (h)"], ["PPSEN", "photoperiod sensitivity before R1 (1/h)"], ["EM-FL", "emergence to flowering (ptd)"],
+                 ["FL-SD", "flowering to first seed (ptd)"], ["SD-PM", "first seed to maturity (ptd)"], ["R1PPO", "photoperiod sensitivity after R1 (1/h)"]];
+  document.getElementById("p-coef").innerHTML = `<thead><tr><th>Coefficient</th><th>Meaning</th><th style="text-align:right">Value</th></tr></thead><tbody>` +
+    names.map(([n, d], j) => `<tr><td><code>${n}</code></td><td>${d}</td><td class="num">${p.coef[j].toFixed(j === 1 || j === 5 ? 3 : 2)}</td></tr>`).join("") + "</tbody>";
+  document.getElementById("p-cul").textContent = p.cul + "\n" + p.eco;
+  document.getElementById("p-table").innerHTML = `<thead><tr><th>Harvest</th><th style="text-align:right">RMG 5%</th><th style="text-align:right">RMG median</th><th style="text-align:right">RMG 95%</th><th>Sowing</th></tr></thead><tbody>` +
+    p.series.map(d => `<tr><td class="num" style="text-align:left">${d[0]}</td><td class="num">${d[1].toFixed(2)}</td><td class="num">${d[2].toFixed(2)}</td><td class="num">${d[3].toFixed(2)}</td><td>${fmtDate(d[4])}</td></tr>`).join("") + "</tbody>";
+}
+function nearest(lat, lon) {
+  let best = 0, bd = Infinity;
+  DATA.points.forEach((p, i) => { const d = (p.lat - lat) ** 2 + ((p.lon - lon) * Math.cos(lat * Math.PI / 180)) ** 2; if (d < bd) { bd = d; best = i; } });
+  return best;
+}
+document.getElementById("finder").addEventListener("submit", e => {
+  e.preventDefault();
+  const lat = parseFloat(document.getElementById("f-lat").value.replace(",", ".")), lon = parseFloat(document.getElementById("f-lon").value.replace(",", "."));
+  if (!isNaN(lat) && !isNaN(lon)) select(nearest(lat, lon));
+});
+document.getElementById("copy").addEventListener("click", () => {
+  const text = document.getElementById("p-cul").textContent, ok = document.getElementById("copied");
+  const done = () => { ok.hidden = false; setTimeout(() => ok.hidden = true, 1600); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(done).catch(() => { const r = document.createRange(); r.selectNodeContents(document.getElementById("p-cul")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); });
+  } else { const r = document.createRange(); r.selectNodeContents(document.getElementById("p-cul")); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+});
+
+// ---------- theta curves
+(function drawTheta() {
+  const T = DATA.theta, box = document.getElementById("theta");
+  const spec = [["csdl", "CSDL (h)"], ["ppsen", "PPSEN (1/h)"], ["em-fl", "EM-FL (photothermal days)"], ["fl-sd", "FL-SD (photothermal days)"], ["sd-pm", "SD-PM (photothermal days)"], ["r1ppo", "R1PPO (1/h)"]];
+  spec.forEach(([k, label]) => {
+    const div = document.createElement("div"); box.appendChild(div);
+    div.innerHTML = `<h3>${label}</h3>`;
+    const svg = el("svg", {class: "chart", role: "img", "aria-label": label}, div);
+    const w = 300, h = 150, m = {l: 40, r: 8, t: 8, b: 22};
+    svg.setAttribute("viewBox", `0 0 ${w} ${h}`);
+    const lo = Math.min(...T[k + "_q05"]), hi = Math.max(...T[k + "_q95"]), pad = (hi - lo) * 0.08 || 0.1;
+    const dom = [lo - pad, hi + pad];
+    const sx = x => m.l + (x - 5) / 4.5 * (w - m.l - m.r), sy = y => m.t + (1 - (y - dom[0]) / (dom[1] - dom[0])) * (h - m.t - m.b);
+    const grid = el("g", {class: "grid"}, svg), axis = el("g", {class: "axis"}, svg);
+    for (let j = 0; j < 4; j++) { const t = dom[0] + (dom[1] - dom[0]) * (j + 0.5) / 4; el("line", {x1: m.l, x2: w - m.r, y1: sy(t), y2: sy(t)}, grid);
+      const tx = el("text", {x: m.l - 5, y: sy(t) + 3, "text-anchor": "end"}, axis); tx.textContent = Math.abs(t) < 2 ? t.toFixed(2) : t.toFixed(1); }
+    [5, 6, 7, 8, 9].forEach(g => { const tx = el("text", {x: sx(g), y: h - 6, "text-anchor": "middle"}, axis); tx.textContent = "RMG " + g; });
+    const up = T.rmg.map((g, i) => `${sx(g)},${sy(T[k + "_q95"][i])}`), dn = T.rmg.map((g, i) => `${sx(g)},${sy(T[k + "_q05"][i])}`).reverse();
+    el("polygon", {points: up.concat(dn).join(" "), fill: "var(--band)"}, svg);
+    el("polyline", {points: T.rmg.map((g, i) => `${sx(g)},${sy(T[k][i])}`).join(" "), fill: "none", stroke: "var(--series)", "stroke-width": 2}, svg);
+    const hv = el("line", {y1: m.t, y2: h - m.b, stroke: "var(--muted)", "stroke-dasharray": "2 3", visibility: "hidden"}, svg);
+    const lab = el("text", {y: m.t + 10, visibility: "hidden"}, svg);
+    const hit = el("rect", {x: m.l, y: m.t, width: w - m.l - m.r, height: h - m.t - m.b, fill: "transparent"}, svg);
+    hit.addEventListener("mousemove", e => {
+      const r = svg.getBoundingClientRect(), x = (e.clientX - r.left) / r.width * w;
+      const g = Math.max(5, Math.min(9.5, 5 + (x - m.l) / (w - m.l - m.r) * 4.5)), i = Math.round((g - 5) * 10);
+      hv.setAttribute("x1", sx(T.rmg[i])); hv.setAttribute("x2", sx(T.rmg[i])); hv.setAttribute("visibility", "visible");
+      lab.setAttribute("x", Math.min(sx(T.rmg[i]) + 5, w - 110)); lab.setAttribute("visibility", "visible");
+      lab.textContent = `RMG ${T.rmg[i].toFixed(1)}: ${T[k][i].toFixed(3)}`;
+    });
+    hit.addEventListener("mouseleave", () => { hv.setAttribute("visibility", "hidden"); lab.setAttribute("visibility", "hidden"); });
+  });
+})();
+
+paint();
+select(nearest(-24.86, -54.33));
+</script>

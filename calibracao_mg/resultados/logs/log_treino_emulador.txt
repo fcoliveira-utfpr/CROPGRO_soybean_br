@@ -1,0 +1,7 @@
+80000 tarefas | 0 já feitas | 80000 pendentes | 4 processos
+1000/80000  1541 s  faltam ~33.8 h
+2000/80000  3022 s  faltam ~32.7 h
+3000/80000  4452 s  faltam ~31.7 h
+4000/80000  5887 s  faltam ~31.1 h
+5000/80000  7299 s  faltam ~30.4 h
+6000/80000  8670 s  faltam ~29.7 h

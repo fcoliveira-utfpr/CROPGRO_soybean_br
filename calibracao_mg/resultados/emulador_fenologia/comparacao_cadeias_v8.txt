@@ -1,0 +1,123 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+cadeia_v8_a.h5: 3500 passos
+cadeia_v8_b.h5: 3500 passos
+parametro  rhat  med_0  med_1          faixa  frac_limite
+   a_csdl 1.750 12.538 12.326     [11.5, 14]        0.000
+  a_ppsen 2.973  0.270  0.257 [0.129, 0.385]        0.000
+  a_em-fl 1.416 30.248 28.662     [16.5, 40]        0.000
+  a_fl-sd 1.701 15.855 16.545        [9, 22]        0.000
+  a_sd-pm 2.270 23.393 20.635       [20, 38]        0.123
+   b_csdl 2.634 -0.344 -0.188    [-0.6, 0.2]        0.000
+  b_ppsen 3.295 -0.004  0.012  [-0.03, 0.05]        0.000
+  b_em-fl 1.389  3.207  3.736        [-2, 4]        0.133
+  b_fl-sd 1.579 -0.589  0.060        [-3, 3]        0.000
+  b_sd-pm 4.022  2.361 -2.790        [-3, 4]        0.219
+   delta8 1.585 10.100 11.786        [3, 20]        0.000
+  ln_s_r1 1.167  1.140  1.199    [-0.693, 3]        0.000
+  ln_s_r7 1.265  2.051  1.963 [-0.693, 3.22]        0.000
+ ln_s_cat 1.241  2.084  2.166 [-0.693, 3.22]        0.000
+ ln_s_agr 1.236  0.903  0.824 [-0.693, 3.22]        0.000
+  ln_s_r5 1.217  1.547  1.668    [-0.693, 3]        0.000
+  a_r1ppo 1.111  0.447  0.461     [0.2, 1.2]        0.000
+  b_r1ppo 3.095 -0.120  0.093  [-0.15, 0.15]        0.141
+   ln_tau 1.000  2.068  2.081      [-2.3, 3]        0.000
+
+θ(GMR) na mediana conjunta:
+            5       6       7       8       9
+csdl   12.988  12.712  12.436  12.160  11.884
+ppsen   0.263   0.263   0.264   0.264   0.264
+em-fl  22.283  25.715  29.146  32.577  36.009
+fl-sd  16.819  16.446  16.074  15.702  15.330
+sd-pm  20.115  20.747  21.380  22.012  22.644
+r1ppo   0.460   0.458   0.455   0.452   0.450
+
+Resíduos dos experimentos (obs − sim, dias):
+                                                     count  mean  std
+fonte                                       estadio                  
+Barbosa et al. (2013). Umuarama-PR 10-27    r8          18  11.4  5.7
+Barbosa et al. (2013). Umuarama-PR 11-10    r8          18   6.7  4.8
+Bernardo et al. (2024) Ijuí-RS 01-08        r5           9  -8.3  4.2
+                                            r8           9   3.5  5.0
+Bernardo et al. (2024) Ijuí-RS 12-02        r5           9   1.5  3.1
+                                            r8           9   9.6  4.5
+Bubans et al. (2021).  Ijuí-RS 01-22        r1           8   7.8  2.0
+                                            r5           8  24.3  3.2
+                                            r8           8   7.2  4.9
+Cruz et al. (2010). Sc São Desidério- 01-12 r1           4  -5.5  1.6
+                                            r5           4  -6.1  3.5
+Cruz et al. (2010). Sc São Desidério- 11-29 r1           4  -5.3  2.0
+                                            r5           4   1.8  3.2
+Cruz et al. (2010). Sc São Desidério- 12-14 r1           4  -0.8  1.2
+                                            r5           4   2.1  3.8
+Cruz et al. (2010). Sc São Desidério- 12-28 r1           4   0.4  2.7
+                                            r5           4   0.3  2.5
+Oliveira, A.B. (2010). Jaboticabal-SP 10-18 r1          10   1.5  6.8
+                                            r5          10   6.5  7.8
+                                            r8          10  15.2  3.9
+Oliveira, A.B. (2010). Jaboticabal-SP 11-28 r1          10   3.2  4.5
+                                            r5          10   3.3  3.4
+                                            r8          10  11.0  3.8
+Sampaio et al. (2021), Paragominas-PA 01-06 r1           2  -3.7  1.6
+                                            r5           2  -6.0  1.3
+                                            r7           2   6.4  0.4
+                                            r8           2   5.9  0.4
+Sampaio et al. (2021), Paragominas-PA 01-12 r1           2  -2.7  0.1
+                                            r5           2  -5.3  2.3
+                                            r7           2   2.7  3.2
+                                            r8           2  -0.8  3.2
+Sampaio et al. (2021), Paragominas-PA 01-19 r1           2  -4.8  2.1
+                                            r5           2  -7.6  2.0
+                                            r7           2   3.7  0.4
+                                            r8           2   5.7  3.3
+Sampaio et al. (2021), Paragominas-PA 02-16 r1           2  -5.2  1.8
+                                            r5           2  -7.5  0.8
+                                            r7           2   4.0  1.5
+                                            r8           2   6.0  0.1
+Silva et al. (2022). P Baixa Grande d 12-11 r1           8  -9.2  2.2
+                                            r8           8   2.7  6.0
+Silva et al. (2022). P Balsas-MA 11-28      r1           8   6.0  1.9
+                                            r8           8   5.1  3.8
+Silva et al. (2022). P Chapadinha-MA 02-05  r1           8   7.7  3.0
+                                            r8           8   5.8  2.6
+Silva et al. (2022). P São Raimundo d 12-15 r1           8   4.7  2.0
+                                            r8           8   7.1  1.6
+Silva et al. (2022). P São Raimundo d 12-18 r1           8  -2.7  1.5
+                                            r8           8  -1.8  2.7
+Silva et al. (2022). P Tasso Fragoso- 11-25 r1           8  -3.4  2.2
+                                            r8           8  11.3  2.0
+Silva et al. (2022). P Tasso Fragoso- 11-26 r1           8  -6.8  2.6
+                                            r8           8   0.1  2.7
+Silva et al. (2022). P Uruçuí-PI 12-12      r1           8  -4.0  2.0
+                                            r8           8  12.1  1.9
+Strieder et al. (2013) Passo Fundo-RS 02-01 r8          35  16.6  5.8
+Strieder et al. (2013) Passo Fundo-RS 09-24 r8          35  36.4  9.6
+Strieder et al. (2013) Passo Fundo-RS 11-14 r8          35  21.7  4.3
+
+catalogo r8: n=117  viés=0.5  RMSE=8.2  r=0.51
+        count  mean   std
+gmr                      
+(0, 6]      5   2.3   7.1
+(6, 7]     30   1.7   6.6
+(7, 8]     49  -2.8  10.0
+(8, 9]     33   4.1   3.9
+
+agregado r1: n=88  viés=0.6  RMSE=3.2  r=0.87
+         count  mean  std
+gmr                      
+(0, 6]       6   2.0  1.2
+(6, 7]      21   0.0  2.4
+(7, 8]      22  -0.9  4.2
+(8, 9]      34   1.4  2.9
+(9, 12]      5   1.7  2.0
+
+agregado r8: n=88  viés=2.2  RMSE=2.8  r=0.99
+         count  mean  std
+gmr                      
+(0, 6]       6   2.2  0.8
+(6, 7]      21   1.2  1.0
+(7, 8]      22   1.0  1.1
+(8, 9]      34   3.3  1.3
+(9, 12]      5   5.1  0.4
+
+escalas de erro (dias): σ_R1=3.2  σ_R7/R8=7.5  σ_R5=5.1  σ_cat=8.3  σ_agr=2.4  δ8=11.1

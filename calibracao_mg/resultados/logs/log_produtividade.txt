@@ -1,0 +1,45 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+{5: {'csdl': 12.878, 'ppsen': 0.23, 'em-fl': 21.257, 'fl-sd': 13.672, 'sd-pm': 25.984, 'r1ppo': 0.955}, 7: {'csdl': 12.388, 'ppsen': 0.254, 'em-fl': 28.724, 'fl-sd': 10.841, 'sd-pm': 25.133, 'r1ppo': 0.859}, 9: {'csdl': 11.898, 'ppsen': 0.277, 'em-fl': 36.191, 'fl-sd': 10.5, 'sd-pm': 25.0, 'r1ppo': 0.763}}
+224 pontos; 4030 ponto-safra; 0 sem fração de solo
+10/224 pontos
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+{5: {'csdl': 12.878, 'ppsen': 0.23, 'em-fl': 21.257, 'fl-sd': 13.672, 'sd-pm': 25.984, 'r1ppo': 0.955}, 7: {'csdl': 12.388, 'ppsen': 0.254, 'em-fl': 28.724, 'fl-sd': 10.841, 'sd-pm': 25.133, 'r1ppo': 0.859}, 9: {'csdl': 11.898, 'ppsen': 0.277, 'em-fl': 36.191, 'fl-sd': 10.5, 'sd-pm': 25.0, 'r1ppo': 0.763}}
+224 pontos; 4030 ponto-safra; 0 sem fração de solo
+10/224 pontos
+20/224 pontos
+30/224 pontos
+40/224 pontos
+50/224 pontos
+60/224 pontos
+70/224 pontos
+80/224 pontos
+90/224 pontos
+100/224 pontos
+110/224 pontos
+120/224 pontos
+130/224 pontos
+140/224 pontos
+150/224 pontos
+160/224 pontos
+170/224 pontos
+180/224 pontos
+190/224 pontos
+200/224 pontos
+210/224 pontos
+220/224 pontos
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/y01 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/y03 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/y04 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/y02 created.
+cenario     lon     lat   safra     gmr  sem_dias      yp      yw
+count    4030.0  4030.0  4030.0  4030.0    4030.0  4030.0  4030.0
+mean      -52.0   -18.0  2013.0     8.0      59.0  4001.0  2974.0
+std         4.0     7.0     7.0     1.0      20.0   449.0  1051.0
+min       -64.0   -32.0  2000.0     5.0       7.0  2332.0    70.0
+25%       -54.0   -24.0  2007.0     7.0      45.0  3691.0  2362.0
+50%       -52.0   -18.0  2014.0     8.0      56.0  4004.0  3258.0
+75%       -48.0   -14.0  2019.0     9.0      72.0  4321.0  3737.0
+max       -42.0    -2.0  2023.0     9.0     151.0  5281.0  5041.0
+Wed Oct 21 19:58:29 -03 2026 fim

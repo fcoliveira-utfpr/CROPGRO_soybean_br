@@ -1,0 +1,2 @@
+Wed Oct 21 04:20:04 -03 2026 início (δ8 fixo = 11; prior da literatura; início no modo b da v10)
+Wed Oct 21 08:02:04 -03 2026 fim

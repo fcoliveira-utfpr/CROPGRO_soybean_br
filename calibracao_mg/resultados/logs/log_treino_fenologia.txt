@@ -1,0 +1,20 @@
+47 locais | 18800 tarefas | 18800 pendentes | 4 processos
+1000/18800  892 s  faltam ~4.4 h
+2000/18800  1186 s  faltam ~2.8 h
+3000/18800  1445 s  faltam ~2.1 h
+4000/18800  1723 s  faltam ~1.8 h
+5000/18800  1986 s  faltam ~1.5 h
+6000/18800  2243 s  faltam ~1.3 h
+7000/18800  2505 s  faltam ~1.2 h
+8000/18800  2775 s  faltam ~1.0 h
+9000/18800  3039 s  faltam ~0.9 h
+10000/18800  3301 s  faltam ~0.8 h
+11000/18800  3563 s  faltam ~0.7 h
+12000/18800  3829 s  faltam ~0.6 h
+13000/18800  4092 s  faltam ~0.5 h
+14000/18800  4389 s  faltam ~0.4 h
+15000/18800  4667 s  faltam ~0.3 h
+16000/18800  4946 s  faltam ~0.2 h
+17000/18800  5237 s  faltam ~0.2 h
+18000/18800  5520 s  faltam ~0.1 h
+18800/18800  5742 s  faltam ~0.0 h

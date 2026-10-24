@@ -1,0 +1,36 @@
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Training neural network. Epochs trained: 22 Training neural network. Epochs trained: 23 Training neural network. Epochs trained: 24 Training neural network. Epochs trained: 25 Training neural network. Epochs trained: 26 Training neural network. Epochs trained: 27 Training neural network. Epochs trained: 28 Training neural network. Epochs trained: 29 Training neural network. Epochs trained: 30 Training neural network. Epochs trained: 31 Training neural network. Epochs trained: 32 Training neural network. Epochs trained: 33 Training neural network. Epochs trained: 34 Training neural network. Epochs trained: 35 Training neural network. Epochs trained: 36 Training neural network. Epochs trained: 37 Training neural network. Epochs trained: 38 Training neural network. Epochs trained: 39 Training neural network. Epochs trained: 40 Training neural network. Epochs trained: 41 Training neural network. Epochs trained: 42 Training neural network. Epochs trained: 43 Training neural network. Epochs trained: 44 Training neural network. Epochs trained: 45 Training neural network. Epochs trained: 46 Training neural network. Epochs trained: 47 Training neural network. Epochs trained: 48 Training neural network. Epochs trained: 49 Training neural network. Epochs trained: 50 Training neural network. Epochs trained: 51 Training neural network. Epochs trained: 52 Training neural network. Epochs trained: 53 Training neural network. Epochs trained: 54 Neural network successfully converged after 54 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 54
+        Best validation performance: 8.8624
+        -------------------------
+        
+treino: 3051 s com 99500 simulações
+/Users/coted-sh/Python/DSSAT/calibracao_mg/src/sbi_treinar.py:48: UserWarning: Capping max_sampling_batch_size from 10000 to 200 to avoid excessive memory usage.
+  return post.sample_batched((n,), x=xs, show_progress_bars=False).numpy()      # (n, lote, 4)
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv_sbi/lib/python3.11/site-packages/nflows/transforms/lu.py:80: UserWarning: torch.triangular_solve is deprecated in favor of torch.linalg.solve_triangularand will be removed in a future PyTorch release.
+torch.linalg.solve_triangular has its arguments reversed and does not return a copy of one of the inputs.
+X = torch.triangular_solve(B, A).solution
+should be replaced with
+X = torch.linalg.solve_triangular(A, B). (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/BatchLinearAlgebra.cpp:2198.)
+  outputs, _ = torch.triangular_solve(
+g: RMSE 0.811  viés -0.027  cobertura 90% 0.866
+s: RMSE 4.600  viés 0.237  cobertura 90% 0.906
+a: RMSE 3.698  viés -0.028  cobertura 90% 0.912
+b: RMSE 5.532  viés 0.474  cobertura 90% 0.880
+tempo por inferência: 538.4 ms (1000 amostras)
+/Users/coted-sh/Python/DSSAT/calibracao_mg/src/sbi_treinar.py:48: UserWarning: Capping max_sampling_batch_size from 10000 to 200 to avoid excessive memory usage.
+  return post.sample_batched((n,), x=xs, show_progress_bars=False).numpy()      # (n, lote, 4)
+/Users/coted-sh/Python/DSSAT/calibracao_mg/src/sbi_treinar.py:48: UserWarning: Capping max_sampling_batch_size from 10000 to 3333 to avoid excessive memory usage.
+  return post.sample_batched((n,), x=xs, show_progress_bars=False).numpy()      # (n, lote, 4)
+4030 ponto-safra invertidos em 131 s
+       g_media     g_dp  s_media
+count  4030.00  4030.00  4030.00
+mean      8.09     0.52    59.45
+std       0.96     0.19    19.23
+min       5.41     0.02     8.38
+25%       7.28     0.38    45.83
+50%       8.22     0.56    56.78
+75%       8.98     0.68    72.08
+max       9.47     1.13   152.02

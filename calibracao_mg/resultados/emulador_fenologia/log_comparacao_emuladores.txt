@@ -1,0 +1,16 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+{'saida': 'r1', 'modelo': 'gradient_boosting', 'n': 400000, 'rmse': 1.2703778284593445, 'mae': 0.8240542168987577, 'vies': -0.02570930532010954, 'r2': 0.9924799353178593, 'treino_s_por_dobra': 77.77592325210571, 'predicao_us_por_linha': 32.29340851306915}
+{'saida': 'r1', 'modelo': 'mlp_2x128', 'n': 400000, 'rmse': 0.8005214738454746, 'mae': 0.584649615870844, 'vies': -0.018224220196206387, 'r2': 0.9970139179449984, 'treino_s_por_dobra': 57.97266778945923, 'predicao_us_por_linha': 3.373125195503235}
+{'saida': 'r1', 'modelo': 'ridge', 'n': 400000, 'rmse': 6.0609611680758135, 'mae': 4.042368841405052, 'vies': -0.01787939068212233, 'r2': 0.8288256181866425, 'treino_s_por_dobra': 0.27727351188659666, 'predicao_us_por_linha': 0.6721657514572144}
+{'saida': 'r7', 'modelo': 'gradient_boosting', 'n': 399902, 'rmse': 2.040000067198199, 'mae': 1.460011640157026, 'vies': -0.0050991450374920965, 'r2': 0.9935088541600774, 'treino_s_por_dobra': 86.00947327613831, 'predicao_us_por_linha': 35.15356873624834}
+{'saida': 'r7', 'modelo': 'mlp_2x128', 'n': 399902, 'rmse': 1.004228270560972, 'mae': 0.7279985434085792, 'vies': -0.0354332589579784, 'r2': 0.9984270102602719, 'treino_s_por_dobra': 74.35476474761963, 'predicao_us_por_linha': 4.8981650772994065}
+{'saida': 'r7', 'modelo': 'ridge', 'n': 399902, 'rmse': 9.07316269078068, 'mae': 6.506135078059041, 'vies': -0.035440848416103586, 'r2': 0.8715960452646103, 'treino_s_por_dobra': 0.40989131927490235, 'predicao_us_por_linha': 0.9282985743937074}
+saida            modelo      n  rmse   mae   vies    r2  treino_s_por_dobra  predicao_us_por_linha
+   r1 gradient_boosting 400000 1.270 0.824 -0.026 0.992              77.776                 32.293
+   r1         mlp_2x128 400000 0.801 0.585 -0.018 0.997              57.973                  3.373
+   r1             ridge 400000 6.061 4.042 -0.018 0.829               0.277                  0.672
+   r7 gradient_boosting 399902 2.040 1.460 -0.005 0.994              86.009                 35.154
+   r7         mlp_2x128 399902 1.004 0.728 -0.035 0.998              74.355                  4.898
+   r7             ridge 399902 9.073 6.506 -0.035 0.872               0.410                  0.928
+fim

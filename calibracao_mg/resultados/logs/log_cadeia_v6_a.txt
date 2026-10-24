@@ -1,0 +1,21 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 223 ms
+cadeia inicial com 16 parâmetros; acrescentados ['a_r1ppo', 'b_r1ppo', 'ln_tau']
+Nova cadeia (stretch): /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/cadeia_v6_a.h5; inicialização de resultados/emulador_fenologia/cadeia_v5_a.h5
+250 passos totais (+250/4000)  2126 s  log-post máx -1563.7  aceitação acumulada 0.231
+500 passos totais (+500/4000)  4148 s  log-post máx -1552.8  aceitação acumulada 0.166
+750 passos totais (+750/4000)  6091 s  log-post máx -1543.4  aceitação acumulada 0.134
+1000 passos totais (+1000/4000)  7936 s  log-post máx -1538.2  aceitação acumulada 0.115
+1250 passos totais (+1250/4000)  9705 s  log-post máx -1536.8  aceitação acumulada 0.103
+1500 passos totais (+1500/4000)  11439 s  log-post máx -1532.6  aceitação acumulada 0.096
+1750 passos totais (+1750/4000)  13153 s  log-post máx -1531.0  aceitação acumulada 0.089
+2000 passos totais (+2000/4000)  14829 s  log-post máx -1521.7  aceitação acumulada 0.085
+2250 passos totais (+2250/4000)  16495 s  log-post máx -1527.6  aceitação acumulada 0.082
+2500 passos totais (+2500/4000)  18139 s  log-post máx -1526.5  aceitação acumulada 0.079
+2750 passos totais (+2750/4000)  19801 s  log-post máx -1524.4  aceitação acumulada 0.076
+3000 passos totais (+3000/4000)  21493 s  log-post máx -1526.2  aceitação acumulada 0.075
+3250 passos totais (+3250/4000)  23205 s  log-post máx -1523.8  aceitação acumulada 0.073
+3500 passos totais (+3500/4000)  24918 s  log-post máx -1522.3  aceitação acumulada 0.072
+3750 passos totais (+3750/4000)  26613 s  log-post máx -1523.7  aceitação acumulada 0.070
+4000 passos totais (+4000/4000)  28302 s  log-post máx -1525.9  aceitação acumulada 0.069
