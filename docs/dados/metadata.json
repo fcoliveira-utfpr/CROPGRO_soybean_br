@@ -1,0 +1,6 @@
+{
+ "posterior": "v13, 2 ensembles x 40 walkers x 9000 steps, second half",
+ "n_points": 224,
+ "n_point_seasons": 4030,
+ "growth": "BRS 284 (Battisti & Sentelhas 2019, Table S2)"
+}
