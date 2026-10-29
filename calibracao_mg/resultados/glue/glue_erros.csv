@@ -1,0 +1,6 @@
+,MCMC (mediana),GLUE 6000 (melhor),GLUE 60000 (melhor)
+exp_r1,6.3,6.3,6.0
+exp_r8,16.7,19.2,13.8
+agregado_r1,3.2,5.9,3.5
+agregado_r8,1.9,1.8,4.6
+catalogo_r8,8.4,8.6,9.8

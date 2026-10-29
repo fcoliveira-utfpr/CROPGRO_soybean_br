@@ -1,0 +1,21 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+40/60000  59 s  melhor -2356.4
+10040/60000  3805 s  melhor -1808.4
+20040/60000  5159 s  melhor -1808.4
+30040/60000  6570 s  melhor -1797.0
+40040/60000  7977 s  melhor -1797.0
+50040/60000  9378 s  melhor -1797.0
+    N   ess  melhor_logpost  logpost_mediana_mcmc  logpost_max_mcmc   tempo_s  frac_peso_maior
+ 6000 1.000       -1845.097             -1591.247         -1579.404  1061.295            1.000
+60000 1.802       -1797.002             -1591.247         -1579.404 10612.953            0.666
+metodo    GLUE            MCMC
+N       6000    60000   360000
+coef                          
+csdl    12.651  12.222  12.388
+em-fl   30.604  28.357  28.445
+fl-sd   11.802  12.506  10.832
+ppsen    0.233   0.241   0.253
+r1ppo    1.029   0.635   0.860
+sd-pm   25.640  25.778  25.098
+fim

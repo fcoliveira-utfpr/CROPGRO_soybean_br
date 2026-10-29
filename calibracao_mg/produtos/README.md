@@ -43,6 +43,29 @@ in the calibration pipeline (`src/validar_cul.py`).
 Copy both files to the folder of the experiment, or to `DSSAT48/Genotype` renamed as `SBGRO048.CUL` and `SBGRO048.ECO`
 (back up the originals first, or append the lines to them), and use the cultivar code in the FileX.
 
+## Starting a local calibration from these cultivars
+
+The cultivars are a starting point. With local experiments, they can be refined following the usual DSSAT workflow:
+
+1. Copy the line of the cultivar closest to your case (`BR####` for a grid point, or `BRG###` for an RMG) to the end of
+   your `SBGRO048.CUL`, give it a new code and name, and copy the matching ecotype line (`E####B` or `BRE###`) to
+   `SBGRO048.ECO`. Keep every value in its column: DSSAT reads fixed-width fields, and a shifted value causes a read
+   error or a wrong coefficient.
+2. Point the cultivar of your FileX to the new code and run the experiments as they are, to see how far the simulated
+   dates are from the observed ones.
+3. Calibrate phenology first: days to flowering with EM-FL (and, only if needed, CSDL and PPSEN), then FL-SH, FL-SD and
+   SD-PM for pod set, seed fill and maturity. R1PPO, in the ecotype file, controls how much long days after flowering
+   lengthen the cycle, which matters for early sowings. Change one coefficient at a time and check RMSE, bias and
+   Willmott's d.
+4. Calibrate growth only after phenology: leaf area (SLAVR, FL-LF, SIZLF), maximum leaf photosynthesis (LFMAX), and seed
+   size and filling (WTPSD, SFDUR), against leaf area, biomass and yield.
+5. The GLUE tool of DSSAT can search the phenological coefficients first and the growth coefficients next; use the
+   values of these cultivars as the starting point and the published ranges as limits.
+
+Two cautions: photoperiod coefficients (CSDL, PPSEN, R1PPO) and phase durations compensate each other, so several
+combinations can reproduce the same dates; and coefficients fitted to one site and season may not transfer to other
+latitudes or sowing dates. Checking the result against experiments with different sowing dates is the best protection.
+
 ## Limitations
 
 * The cultivars are effective cultivars: each represents the mix of cultivars grown in a 1° cell.

@@ -64,10 +64,14 @@ days to R1 and R8 with RMSE of 3.2 and 1.9 days (Willmott's d of 0.93 and 0.99).
 | EM-FL (photothermal days) | 21.1 | 28.4 | 35.8 |
 | FL-SD (photothermal days) | 13.9 | 10.8 | 10.5 |
 | SD-PM (photothermal days) | 25.9 | 25.1 | 25.0 |
-| R1PPO (1/h) | 0.95 | 0.86 | 0.77 |
+| R1PPO (h) | 0.95 | 0.86 | 0.77 |
 
 **Emulator.** Gradient boosting trained on 2.81 million simulated seasons at 73 locations; on held-out locations, RMSE of
 1.2 days for R1 and 2.0 days for R7, about 3×10⁴ times faster than DSSAT.
+
+**Comparison with GLUE.** Reproduced with the same emulator and likelihood, the GLUE procedure of DSSAT degenerated: with
+6,000 parameter sets (the DSSAT default) one set carried all the weight (effective sample size 1.0), and with 60,000 sets
+the best log-posterior (−1797) remained far from that of the ensemble sampler (−1579).
 
 **Effective RMG and sowing date (MODIS, 4,030 point-seasons at 224 points).** The amortized inversion recovers the RMG
 with an error of 0.75 and 88% coverage of the 90% credible interval, with posteriors nearly identical to those of
@@ -78,6 +82,14 @@ The spatial pattern agrees with the RMG zoning of Ferreira et al. (2026): 0.136 
 
 **Water limitation.** Yw/Yp of 0.74 for Brazil, from 0.92 in Mato Grosso, Rondônia and the North to 0.53 in the South;
 the detrended anomalies of the simulated Yw follow those of IBGE yields (r = 0.76 by region and season).
+
+**Default × calibrated cultivars (Paragominas, PA).** In an experiment with time series of leaf area, biomass and grain,
+the national cultivars reduced the errors of the default DSSAT cultivars by about half (RMSE of flowering 3.9 against
+7.4 days, of maturity 4.4 against 7.8 days, of grain yield 953 against 1,395 kg/ha), without any local adjustment.
+
+**Planning example.** At five representative points, each RMG unit delays harvest by 11–14 days; in Mato Grosso and Goiás
+the water risk is low for sowings from October, in MATOPIBA early sowings are risky, and in Paraná and the South no
+combination of sowing date and RMG removes the water risk.
 
 **Known limitations.** The coefficients are effective (the partition between R1PPO and the reproductive durations is
 weakly identifiable and was constrained by the published range); growth coefficients are those of BRS 284 (Battisti and
@@ -131,6 +143,8 @@ they are. When the notebook runs in Colab, it reads the data products directly f
     │   ├── sbi/                  trained neural posterior estimator, validation, effective RMG by point-season
     │   ├── produtividade/        Yp, Yw, IBGE yields by cell, water limitation and anomalies
     │   ├── planejamento/         sowing date × RMG demonstration at 5 points
+    │   ├── curvas/               default × calibrated cultivars against observed curves (Paragominas)
+    │   ├── glue/                 GLUE reproduced with the emulator, compared with the ensemble sampler
     │   ├── logs/                 logs of the runs (calibrations, training, pipelines)
     │   ├── figuras/              figures in Portuguese (PNG and PDF)
     │   └── figuras_en/           the same figures in English
@@ -150,10 +164,10 @@ The steps follow the flow of the data. All commands are run from `calibracao_mg/
 | 3 | Morris sensitivity analysis (15 coefficients, 9,600 simulations) | `faixas.py`, `morris.py` | `resultados/morris/`; notebook 04 |
 | 4 | Phenological observations with known RMG (experiments, Alliprandini, catalogues) | `catalogos_embrapa.py`, `observacoes_fenologia.py` | `dados/literatura/`, `resultados/emulador_fenologia/observacoes_fenologia.csv` |
 | 5 | Phenology emulator (2.81 million seasons at 73 locations; validation on held-out locations) | `treino_fenologia.py`, `emulador_fenologia.py`, `validar_emulador_fenologia.py`, `comparar_emuladores.py`, `sensibilidade_emulador.py` | `resultados/emulador_fenologia/modelo_*.joblib`, `validacao_metricas.csv`, `comparacao_emuladores.csv` |
-| 6 | Hierarchical Bayesian calibration (13 versions; final v13) | `calibrar_fenologia.py`, `comparar_cadeias.py`, `decompor_logvero.py`, `pipeline_fenologia_v*.sh` | chains `cadeia_v*.h5` (not in git), `comparacao_cadeias_v*.txt` |
+| 6 | Hierarchical Bayesian calibration (13 versions; final v13) | `calibrar_fenologia.py`, `comparar_cadeias.py`, `decompor_logvero.py`, `pipeline_fenologia_v*.sh`, `glue_comparacao.py` | chains `cadeia_v*.h5` (not in git), `comparacao_cadeias_v*.txt` |
 | 7 | MODIS phenology and amortized inversion (neural posterior estimation) of the effective RMG and sowing date; comparison with per-record MCMC | `fenologia_satelite.py`, `rodar_fenologia_satelite.py`, `sbi_simulador.py`, `sbi_treinar.py`, `pipeline_sbi_final.sh`, `mcmc_por_registro.py` | `resultados/fenologia_satelite/`, `resultados/sbi/` |
 | 8 | Potential and water-limited yield by point and season; water limitation and validation against IBGE | `rodar_produtividade.py`, `lacuna_produtividade.py`, `limitacao_hidrica.py` | `resultados/produtividade/` |
-| 9 | Products and planning demonstration | `gerar_produtos.py`, `validar_cul.py`, `gerar_notebook_uso.py`, `gerar_pagina.py` (+ `pagina_modelo.html`), `demo_planejamento.py` | `produtos/`, `docs/`, `resultados/planejamento/` |
+| 9 | Products, planning demonstration and default × calibrated curves (Paragominas) | `gerar_produtos.py`, `validar_cul.py`, `gerar_notebook_uso.py`, `gerar_pagina.py` (+ `pagina_modelo.html`), `demo_planejamento.py`, `curvas_paragominas.py`, `figuras_curvas.py` | `produtos/`, `docs/`, `resultados/planejamento/`, `resultados/curvas/` |
 | 10 | Figures of the papers (Portuguese and English) | `figuras.py`, `gerar_notebook_figuras.py`, `traducao_en.json` | `notebooks/06_figuras_resultados.ipynb`, `resultados/figuras*/` |
 
 The scripts `emulador.py`, `treino_emulador.py`, `validar_emulador.py`, `validar_emulador_fen.py` and notebook 05 belong

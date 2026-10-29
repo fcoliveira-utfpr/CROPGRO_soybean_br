@@ -297,7 +297,7 @@ function select(i) {
   document.getElementById("p-soil-key").innerHTML = p.soil.map((f, j) => `<span><i style="background:${SOIL_COL[j]}"></i>${SOIL_NAME[j]} ${(f * 100).toFixed(0)}%</span>`).join("");
   document.getElementById("p-cul-title").textContent = `DSSAT cultivar ${p.id} (RMG ${p.rmgCul.toFixed(2)})`;
   const names = [["CSDL", "critical short day length (h)"], ["PPSEN", "photoperiod sensitivity before R1 (1/h)"], ["EM-FL", "emergence to flowering (ptd)"],
-                 ["FL-SD", "flowering to first seed (ptd)"], ["SD-PM", "first seed to maturity (ptd)"], ["R1PPO", "photoperiod sensitivity after R1 (1/h)"]];
+                 ["FL-SD", "flowering to first seed (ptd)"], ["SD-PM", "first seed to maturity (ptd)"], ["R1PPO", "reduction of critical day length after R1 (h)"]];
   document.getElementById("p-coef").innerHTML = `<thead><tr><th>Coefficient</th><th>Meaning</th><th style="text-align:right">Value</th></tr></thead><tbody>` +
     names.map(([n, d], j) => `<tr><td><code>${n}</code></td><td>${d}</td><td class="num">${p.coef[j].toFixed(j === 1 || j === 5 ? 3 : 2)}</td></tr>`).join("") + "</tbody>";
   document.getElementById("p-cul").textContent = p.cul + "\n" + p.eco;
@@ -325,7 +325,7 @@ document.getElementById("copy").addEventListener("click", () => {
 // ---------- theta curves
 (function drawTheta() {
   const T = DATA.theta, box = document.getElementById("theta");
-  const spec = [["csdl", "CSDL (h)"], ["ppsen", "PPSEN (1/h)"], ["em-fl", "EM-FL (photothermal days)"], ["fl-sd", "FL-SD (photothermal days)"], ["sd-pm", "SD-PM (photothermal days)"], ["r1ppo", "R1PPO (1/h)"]];
+  const spec = [["csdl", "CSDL (h)"], ["ppsen", "PPSEN (1/h)"], ["em-fl", "EM-FL (photothermal days)"], ["fl-sd", "FL-SD (photothermal days)"], ["sd-pm", "SD-PM (photothermal days)"], ["r1ppo", "R1PPO (h)"]];
   spec.forEach(([k, label]) => {
     const div = document.createElement("div"); box.appendChild(div);
     div.innerHTML = `<h3>${label}</h3>`;

@@ -785,7 +785,9 @@ if DP.exists():
     d["colheita"] = (hd - pd.to_datetime(hd.dt.year.astype(str) + "-01-01")).dt.days
     d.loc[hd.dt.month > 7, "colheita"] -= 365
     ordem = ["15/09", "01/10", "15/10", "01/11", "15/11", "01/12", "15/12"]
-    rot = ["15 set", "1 out", "15 out", "1 nov", "15 nov", "1 dez", "15 dez"]
+    EN = fg.LINGUA == "en"                          # rótulos de eixo fixos não passam pela tradução automática
+    rot = (["15 Sep", "1 Oct", "15 Oct", "1 Nov", "15 Nov", "1 Dec", "15 Dec"] if EN else
+           ["15 set", "1 out", "15 out", "1 nov", "15 nov", "1 dez", "15 dez"])
     pontos = ["South (RS)", "West Paraná", "Goiás", "Mato Grosso", "MATOPIBA (BA)"]
     nomes = {"South (RS)": "Sul (RS)", "West Paraná": "Oeste do Paraná", "Goiás": "Goiás", "Mato Grosso": "Mato Grosso", "MATOPIBA (BA)": "MATOPIBA (BA)"}
     fig, axs = plt.subplots(2, 5, figsize=(16, 6.4), sharex=True, sharey="row")
@@ -803,7 +805,8 @@ if DP.exists():
             axs[1, j].plot(xs, q.r50, "o-", color=cor, ms=3.5, label=f"GMR {g:.1f}")
         axs[0, j].set_title(nomes[pnt]); axs[0, j].legend(loc="upper left", fontsize=7.5)
         axs[1, j].set_xticks(range(len(ordem)), rot, rotation=45)
-    axs[0, 0].set_yticks([-31, 0, 31, 59, 90, 120], ["1 dez", "1 jan", "1 fev", "1 mar", "1 abr", "1 mai"])
+    axs[0, 0].set_yticks([-31, 0, 31, 59, 90, 120], ["1 Dec", "1 Jan", "1 Feb", "1 Mar", "1 Apr", "1 May"] if EN else
+                         ["1 dez", "1 jan", "1 fev", "1 mar", "1 abr", "1 mai"])
     axs[0, 0].set_ylabel("data de colheita (R8)"); axs[1, 0].set_ylabel("Yw/Yp")
     axs[1, 2].set_xlabel("data de semeadura")
     fg.salvar(fig, "12_1_planejamento")

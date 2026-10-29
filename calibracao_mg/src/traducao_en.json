@@ -178,7 +178,22 @@
   "1 fev": "1 Feb",
   "1 mar": "1 Mar",
   "1 abr": "1 Apr",
-  "1 mai": "1 May"
+  "1 mai": "1 May",
+  "padrão do DSSAT": "DSSAT default",
+  "Sampaio et al. (calibrada no experimento)": "Sampaio et al. (calibrated on this experiment)",
+  "nacional por GMR (este trabalho)": "national, by RMG (this study)",
+  "observado": "observed",
+  "simulado": "simulated",
+  "IAF (m² m⁻²)": "LAI (m² m⁻²)",
+  "biomassa (t ha⁻¹)": "biomass (t ha⁻¹)",
+  "grãos (t ha⁻¹)": "grain (t ha⁻¹)",
+  "dias após a semeadura": "days after sowing",
+  "GMR 7,7 · 30 pl m⁻² · 6 jan": "RMG 7.7 · 30 plants m⁻² · 6 Jan",
+  "GMR 8,8 · 20 pl m⁻² · 6 jan": "RMG 8.8 · 20 plants m⁻² · 6 Jan",
+  "florescimento R1 (dias)": "flowering R1 (days)",
+  "maturação R7 (dias)": "maturity R7 (days)",
+  "grãos (kg ha⁻¹)": "grain (kg ha⁻¹)",
+  "IAF máximo": "maximum LAI"
  },
  "trecho": [
   [
@@ -236,6 +251,14 @@
   [
    "safra",
    "season"
+  ],
+  [
+   "padrão do DSSAT",
+   "DSSAT default"
+  ],
+  [
+   "nacional por GMR",
+   "national, by RMG"
   ]
  ]
 }

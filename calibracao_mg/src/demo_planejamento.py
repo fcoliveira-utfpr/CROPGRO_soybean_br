@@ -6,7 +6,7 @@ calibrada + crescimento da BRS 284) e os solos do ponto ponderados pela área (�
 R7 e colheita (R8), Yp e Yw.
 
 Saída: resultados/planejamento/demo_planejamento.csv
-Uso: DELTA8_FIXO=11 PRIOR_LIT=1 FAIXA_FISIO=1 .venv/bin/python src/demo_planejamento.py [n_processos]
+Uso: DELTA8_FIXO=11 PRIOR_LIT=1 FAIXA_FISIO=1 .venv/bin/python src/demo_planejamento.py [n_processos] [--resume]
 """
 import os
 import shutil
@@ -96,7 +96,9 @@ def rodar(args):
 
 
 if __name__ == "__main__":
-    n = int(sys.argv[1]) if len(sys.argv) > 1 else 4
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    n = int(args[0]) if args else 4
+    retomar = "--resume" in sys.argv       # pula as combinações já completas (24 safras) e anexa ao arquivo existente
     OUT.mkdir(parents=True, exist_ok=True)
     rp.TH = dict(zip(gp.cf.NOMES, np.median(gp.posterior(), axis=0)))
     pts = pd.read_csv(RAIZ / "produtos" / "dados" / "coefficients_point.csv")
@@ -112,8 +114,17 @@ if __name__ == "__main__":
         for g in (g0 - 1, g0, g0 + 1):
             for mes, dia in SEMEADURAS:
                 tarefas.append((nome, lon, lat, float(r.elevation_m), solos, float(np.clip(g, 5, 9.5)), mes, dia))
-    print(len(tarefas), "tarefas", flush=True)
     linhas = []
+    arq = OUT / "demo_planejamento.csv"
+    if retomar and arq.exists():
+        ant = pd.read_csv(arq)
+        cont = ant.groupby(["ponto", "rmg", "sowing"]).season.nunique()
+        feitos = {k for k, v in cont.items() if v == len(SAFRAS)}
+        ant = ant[[(p, r, w) in feitos for p, r, w in zip(ant.ponto, ant.rmg, ant.sowing)]]
+        linhas = ant.to_dict("records")
+        tarefas = [t for t in tarefas if (t[0], t[5], f"{t[7]:02d}/{t[6]:02d}") not in feitos]
+        print(f"retomando: {len(feitos)} combinações já feitas", flush=True)
+    print(len(tarefas), "tarefas", flush=True)
     with get_context("fork").Pool(n, initializer=_ini) as pool:
         for k, res in enumerate(pool.imap_unordered(rodar, tarefas), 1):
             linhas += res

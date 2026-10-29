@@ -5,3 +5,18 @@
 20/105
 30/105
 40/105
+50/105
+60/105
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+retomando: 60 combinações já feitas
+45 tarefas
+10/45
+20/45
+30/45
+40/45
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/pl04 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/pl03 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/pl02 created.
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/pl01 created.
+fim

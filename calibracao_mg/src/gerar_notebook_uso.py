@@ -123,7 +123,7 @@ Lines are posterior medians and bands the 90% credible intervals of the Bayesian
 """)
 py("""
 coefs = [("csdl", "CSDL (h)"), ("ppsen", "PPSEN (1/h)"), ("em-fl", "EM-FL (photothermal days)"),
-         ("fl-sd", "FL-SD (photothermal days)"), ("sd-pm", "SD-PM (photothermal days)"), ("r1ppo", "R1PPO (1/h)")]
+         ("fl-sd", "FL-SD (photothermal days)"), ("sd-pm", "SD-PM (photothermal days)"), ("r1ppo", "R1PPO (h)")]
 fig, axs = plt.subplots(2, 3, figsize=(12, 6))
 for ax, (k, label) in zip(axs.ravel(), coefs):
     ax.fill_between(theta.rmg, theta[f"{k}_q05"], theta[f"{k}_q95"], color=BLUE, alpha=0.25, linewidth=0)
@@ -240,7 +240,7 @@ def make_cultivar(rmg):
         c[k] = v
     flsh, fllf = FLSH_FLLF[min(FLSH_FLLF, key=lambda x: abs(x - rmg))]
     c["fl-sh"], c["fl-lf"] = flsh, fllf
-    c["eco#"]["r1ppo"] = ph["r1ppo"]               # photoperiod sensitivity after flowering (ecotype)
+    c["eco#"]["r1ppo"] = ph["r1ppo"]               # reduction of the critical day length after flowering, h (ecotype)
     c["eco#"]["fl-vs"] = 26.0                      # as in Battisti and Sentelhas (2019)
     c["eco#"]["rhght"] = 1.0
     return c
