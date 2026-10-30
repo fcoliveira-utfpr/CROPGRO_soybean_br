@@ -39,3 +39,16 @@ fort.*
 
 # Diário de laboratório interno (decisões e comandos de retomada); fica só no computador
 calibracao_mg/codex.md
+
+# dssat_zone: diário interno, pastas de rodada e simulações brutas
+dssat_zone/codex.md
+dssat_zone/.run/
+dssat_zone/resultados/**/sim/
+dssat_zone/resultados/**/*.parquet
+# dssat_zone: tabelas grandes vão compactadas (.csv.gz); sensibilidade por solo só no nível da célula
+dssat_zone/resultados/opcoes*.csv
+dssat_zone/resultados/tabela_municipal.csv
+dssat_zone/resultados/validacao_municipio_ano.csv
+dssat_zone/resultados/preditores_celula_ano.csv
+dssat_zone/resultados/etapa0_custo_summary.csv
+dssat_zone/resultados/logs/

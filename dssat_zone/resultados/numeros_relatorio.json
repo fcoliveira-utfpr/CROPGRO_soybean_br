@@ -1,0 +1,151 @@
+{
+ "classe_ad_area": {
+  "AD3": 0.02,
+  "AD4": 0.596,
+  "AD5": 0.383
+ },
+ "pico_yw_gmr6": {
+  "09-01": 0.037,
+  "10-21": 0.052,
+  "11-01": 0.185,
+  "11-11": 0.196,
+  "11-21": 0.193,
+  "12-01": 0.274,
+  "12-11": 0.059,
+  "12-21": 0.004
+ },
+ "celulas_sem_janela_gmr6": 0,
+ "frac_opcoes_por_classe": {
+  "recomendado": 0.907,
+  "recomendado com restrição": 0.091,
+  "não recomendado": 0.001
+ },
+ "representativas": {
+  "Oeste (Cascavel)": {
+   "id": "C042",
+   "recomendadas": 72,
+   "com_restricao": 0,
+   "melhor": {
+    "gmr": 7.5,
+    "semeadura": "11-21",
+    "yw_med": 3575.0,
+    "ry_med": 0.8151001540832049,
+    "p_safrinha": 0.0,
+    "classe": "recomendado"
+   }
+  },
+  "Norte (Londrina)": {
+   "id": "C180",
+   "recomendadas": 71,
+   "com_restricao": 1,
+   "melhor": {
+    "gmr": 7.0,
+    "semeadura": "11-21",
+    "yw_med": 3224.118849905307,
+    "ry_med": 0.7992549157576192,
+    "p_safrinha": 0.0463111909787981,
+    "classe": "recomendado"
+   }
+  },
+  "Campos Gerais (Ponta Grossa)": {
+   "id": "C229",
+   "recomendadas": 71,
+   "com_restricao": 1,
+   "melhor": {
+    "gmr": 7.5,
+    "semeadura": "11-01",
+    "yw_med": 3676.450475567206,
+    "ry_med": 0.9243635995142016,
+    "p_safrinha": 0.0,
+    "classe": "recomendado"
+   }
+  },
+  "Sudoeste (Pato Branco)": {
+   "id": "C078",
+   "recomendadas": 72,
+   "com_restricao": 0,
+   "melhor": {
+    "gmr": 6.5,
+    "semeadura": "11-21",
+    "yw_med": 3562.510580456297,
+    "ry_med": 0.7768997391548416,
+    "p_safrinha": 0.0,
+    "classe": "recomendado"
+   }
+  }
+ },
+ "p_seca_flor_gmr6_1out": {
+  "mediana": 0.089,
+  "max": 0.352
+ },
+ "p_geada_gmr6_1out": {
+  "mediana": 0.0,
+  "max": 0.156
+ },
+ "p_calor_gmr6_1out": {
+  "mediana": 0.0,
+  "max": 0.306
+ },
+ "p_chuva_colh_gmr6_1out": {
+  "mediana": 0.203,
+  "max": 0.392
+ },
+ "safrinha_sem_data": 5,
+ "safrinha_limite": {
+  "min": "04/01",
+  "max": "15/03",
+  "mediana_doy": 47.0
+ },
+ "efeito_correcao_safrinha_21set": {
+  "mediana": 0.0,
+  "min": -0.725
+ },
+ "validacao": {
+  "n_municipios": 336,
+  "n_municipio_ano": 12964,
+  "anos": [
+   1981,
+   2024
+  ],
+  "frac_quebras": 0.124,
+  "ry": {
+   "pearson": 0.531,
+   "spearman": 0.504,
+   "auc_quebra": 0.829,
+   "pearson_municipio_mediana": 0.549
+  },
+  "isna": {
+   "pearson": 0.524,
+   "spearman": 0.429,
+   "auc_quebra": 0.79,
+   "pearson_municipio_mediana": 0.531
+  },
+  "dssat_menos_isna": {
+   "pearson_ic90": [
+    -0.036,
+    0.07
+   ],
+   "auc_ic90": [
+    0.013,
+    0.067
+   ]
+  },
+  "beta": {
+   "central": 0.259,
+   "ic90": [
+    0.184,
+    0.328
+   ],
+   "desvio_ibge": 0.172,
+   "desvio_ry": 0.357
+  },
+  "estado_ano": {
+   "ry": 0.826,
+   "isna": 0.77
+  }
+ },
+ "tabela_municipal": {
+  "municipios": 382,
+  "linhas": 56520
+ }
+}

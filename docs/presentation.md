@@ -2,9 +2,9 @@
 
 **Relatório técnico para apresentação: base dos dois artigos (ASD e MLCSE)**
 
-UTFPR, Santa Helena (PR). Versão de 29/10/2026. Os resultados são da calibração final (v13), da inversão por satélite (NPE) e das simulações de produtividade (opção A, BRS 284).
+UTFPR, Santa Helena (PR). Versão de 30/10/2026. Os resultados são da calibração final (v13), da inversão por satélite (NPE), das simulações de produtividade (opção A, BRS 284) e do zoneamento da soja no Paraná (seção 12).
 
-> As figuras e tabelas estão em inglês, como nos artigos. As figuras ficam em `calibracao_mg/resultados/figuras_en/`.
+> As figuras e tabelas estão em inglês, como nos artigos. As figuras ficam em `calibracao_mg/resultados/figuras_en/`. As do zoneamento (seção 12) estão em português, em `dssat_zone/resultados/figuras/`.
 
 ---
 
@@ -23,6 +23,7 @@ UTFPR, Santa Helena (PR). Versão de 29/10/2026. Os resultados são da calibraç
 3. Uma rede neural (**NPE**, *neural posterior estimation*) inverteu a fenologia MODIS em **GMR efetivo e data de semeadura** para 4.030 pontos-safra entre 2000 e 2024.
 4. Com esses insumos, foram simulados Yp e Yw em todo o país, e a **limitação hídrica relativa Yw/Yp** foi quantificada.
 5. Os resultados viraram **produtos de uso direto**: arquivos de cultivar do DSSAT por ponto, um notebook no Colab e um atlas em HTML.
+6. As cultivares calibradas foram aplicadas num **zoneamento da soja no Paraná**: 1,69 milhão de safras simuladas, riscos por fase, janela do milho safrinha e validação contra o IBGE, comparada com um índice do tipo ZARC (seção 12).
 
 ### Os dois artigos
 
@@ -39,10 +40,11 @@ São independentes, não se citam e repetem os métodos onde preciso.
 
 ![Fluxo do projeto](../calibracao_mg/resultados/figuras_en/1_1_fluxo_projeto.png)
 
-*Comentário:* o fluxo tem três blocos.
+*Comentário:* o fluxo tem três blocos; o zoneamento (item 4) veio depois e não está no diagrama.
 1. **Calibração.** DSSAT → emulador → MCMC com as observações fenológicas.
 2. **Inversão.** A posterior calibrada gera as simulações que treinam o NPE, que é então aplicado ao MODIS.
 3. **Aplicação.** O GMR efetivo e a semeadura alimentam o DSSAT para Yp/Yw, os produtos e o planejamento.
+4. **Zoneamento.** As cultivares genéricas por GMR rodam direto no DSSAT numa grade de 0,25° do Paraná (seção 12).
 
 O ASD usa esse diagrama. O MLCSE usa a versão estatística da mesma estrutura, mostrada abaixo.
 
@@ -414,7 +416,80 @@ Exemplo com as cultivares por ponto em cinco pontos representativos:
 
 ---
 
-## 12. Produtos disponibilizados
+## 12. Aplicação: zoneamento da soja no Paraná (`dssat_zone`)
+
+Pergunta: o modelo calibrado faz um zoneamento mais informativo que o ZARC, que só indica o nível de risco (20, 30 ou 40%) por município, classe de água disponível (AD), grupo e decêndio? Relatório completo em `dssat_zone/relatorio_tecnico.md`; as figuras desta seção estão em português.
+
+**Desenho:**
+- 270 células de 0,25° com soja (5,8 Mha; MapBiomas 2023) e clima do Xavier;
+- solos de Battisti & Sentelhas pela textura do MapBiomas Solo (523 combinações célula × solo);
+- cultivares genéricas `BRG050`–`BRG075` do `SBGRO048_BR.CUL`, como publicadas;
+- 12 decêndios (1/set–21/dez) e 45 safras (1980/81–2024/25): **1,69 milhão de safras** com o executável do DSSAT chamado direto (~35 ms por safra, idêntico ao DSSATTools; 9,1 h com 4 processos);
+- R7/R8 corrigidos pela data de semeadura (+0,29 d por dia antes de 10/nov), porque o modelo capta só 50–60% do alongamento do ciclo nas semeaduras de set–out. A correção vale só para datas (geada, chuva na colheita, safrinha), não para a produtividade.
+
+**Indicadores por opção:**
+- Yw/Yp e Yw: mediana e média dos 20% piores anos (CVaR20);
+- perda calibrada pelo IBGE;
+- seca forte na floração e no enchimento;
+- geada até R7;
+- calor (≥ 3 dias com Tmax ≥ 36 °C em R1–R5);
+- chuva ≥ 80 mm nos 10 dias após R8;
+- probabilidade de colher a tempo do milho safrinha (data-limite do milho por célula, pelo risco de geada).
+
+**Classificação:**
+- nível de risco hídrico como no ZARC;
+- restrições por geada, calor e chuva na colheita;
+- janela ótima de Pareto entre Yw mediano, CVaR20 e safrinha.
+
+**Validação contra o IBGE** (336 municípios, 1981–2024; quebra = anomalia < −20%):
+
+| | DSSAT (Yw/Yp) | Índice tipo ZARC (ISNA) |
+|---|---|---|
+| AUC das quebras | **0,83** | 0,79 (diferença: IC90 0,013–0,067) |
+| r município × ano | 0,53 | 0,52 |
+| r da série estadual | **0,83** | 0,77 |
+
+![Validação do zoneamento](../dssat_zone/resultados/figuras/06_validacao.png)
+
+*Comentário:*
+- O modelo e o índice do tipo ZARC empatam na correlação linear. O modelo é melhor justamente na detecção das quebras, que é o que importa para risco.
+- As grandes secas (1986, 1991, 2009, 2012, 2022) aparecem nos dois índices. A amplitude simulada é cerca de 2 vezes a do IBGE.
+- Por isso a perda é recalibrada: perda = β · (1 − ry/ry normal). β = 0,395 faz a frequência de perdas > 20% no manejo típico igualar a das quebras do IBGE (12,4%).
+
+![Matrizes de decisão](../dssat_zone/resultados/figuras/03_matrizes.png)
+
+*Comentário* (em cima, Yw relativo ao melhor manejo da célula, classe e janela ótima com borda preta; embaixo, chance de colher a tempo da safrinha):
+- **Nível de risco:** 96% das opções ficam em 20%, como na portaria do ZARC. No PR, o nível sozinho discrimina pouco.
+- **Janela ótima:** tem dois grupos, que dão o *trade-off* soja–safrinha. Um fica em 1/set–11/set com GMR 5,0–6,5, onde se colhe a tempo do milho. O outro fica em 1/nov–1/dez, com maior Yw.
+  - No Oeste, a opção da safrinha custa 10–15% do Yw mediano da soja. Parte desse custo vem do viés fenológico das semeaduras precoces.
+  - Nos Campos Gerais, a geada inviabiliza o milho e a janela fica quase toda em novembro.
+
+![Riscos por fase](../dssat_zone/resultados/figuras/04_riscos.png)
+
+*Comentário:* riscos que o ZARC não mostra separadamente (GMR 6,0, semeadura em 1/out):
+- seca forte na floração no Noroeste e no Oeste (até 35%);
+- calor na floração no Noroeste (até 31%);
+- geada no Sul em altitude;
+- chuva na colheita no Centro-Norte (mediana de 20%, até 39%).
+
+![Milho safrinha](../dssat_zone/resultados/figuras/05_safrinha.png)
+
+*Comentário:*
+- A data-limite do milho safrinha vai de 4/jan no Sul a 15/mar no Norte.
+- Sem a correção do R8, a chance de colher a tempo seria superestimada em até 0,7 no Oeste e no Sudoeste, justamente onde a safrinha é marginal.
+
+**Produtos:**
+- tabela no formato do ZARC: 382 municípios × textura/AD × grupo × decêndio, com nível, classe, restrições, métricas e janela ótima;
+- tabelas por célula e por solo;
+- data-limite da safrinha por célula.
+
+**Pendências:**
+- comparação célula a célula com a portaria do ZARC e validação com sinistros do seguro (SISSER/PROAGRO), que dependem de download manual;
+- sensibilidade aos solos por PTF e à posterior dos coeficientes.
+
+---
+
+## 13. Produtos disponibilizados
 
 | Produto | Onde | Para quê |
 |---|---|---|
@@ -424,12 +499,13 @@ Exemplo com as cultivares por ponto em cinco pontos representativos:
 | Notebook de uso (Colab) | `produtos/notebooks/usage_example.ipynb` | Para **quem sabe pouco de programação, sem instalar nada**: escolhe-se local, safras e semeaduras, e o notebook baixa o clima NASA/POWER, monta a cultivar e o solo, roda o DSSAT e plota colheita e Yw/Yp |
 | Atlas estático (GitHub Pages) | https://fcoliveira-utfpr.github.io/CROPGRO_soybean_br/ | Consultar GMR efetivo, semeadura e cultivar por ponto no mapa |
 | Guia de calibração local | `calibracao_mg/produtos/README.md` | Partir da cultivar nacional e ajustar a um experimento próprio |
+| Zoneamento da soja no PR | `dssat_zone/resultados/tabela_municipal.csv.gz`, `opcoes_celula.csv.gz`, `relatorio_tecnico.md` | Nível de risco, classe, restrições, métricas e janela ótima por município × AD × grupo × decêndio |
 
 Dados sob CC BY 4.0. Repositório: https://github.com/fcoliveira-utfpr/CROPGRO_soybean_br
 
 ---
 
-## 13. Limitações (para antecipar perguntas)
+## 14. Limitações (para antecipar perguntas)
 
 1. **Semeaduras precoces no Sul.** O modelo subestima o ciclo em 20–30 d, uma limitação estrutural do CROPGRO com dias longos e frio.
 2. **GMR efetivo no Sul.** O valor absoluto fica alto, pela confusão com a defasagem R7→EOS50. Use as tendências, não o nível.
@@ -438,10 +514,11 @@ Dados sob CC BY 4.0. Repositório: https://github.com/fcoliveira-utfpr/CROPGRO_s
 5. **Coeficientes efetivos.** FL-SD e SD-PM ficam nos limites fisiológicos, e os coeficientes valem como conjunto coerente com o crescimento da BRS 284.
 6. **Emulador.** O MLP é mais preciso que o GB usado. A troca deslocaria os coeficientes numa ordem de grandeza comparável aos erros do emulador.
 7. **Clima de grade.** O BR-DWGD está em ponto de grade; o NASA/POWER do notebook tem cerca de 12% menos chuva que o Xavier.
+8. **Zoneamento.** O modelo exagera a amplitude das quebras (cerca de 2× a do IBGE), e o nível de risco depende da recalibração por β. Com β pela regressão, tudo fica no nível de 20%; com β pela variância, 22% das opções saem dele. Doenças e excesso de chuva não são simulados.
 
 ---
 
-## 14. Mensagens principais
+## 15. Mensagens principais
 
 ### ASD (agronômico)
 - **Primeiro conjunto nacional e consistente** de coeficientes por GMR para o CROPGRO-Soybean no Brasil. Erros de 3,2 d em R1 e 1,9 d em R8 nas médias multilocais.
@@ -455,3 +532,7 @@ Dados sob CC BY 4.0. Repositório: https://github.com/fcoliveira-utfpr/CROPGRO_s
 - **O GLUE degenera** (ESS de 1–2) no mesmo problema.
 - O **NPE amortizado** dá posteriores iguais às da MCMC por registro, a um custo cerca de 600 vezes menor, e viabiliza a inversão nacional e multidecadal num laptop.
 
+### Zoneamento (aplicação no Paraná)
+- Na detecção das quebras do IBGE, o modelo calibrado **supera um índice do tipo ZARC** (AUC 0,83 × 0,79), com os mesmos solos e clima.
+- O nível de risco hídrico repete o ZARC (96% no nível de 20%). **O ganho está no que o ZARC não mostra:** perda nos anos ruins, riscos por fase, calor, geada, chuva na colheita e a janela do milho safrinha.
+- A janela ótima de Pareto **quantifica o *trade-off* soja–safrinha** em cada célula.
