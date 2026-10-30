@@ -1,0 +1,14 @@
+{
+ "k": 0.287,
+ "ic90": [
+  0.252,
+  0.29
+ ],
+ "d_ref": "10/nov",
+ "n": 126,
+ "por_local": {
+  "Jaboticabal-SP": 0.248,
+  "Umuarama-PR": 0.264,
+  "Passo Fundo-RS": 0.291
+ }
+}
