@@ -1,0 +1,9 @@
+bloco,dado,n,detalhe
+calibração,"experimentos de campo (R1, R5, R7, R8)",453,"12 locais, 8 estudos"
+calibração,"médias multilocais (Alliprandini et al., 2009; R1, R8)",176,"15 locais, 88 cultivares"
+calibração,catálogos de cultivares (ciclo),117,"8 regiões, 7 fontes"
+satélite,pontos-safra MODIS invertidos pelo NPE,4030,224 pontos
+emulador,locais de treino,73,"2,81 milhões de safras simuladas"
+IBGE,município-anos com produtividade de soja (PAM),75007,2945 municípios
+zoneamento,"células de 0,25° no PR",270,"1,69 milhão de safras simuladas"
+zoneamento,registros dos ensaios de época (viés fenológico),215,4 locais

@@ -54,6 +54,35 @@ O ASD usa esse diagrama. O MLCSE usa a versão estatística da mesma estrutura, 
 
 ## 2. Área de estudo, clima, solos e produtividade observada
 
+### Inventário dos dados
+
+| Bloco | Dado | Quantidade | Cobertura |
+|---|---|---|---|
+| Calibração | Experimentos de campo (R1, R5, R7, R8) | 453 registros | 12 locais distintos, 8 estudos (13 combinações estudo × local: Ijuí tem dois estudos) |
+| Calibração | Médias multilocais de Alliprandini et al. (2009) (R1, R8) | 176 registros | 15 locais, 88 cultivares |
+| Calibração | Catálogos de cultivares (ciclo até R8) | 117 registros | 8 regiões, 7 fontes |
+| Calibração | Coeficientes publicados de cultivares brasileiras (faixas e *priors*) | 21 calibrações | — |
+| Seleção de coeficientes | Triagem de Morris | 9.600 simulações | 20 pontos × 3 épocas |
+| Emulador | Safras simuladas no DSSAT para treino | 2,81 milhões | 73 locais |
+| MCMC | Avaliações da posterior | 720.000 | — |
+| NPE | Simulações de treino | 100.000 | coeficientes da posterior |
+| Satélite | Pontos-safra MODIS invertidos em GMR efetivo e semeadura | 4.030 | 224 pontos, 2000–2024 |
+| Clima | BR-DWGD (Xavier), diário | 1980–2025 | 0,1° |
+| Solos | Perfis de Battisti et al. (2019) × frações texturais do MapBiomas | 3 perfis | 462 pontos de 1° (224 com soja) |
+| Produtividade | IBGE PAM, soja municipal | 75.007 município-anos | 2.945 municípios, 1980–2024 |
+| Zoneamento PR | Safras simuladas (célula × solo × GMR × decêndio) | 1,69 milhão | 270 células de 0,25° |
+| Zoneamento PR | Ensaios de época de semeadura (viés fenológico) | 215 registros | 4 locais (subconjunto dos experimentos) |
+| Zoneamento PR | Validação com o IBGE | 12.964 município-anos | 336 municípios |
+
+![Inventário dos dados](../calibracao_mg/resultados/figuras_en/0_1_inventario_dados.png)
+
+*Comentário:*
+- **(a) Calibração.** O tamanho do símbolo é o número de registros no local. Os experimentos concentram-se em Passo Fundo (105), Ijuí e Jaboticabal (60 cada) e no MATOPIBA. As médias multilocais cobrem o Centro-Sul, de 80 a 96 registros por local. Os catálogos cobrem regiões, não locais.
+- **(b) Satélite e emulador.** A cor é o número de safras invertidas por ponto; metade dos pontos tem 22 safras ou mais. Os círculos são os 73 locais do treino do emulador: 29 dos experimentos e das médias multilocais, 26 pontos de satélite e 18 dos catálogos.
+- **(c) Produtividade e zoneamento.** IBGE em todo o país e as 270 células do zoneamento do PR. Os losangos são os 4 locais dos ensaios de época usados para corrigir o R7/R8 no zoneamento.
+
+### Área, clima e solos
+
 - **Grade:** 462 pontos de Battisti et al. (2019), com cerca de 1° de resolução. Desses, 224 pontos têm soja suficiente na máscara MapBiomas para extrair a fenologia MODIS.
 - **Regiões:**
   - RS/SC;
