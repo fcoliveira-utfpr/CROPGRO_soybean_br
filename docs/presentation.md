@@ -33,7 +33,7 @@ São independentes, não se citam e repetem os métodos onde preciso.
 |---|---|---|
 | Título | Maturity-group-based phenology of CROPGRO-Soybean for Brazil and the effective maturity group of soybean from 2000 to 2024 | Emulator-based Bayesian calibration and amortized inference of soybean phenology across Brazil with a process-based crop model |
 | Pergunta central | Quais coeficientes por GMR, que GMR o produtor semeia, quanto a água limita a produtividade e como planejar | Como calibrar e inverter um simulador caro com dados heterogêneos, diagnosticando identificabilidade |
-| Ênfase | Coeficientes, validação agronômica, Paragominas, tendência do GMR, Yw/Yp, planejamento | Emulador (GB × MLP × ridge), verossimilhança hierárquica, 13 versões, comparação com o GLUE, NPE × MCMC |
+| Ênfase | Coeficientes, validação agronômica, Paragominas, tendência do GMR, Yw/Yp, planejamento | Emulador (GB × MLP × ridge), verossimilhança hierárquica, 13 versões, comparação com o GLUE e o TSE, NPE × MCMC |
 | Tamanho atual | 23 páginas + suplementar | 20 páginas + suplementar |
 
 ### Fluxo do estudo
@@ -240,6 +240,33 @@ O GLUE foi reproduzido com o mesmo emulador, a mesma verossimilhança e as mesma
 - Os coeficientes mudam com o número de sorteios: R1PPO no GMR 7 vale 1,03 h com 6.000 sorteios e 0,63 h com 60.000, contra 0,86 h na posterior.
 - O melhor conjunto acerta algumas fontes e erra outras. Com 60.000 sorteios, ele ajusta melhor o R8 dos experimentos, mas erra mais que o dobro nas médias multilocais, que são as observações mais precisas.
 - O GLUE não tem diagnóstico de convergência, então não revelaria os modos.
+
+### Comparação com o TSE do DSSAT
+
+O TSE (Memic et al., 2021) busca os coeficientes de **uma cultivar** numa grade regular e fica com a combinação de menor erro absoluto nas datas fenológicas.
+- **Execução.** Rodamos o programa original: o bytecode Python 3.7 extraído do `TSE.exe`, sem alterar o algoritmo, no macOS, com o DSSAT 4.8.2 e uma camada que traduz os caminhos do Windows.
+- **Fidelidade.** No exemplo do manual (Bragg, LFMAX), o ótimo foi 1,022, contra 1,024 no manual.
+- **Dados.** Os 209 tratamentos experimentais em 10 classes de GMR (uma cultivar por classe), na mesma caixa de busca da MCMC. Os experimentos são o único tipo de dado que o TSE lê.
+- **Rodadas.** Grade completa (4⁵ = 1.024 combinações), redução de faixa e R1PPO no ecótipo. Ao todo, 472 mil simulações e 46 h de CPU (`calibracao_mg/tse/`).
+
+![Comparação com o TSE](../calibracao_mg/resultados/figuras_en/10_5_tse_comparacao.png)
+
+RMSE (dias) no DSSAT real, nos experimentos:
+
+| Classes (evento que o TSE usou) | Estádio | MCMC | GLUE | TSE grade | TSE redução |
+|---|---|---|---|---|---|
+| GMR 5–8 (só R7) | R1 / R5 / R7 | 7,2 / 15,1 / 15,4 | 6,4 / 12,8 / 12,5 | 6,1 / 12,1 / **7,8** | 10,6 / 14,2 / 17,3 |
+| GMR 8,5–9,5 (só R1) | R1 / R5 / R7 | 6,4 / 5,0 / 6,1 | 6,3 / 5,1 / 7,0 | 5,6 / 38,3 / **76,7** | 5,7 / 8,5 / 8,3 |
+| Todas | R1 / R5 / R7 | 6,7 / 12,7 / 13,6 | 6,3 / 10,8 / 11,3 | 5,8 / 24,2 / 40,3 | 7,6 / 12,6 / 15,4 |
+
+*Comentário:*
+- **Um evento por cultivar.** Com vários tratamentos, o TSE usa só os eventos observados em **todos** eles. Com dados heterogêneos, sobra um evento por classe: o R7 no Sul e no Centro e o R1 no Norte. O R5 nunca entra.
+- **Onde o alvo foi o R7**, a grade ajusta o R7 melhor que a MCMC (7,8 contra 15,4 d).
+- **Onde o alvo foi o R1**, FL-SD e SD-PM não afetam o critério: 192 a 240 combinações empatam a até 1 d do mínimo. O TSE fica com a **última** combinação empatada da grade, com os dois coeficientes no máximo, e a maturidade sai 77 d atrasada.
+- **Identificabilidade.** Mesmo com o R7, as combinações a até 1 d do mínimo cobrem toda a faixa de FL-SD. A grade esconde isso ao devolver um ponto só.
+- **Redução de faixa.** Recentraliza no ótimo do **último** tratamento, não no conjunto. Ficou pior que a grade no critério multi-tratamento nas 7 classes de R7 (20,1 contra 6,5 d no GMR 6,5) e passou do limite informado (PPSEN 0,387 > 0,385).
+- **Fora da amostra.** As retas ajustadas aos ótimos do TSE erram as médias multilocais de R8 em 28,0 d (grade) e 11,5 d (redução), contra 1,9 d da MCMC.
+- **A causa é o critério, não a busca:** erro absoluto por cultivar nos eventos comuns, sem efeito de estudo, sem os outros tipos de dado e sem expressar a não identificabilidade.
 
 ---
 
@@ -558,7 +585,7 @@ Dados sob CC BY 4.0. Repositório: https://github.com/fcoliveira-utfpr/CROPGRO_s
 ### MLCSE (computacional)
 - Emulador validado em **locais não vistos**, que é o teste relevante para aplicação nacional.
 - *Ensembles* independentes e decomposição da log-posterior revelaram **cristas e bimodalidade**. Uma posterior convergida e com melhor ajuste **derrubava a produtividade**: é preciso checar saídas a jusante.
-- **O GLUE degenera** (ESS de 1–2) no mesmo problema.
+- **O GLUE degenera** (ESS de 1–2) no mesmo problema. O **TSE original** usa um evento por cultivar e resolve coeficientes não identificados pela ordem da grade (maturidade até 77 d errada).
 - O **NPE amortizado** dá posteriores iguais às da MCMC por registro, a um custo cerca de 600 vezes menor, e viabiliza a inversão nacional e multidecadal num laptop.
 
 ### Zoneamento (aplicação no Paraná)

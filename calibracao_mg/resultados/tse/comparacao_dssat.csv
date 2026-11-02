@@ -1,0 +1,837 @@
+classe,arquivo,TRNO,fonte,local,gmr,ADAPS,ADAPM,PDFPS,PDFPM,MDAPS,MDAPM,metodo,erro_r1,erro_r5,erro_r7
+5.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,4.8,33,44.0,53,78.0,83,86.0,MCMC v13,-11.0,-25.0,-3.0
+5.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,39,,65,74.0,100,105.0,MCMC v13,,-9.0,-5.0
+5.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,36,,57,52.0,87,89.0,MCMC v13,,5.0,-2.0
+5.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,48,,76,,124,171.0,MCMC v13,,,-47.0
+5.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,41,,71,,109,127.0,MCMC v13,,,-18.0
+5.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,35,,58,,89,107.0,MCMC v13,,,-18.0
+5.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,43,,69,74.0,104,111.0,MCMC v13,,-5.0,-7.0
+5.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,43,,69,74.0,104,111.0,MCMC v13,,-5.0,-7.0
+5.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,40,,59,52.0,90,93.0,MCMC v13,,7.0,-3.0
+5.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,40,,59,57.0,90,93.0,MCMC v13,,2.0,-3.0
+5.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,52,,81,,130,137.0,MCMC v13,,,-7.0
+5.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,52,,81,,130,152.0,MCMC v13,,,-22.0
+5.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,52,,81,,130,169.0,MCMC v13,,,-39.0
+5.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,52,,81,,130,163.0,MCMC v13,,,-33.0
+5.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,46,,75,,114,120.0,MCMC v13,,,-6.0
+5.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,46,,75,,114,134.0,MCMC v13,,,-20.0
+5.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,46,,75,,114,133.0,MCMC v13,,,-19.0
+5.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,46,,75,,114,131.0,MCMC v13,,,-17.0
+5.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,38,,60,,91,107.0,MCMC v13,,,-16.0
+5.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,38,,60,,91,113.0,MCMC v13,,,-22.0
+5.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,38,,60,,91,118.0,MCMC v13,,,-27.0
+5.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,38,,60,,91,109.0,MCMC v13,,,-18.0
+6.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.8,41,47.0,60,82.0,89,89.0,MCMC v13,-6.0,-22.0,0.0
+6.0,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.9,41,47.0,60,83.0,89,89.0,MCMC v13,-6.0,-23.0,0.0
+6.0,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.2,41,49.0,60,86.0,89,92.0,MCMC v13,-8.0,-26.0,-3.0
+6.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,48,,73,81.0,108,115.0,MCMC v13,,-8.0,-7.0
+6.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,48,,73,81.0,108,115.0,MCMC v13,,-8.0,-7.0
+6.0,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,44,,64,57.0,93,96.0,MCMC v13,,7.0,-3.0
+6.0,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,44,,64,63.0,93,96.0,MCMC v13,,1.0,-3.0
+6.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,58,,86,,138,157.0,MCMC v13,,,-19.0
+6.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,58,,86,,138,155.0,MCMC v13,,,-17.0
+6.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,58,,86,,138,157.0,MCMC v13,,,-19.0
+6.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,58,,86,,138,167.0,MCMC v13,,,-29.0
+6.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,52,,80,,119,136.0,MCMC v13,,,-17.0
+6.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,52,,80,,119,134.0,MCMC v13,,,-15.0
+6.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,52,,80,,119,136.0,MCMC v13,,,-17.0
+6.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,52,,80,,119,136.0,MCMC v13,,,-17.0
+6.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,43,,63,,94,116.0,MCMC v13,,,-22.0
+6.0,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,43,,63,,94,117.0,MCMC v13,,,-23.0
+6.0,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,43,,63,,94,120.0,MCMC v13,,,-26.0
+6.0,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,43,,63,,94,116.0,MCMC v13,,,-22.0
+6.5,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,43,48.0,66,73.0,109,116.0,MCMC v13,-5.0,-7.0,-7.0
+6.5,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,43,49.0,66,81.0,109,120.0,MCMC v13,-6.0,-15.0,-11.0
+6.5,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,43,33.0,66,72.0,109,116.0,MCMC v13,10.0,-6.0,-7.0
+6.5,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,43,59.0,66,100.0,109,130.0,MCMC v13,-16.0,-34.0,-21.0
+6.5,B0000801.SBX,5,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,46,50.0,66,74.0,101,103.0,MCMC v13,-4.0,-8.0,-2.0
+6.5,B0000801.SBX,6,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,46,51.0,66,75.0,101,109.0,MCMC v13,-5.0,-9.0,-8.0
+6.5,B0000801.SBX,7,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,46,43.0,66,71.0,101,99.0,MCMC v13,3.0,-5.0,2.0
+6.5,B0000801.SBX,8,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,46,61.0,66,85.0,101,112.0,MCMC v13,-15.0,-19.0,-11.0
+6.5,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.3,44,49.0,62,88.0,91,92.0,MCMC v13,-5.0,-26.0,-1.0
+6.5,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.4,44,51.0,62,90.0,91,94.0,MCMC v13,-7.0,-28.0,-3.0
+6.5,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.7,44,55.0,62,99.0,91,110.0,MCMC v13,-11.0,-37.0,-19.0
+6.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,53,,77,81.0,112,115.0,MCMC v13,,-4.0,-3.0
+6.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,53,,77,88.0,112,121.0,MCMC v13,,-11.0,-9.0
+6.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,48,,66,63.0,96,96.0,MCMC v13,,3.0,0.0
+6.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,48,,66,63.0,96,99.0,MCMC v13,,3.0,-3.0
+6.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,44,,67,,110,114.0,MCMC v13,,,-4.0
+6.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,44,,67,,110,112.0,MCMC v13,,,-2.0
+6.5,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,44,,67,,107,107.0,MCMC v13,,,0.0
+6.5,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,44,,67,,107,104.0,MCMC v13,,,3.0
+6.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,42,,65,,108,129.0,MCMC v13,,,-21.0
+6.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,42,,65,,108,122.0,MCMC v13,,,-14.0
+6.5,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,44,,66,,106,113.0,MCMC v13,,,-7.0
+6.5,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,44,,66,,106,113.0,MCMC v13,,,-7.0
+6.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,44,,68,,111,106.0,MCMC v13,,,5.0
+6.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,44,,68,,111,116.0,MCMC v13,,,-5.0
+6.5,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,45,,68,,107,101.0,MCMC v13,,,6.0
+6.5,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,45,,68,,107,118.0,MCMC v13,,,-11.0
+6.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,63,,92,,144,158.0,MCMC v13,,,-14.0
+6.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,63,,92,,144,180.0,MCMC v13,,,-36.0
+6.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,63,,92,,144,171.0,MCMC v13,,,-27.0
+6.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,63,,92,,144,178.0,MCMC v13,,,-34.0
+6.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,58,,85,,124,135.0,MCMC v13,,,-11.0
+6.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,58,,85,,124,136.0,MCMC v13,,,-12.0
+6.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,58,,85,,124,135.0,MCMC v13,,,-11.0
+6.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,58,,85,,124,142.0,MCMC v13,,,-18.0
+6.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,48,,66,,98,112.0,MCMC v13,,,-14.0
+6.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,48,,66,,98,115.0,MCMC v13,,,-17.0
+6.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,48,,66,,98,123.0,MCMC v13,,,-25.0
+6.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,48,,66,,98,124.0,MCMC v13,,,-26.0
+7.0,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,47,41.0,70,81.0,115,125.0,MCMC v13,6.0,-11.0,-10.0
+7.0,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,47,51.0,70,84.0,115,124.0,MCMC v13,-4.0,-14.0,-9.0
+7.0,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,50,48.0,70,76.0,105,110.0,MCMC v13,2.0,-6.0,-5.0
+7.0,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,50,54.0,70,78.0,105,110.0,MCMC v13,-4.0,-8.0,-5.0
+7.0,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,48,,72,,116,117.0,MCMC v13,,,-1.0
+7.0,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,48,,72,,116,117.0,MCMC v13,,,-1.0
+7.0,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,48,,72,,116,120.0,MCMC v13,,,-4.0
+7.0,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,49,,71,,112,110.0,MCMC v13,,,2.0
+7.0,B0530501.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,49,,71,,112,111.0,MCMC v13,,,1.0
+7.0,B0530501.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,49,,71,,112,112.0,MCMC v13,,,0.0
+7.0,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,46,,69,,113,122.0,MCMC v13,,,-9.0
+7.0,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,46,,69,,113,126.0,MCMC v13,,,-13.0
+7.0,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,46,,69,,113,123.0,MCMC v13,,,-10.0
+7.0,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,48,,70,,110,114.0,MCMC v13,,,-4.0
+7.0,B0530601.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,48,,70,,110,119.0,MCMC v13,,,-9.0
+7.0,B0530601.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,48,,70,,110,112.0,MCMC v13,,,-2.0
+7.0,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,49,,72,,116,118.0,MCMC v13,,,-2.0
+7.0,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,49,,72,,116,118.0,MCMC v13,,,-2.0
+7.0,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,49,,72,,116,123.0,MCMC v13,,,-7.0
+7.0,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,50,,71,,112,105.0,MCMC v13,,,7.0
+7.0,B0530701.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,50,,71,,112,114.0,MCMC v13,,,-2.0
+7.0,B0530701.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,50,,71,,112,120.0,MCMC v13,,,-8.0
+7.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,69,,98,,151,180.0,MCMC v13,,,-29.0
+7.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,69,,98,,151,182.0,MCMC v13,,,-31.0
+7.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,69,,98,,151,189.0,MCMC v13,,,-38.0
+7.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,65,,91,,130,136.0,MCMC v13,,,-6.0
+7.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,65,,91,,130,144.0,MCMC v13,,,-14.0
+7.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,65,,91,,130,145.0,MCMC v13,,,-15.0
+7.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,53,,69,,101,119.0,MCMC v13,,,-18.0
+7.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,53,,69,,101,123.0,MCMC v13,,,-22.0
+7.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,53,,69,,101,123.0,MCMC v13,,,-22.0
+7.5,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,37,36.0,51,50.0,81,88.0,MCMC v13,1.0,1.0,-7.0
+7.5,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,37,35.0,50,47.0,80,84.0,MCMC v13,2.0,3.0,-4.0
+7.5,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,37,34.0,50,47.0,80,82.0,MCMC v13,3.0,3.0,-2.0
+7.5,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,37,36.0,51,53.0,81,86.0,MCMC v13,1.0,-2.0,-5.0
+7.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,54,,78,,123,123.0,MCMC v13,,,0.0
+7.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,54,,77,,118,115.0,MCMC v13,,,3.0
+7.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,51,,76,,120,124.0,MCMC v13,,,-4.0
+7.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,54,,76,,116,117.0,MCMC v13,,,-1.0
+7.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,54,,79,,123,126.0,MCMC v13,,,-3.0
+7.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,78,,118,123.0,MCMC v13,,,-5.0
+7.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,75,,108,,160,185.0,MCMC v13,,,-25.0
+7.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,75,,108,,160,190.0,MCMC v13,,,-30.0
+7.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,75,,108,,160,189.0,MCMC v13,,,-29.0
+7.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,74,,97,,136,148.0,MCMC v13,,,-12.0
+7.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,74,,97,,136,147.0,MCMC v13,,,-11.0
+7.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,74,,97,,136,153.0,MCMC v13,,,-17.0
+7.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,59,,76,,108,133.0,MCMC v13,,,-25.0
+7.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,59,,76,,108,121.0,MCMC v13,,,-13.0
+7.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,59,,76,,108,133.0,MCMC v13,,,-25.0
+8.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,7.8,57,61.0,73,101.0,102,105.0,MCMC v13,-4.0,-28.0,-3.0
+8.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,73,,93,93.0,128,121.0,MCMC v13,,0.0,7.0
+8.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,62,,78,63.0,109,99.0,MCMC v13,,15.0,10.0
+8.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,44,36.0,60,,95,96.0,MCMC v13,8.0,,-1.0
+8.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,43,43.0,59,,94,106.0,MCMC v13,0.0,,-12.0
+8.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,42,40.0,57,,90,86.0,MCMC v13,2.0,,4.0
+8.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,42,45.0,58,,90,95.0,MCMC v13,-3.0,,-5.0
+8.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.2,42,42.0,58,,91,103.0,MCMC v13,0.0,,-12.0
+8.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.2,43,39.0,59,,93,108.0,MCMC v13,4.0,,-15.0
+8.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.2,43,53.0,58,,93,97.0,MCMC v13,-10.0,,-4.0
+8.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.2,38,53.0,52,,82,90.0,MCMC v13,-15.0,,-8.0
+8.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,48,44.0,64,,100,100.0,MCMC v13,4.0,,0.0
+8.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,47,45.0,63,,99,112.0,MCMC v13,2.0,,-13.0
+8.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,46,46.0,61,,95,93.0,MCMC v13,0.0,,2.0
+8.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,46,54.0,62,,96,102.0,MCMC v13,-8.0,,-6.0
+8.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.7,46,45.0,62,,97,106.0,MCMC v13,1.0,,-9.0
+8.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.7,47,41.0,63,,98,100.0,MCMC v13,6.0,,-2.0
+8.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.7,47,54.0,63,,98,98.0,MCMC v13,-7.0,,0.0
+8.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.7,41,52.0,55,,86,94.0,MCMC v13,-11.0,,-8.0
+8.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,55,51.0,74,82.0,111,,MCMC v13,4.0,-8.0,
+8.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,54,51.0,72,72.0,108,,MCMC v13,3.0,0.0,
+8.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,53,55.0,70,75.0,104,,MCMC v13,-2.0,-5.0,
+8.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,52,45.0,68,63.0,101,,MCMC v13,7.0,5.0,
+9.0,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,46,40.0,61,60.0,94,98.0,MCMC v13,6.0,1.0,-4.0
+9.0,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,38.0,60,58.0,94,95.0,MCMC v13,7.0,2.0,-1.0
+9.0,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,44,37.0,59,56.0,92,94.0,MCMC v13,7.0,3.0,-2.0
+9.0,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,46,42.0,61,58.0,94,92.0,MCMC v13,4.0,3.0,2.0
+9.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,52,43.0,69,,106,98.0,MCMC v13,9.0,,8.0
+9.0,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,52,43.0,69,,106,104.0,MCMC v13,9.0,,2.0
+9.0,B0471301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,52,45.0,69,,106,104.0,MCMC v13,7.0,,2.0
+9.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,51,46.0,69,,106,113.0,MCMC v13,5.0,,-7.0
+9.0,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,51,45.0,69,,106,113.0,MCMC v13,6.0,,-7.0
+9.0,B0471401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,51,47.0,69,,106,112.0,MCMC v13,4.0,,-6.0
+9.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,50,48.0,66,,100,92.0,MCMC v13,2.0,,8.0
+9.0,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,50,48.0,66,,100,101.0,MCMC v13,2.0,,-1.0
+9.0,B0481301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,50,46.0,66,,100,99.0,MCMC v13,4.0,,1.0
+9.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,50,54.0,66,,101,106.0,MCMC v13,-4.0,,-5.0
+9.0,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,50,56.0,66,,101,109.0,MCMC v13,-6.0,,-8.0
+9.0,B0481401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,50,54.0,66,,101,107.0,MCMC v13,-4.0,,-6.0
+9.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.9,50,47.0,67,,102,113.0,MCMC v13,3.0,,-11.0
+9.0,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.0,50,45.0,67,,102,114.0,MCMC v13,5.0,,-12.0
+9.0,B0491301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.1,50,44.0,67,,102,115.0,MCMC v13,6.0,,-13.0
+9.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.9,51,42.0,68,,104,102.0,MCMC v13,9.0,,2.0
+9.0,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.0,51,41.0,68,,104,102.0,MCMC v13,10.0,,2.0
+9.0,B0501301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.1,51,41.0,68,,104,106.0,MCMC v13,10.0,,-2.0
+9.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.9,51,55.0,68,,104,100.0,MCMC v13,-4.0,,4.0
+9.0,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.0,51,54.0,68,,104,106.0,MCMC v13,-3.0,,-2.0
+9.0,B0511301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.1,51,55.0,68,,104,111.0,MCMC v13,-4.0,,-7.0
+9.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.9,44,53.0,59,,91,98.0,MCMC v13,-9.0,,-7.0
+9.0,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.0,44,53.0,59,,91,97.0,MCMC v13,-9.0,,-6.0
+9.0,B0521401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.1,44,49.0,59,,91,97.0,MCMC v13,-5.0,,-6.0
+9.0,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,60,57.0,80,83.0,118,,MCMC v13,3.0,-3.0,
+9.0,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,60,55.0,80,89.0,118,,MCMC v13,5.0,-9.0,
+9.0,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,59,58.0,78,83.0,114,,MCMC v13,1.0,-5.0,
+9.0,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,59,61.0,78,89.0,114,,MCMC v13,-2.0,-11.0,
+9.0,B0540601.SBX,5,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,58,55.0,75,77.0,110,,MCMC v13,3.0,-2.0,
+9.0,B0540601.SBX,6,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,58,61.0,75,83.0,110,,MCMC v13,-3.0,-8.0,
+9.0,B0540601.SBX,7,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,57,48.0,73,70.0,106,,MCMC v13,9.0,3.0,
+9.0,B0540601.SBX,8,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,57,53.0,73,77.0,106,,MCMC v13,4.0,-4.0,
+9.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,57,46.0,75,,113,102.0,MCMC v13,11.0,,11.0
+9.5,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,57,47.0,75,,113,106.0,MCMC v13,10.0,,7.0
+9.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,56,49.0,74,,113,114.0,MCMC v13,7.0,,-1.0
+9.5,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,56,54.0,74,,113,117.0,MCMC v13,2.0,,-4.0
+9.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,54,48.0,71,,107,99.0,MCMC v13,6.0,,8.0
+9.5,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,54,49.0,71,,107,103.0,MCMC v13,5.0,,4.0
+9.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,54,57.0,71,,108,108.0,MCMC v13,-3.0,,0.0
+9.5,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,54,56.0,71,,108,111.0,MCMC v13,-2.0,,-3.0
+9.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.3,55,46.0,72,,109,116.0,MCMC v13,9.0,,-7.0
+9.5,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.4,55,47.0,72,,109,114.0,MCMC v13,8.0,,-5.0
+9.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.3,56,41.0,73,,110,106.0,MCMC v13,15.0,,4.0
+9.5,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.4,56,43.0,73,,110,100.0,MCMC v13,13.0,,10.0
+9.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.3,55,56.0,73,,111,110.0,MCMC v13,-1.0,,1.0
+9.5,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.4,55,57.0,73,,111,115.0,MCMC v13,-2.0,,-4.0
+9.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.3,48,53.0,63,,97,96.0,MCMC v13,-5.0,,1.0
+9.5,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.4,48,53.0,63,,97,104.0,MCMC v13,-5.0,,-7.0
+9.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,66,55.0,86,86.0,125,,MCMC v13,11.0,0.0,
+9.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,65,61.0,84,87.0,121,,MCMC v13,4.0,-3.0,
+9.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,63,61.0,82,83.0,117,,MCMC v13,2.0,-1.0,
+9.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,62,53.0,79,74.0,112,,MCMC v13,9.0,5.0,
+5.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,4.8,39,44.0,62,78.0,97,86.0,GLUE (melhor de 60.000),-5.0,-16.0,11.0
+5.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,43,,72,74.0,110,105.0,GLUE (melhor de 60.000),,-2.0,5.0
+5.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,41,,65,52.0,99,89.0,GLUE (melhor de 60.000),,13.0,10.0
+5.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,54,,86,,135,171.0,GLUE (melhor de 60.000),,,-36.0
+5.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,46,,78,,119,127.0,GLUE (melhor de 60.000),,,-8.0
+5.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,41,,67,,105,107.0,GLUE (melhor de 60.000),,,-2.0
+5.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,46,,74,74.0,111,111.0,GLUE (melhor de 60.000),,0.0,0.0
+5.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,46,,74,74.0,111,111.0,GLUE (melhor de 60.000),,0.0,0.0
+5.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,44,,66,52.0,100,93.0,GLUE (melhor de 60.000),,14.0,7.0
+5.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,44,,66,57.0,100,93.0,GLUE (melhor de 60.000),,9.0,7.0
+5.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,57,,89,,138,137.0,GLUE (melhor de 60.000),,,1.0
+5.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,57,,89,,138,152.0,GLUE (melhor de 60.000),,,-14.0
+5.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,57,,89,,138,169.0,GLUE (melhor de 60.000),,,-31.0
+5.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,57,,89,,138,163.0,GLUE (melhor de 60.000),,,-25.0
+5.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,50,,81,,121,120.0,GLUE (melhor de 60.000),,,1.0
+5.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,50,,81,,121,134.0,GLUE (melhor de 60.000),,,-13.0
+5.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,50,,81,,121,133.0,GLUE (melhor de 60.000),,,-12.0
+5.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,50,,81,,121,131.0,GLUE (melhor de 60.000),,,-10.0
+5.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,43,,68,,105,107.0,GLUE (melhor de 60.000),,,-2.0
+5.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,43,,68,,105,113.0,GLUE (melhor de 60.000),,,-8.0
+5.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,43,,68,,105,118.0,GLUE (melhor de 60.000),,,-13.0
+5.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,43,,68,,105,109.0,GLUE (melhor de 60.000),,,-4.0
+6.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.8,43,47.0,65,82.0,97,89.0,GLUE (melhor de 60.000),-4.0,-17.0,8.0
+6.0,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.9,43,47.0,65,83.0,97,89.0,GLUE (melhor de 60.000),-4.0,-18.0,8.0
+6.0,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.2,43,49.0,65,86.0,97,92.0,GLUE (melhor de 60.000),-6.0,-21.0,5.0
+6.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,51,,78,81.0,113,115.0,GLUE (melhor de 60.000),,-3.0,-2.0
+6.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,51,,78,81.0,113,115.0,GLUE (melhor de 60.000),,-3.0,-2.0
+6.0,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,47,,68,57.0,100,96.0,GLUE (melhor de 60.000),,11.0,4.0
+6.0,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,47,,68,63.0,100,96.0,GLUE (melhor de 60.000),,5.0,4.0
+6.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,61,,92,,142,157.0,GLUE (melhor de 60.000),,,-15.0
+6.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,61,,92,,142,155.0,GLUE (melhor de 60.000),,,-13.0
+6.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,61,,92,,142,157.0,GLUE (melhor de 60.000),,,-15.0
+6.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,61,,92,,142,167.0,GLUE (melhor de 60.000),,,-25.0
+6.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,55,,85,,125,136.0,GLUE (melhor de 60.000),,,-11.0
+6.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,55,,85,,125,134.0,GLUE (melhor de 60.000),,,-9.0
+6.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,55,,85,,125,136.0,GLUE (melhor de 60.000),,,-11.0
+6.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,55,,85,,125,136.0,GLUE (melhor de 60.000),,,-11.0
+6.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,47,,69,,105,116.0,GLUE (melhor de 60.000),,,-11.0
+6.0,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,47,,69,,105,117.0,GLUE (melhor de 60.000),,,-12.0
+6.0,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,47,,69,,105,120.0,GLUE (melhor de 60.000),,,-15.0
+6.0,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,47,,69,,105,116.0,GLUE (melhor de 60.000),,,-11.0
+6.5,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,45,48.0,71,73.0,113,116.0,GLUE (melhor de 60.000),-3.0,-2.0,-3.0
+6.5,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,45,49.0,71,81.0,113,120.0,GLUE (melhor de 60.000),-4.0,-10.0,-7.0
+6.5,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,45,33.0,71,72.0,113,116.0,GLUE (melhor de 60.000),12.0,-1.0,-3.0
+6.5,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,45,59.0,71,100.0,113,130.0,GLUE (melhor de 60.000),-14.0,-29.0,-17.0
+6.5,B0000801.SBX,5,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,48,50.0,70,74.0,105,103.0,GLUE (melhor de 60.000),-2.0,-4.0,2.0
+6.5,B0000801.SBX,6,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,48,51.0,70,75.0,105,109.0,GLUE (melhor de 60.000),-3.0,-5.0,-4.0
+6.5,B0000801.SBX,7,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,48,43.0,70,71.0,105,99.0,GLUE (melhor de 60.000),5.0,-1.0,6.0
+6.5,B0000801.SBX,8,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,48,61.0,70,85.0,105,112.0,GLUE (melhor de 60.000),-13.0,-15.0,-7.0
+6.5,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.3,46,49.0,67,88.0,97,92.0,GLUE (melhor de 60.000),-3.0,-21.0,5.0
+6.5,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.4,46,51.0,67,90.0,97,94.0,GLUE (melhor de 60.000),-5.0,-23.0,3.0
+6.5,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.7,46,55.0,67,99.0,97,110.0,GLUE (melhor de 60.000),-9.0,-32.0,-13.0
+6.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,55,,81,81.0,116,115.0,GLUE (melhor de 60.000),,0.0,1.0
+6.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,55,,81,88.0,116,121.0,GLUE (melhor de 60.000),,-7.0,-5.0
+6.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,50,,70,63.0,102,96.0,GLUE (melhor de 60.000),,7.0,6.0
+6.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,50,,70,63.0,102,99.0,GLUE (melhor de 60.000),,7.0,3.0
+6.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,46,,72,,114,114.0,GLUE (melhor de 60.000),,,0.0
+6.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,46,,72,,114,112.0,GLUE (melhor de 60.000),,,2.0
+6.5,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,46,,71,,111,107.0,GLUE (melhor de 60.000),,,4.0
+6.5,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,46,,71,,111,104.0,GLUE (melhor de 60.000),,,7.0
+6.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,44,,69,,111,129.0,GLUE (melhor de 60.000),,,-18.0
+6.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,44,,69,,111,122.0,GLUE (melhor de 60.000),,,-11.0
+6.5,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,46,,70,,109,113.0,GLUE (melhor de 60.000),,,-4.0
+6.5,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,46,,70,,109,113.0,GLUE (melhor de 60.000),,,-4.0
+6.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,46,,72,,114,106.0,GLUE (melhor de 60.000),,,8.0
+6.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,46,,72,,114,116.0,GLUE (melhor de 60.000),,,-2.0
+6.5,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,47,,71,,111,101.0,GLUE (melhor de 60.000),,,10.0
+6.5,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,47,,71,,111,118.0,GLUE (melhor de 60.000),,,-7.0
+6.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,66,,97,,147,158.0,GLUE (melhor de 60.000),,,-11.0
+6.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,66,,97,,147,180.0,GLUE (melhor de 60.000),,,-33.0
+6.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,66,,97,,147,171.0,GLUE (melhor de 60.000),,,-24.0
+6.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,66,,97,,147,178.0,GLUE (melhor de 60.000),,,-31.0
+6.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,61,,90,,128,135.0,GLUE (melhor de 60.000),,,-7.0
+6.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,61,,90,,128,136.0,GLUE (melhor de 60.000),,,-8.0
+6.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,61,,90,,128,135.0,GLUE (melhor de 60.000),,,-7.0
+6.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,61,,90,,128,142.0,GLUE (melhor de 60.000),,,-14.0
+6.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,51,,71,,106,112.0,GLUE (melhor de 60.000),,,-6.0
+6.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,51,,71,,106,115.0,GLUE (melhor de 60.000),,,-9.0
+6.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,51,,71,,106,123.0,GLUE (melhor de 60.000),,,-17.0
+6.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,51,,71,,106,124.0,GLUE (melhor de 60.000),,,-18.0
+7.0,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,50,41.0,74,81.0,117,125.0,GLUE (melhor de 60.000),9.0,-7.0,-8.0
+7.0,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,50,51.0,74,84.0,117,124.0,GLUE (melhor de 60.000),-1.0,-10.0,-7.0
+7.0,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,52,48.0,73,76.0,108,110.0,GLUE (melhor de 60.000),4.0,-3.0,-2.0
+7.0,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,52,54.0,73,78.0,108,110.0,GLUE (melhor de 60.000),-2.0,-5.0,-2.0
+7.0,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,50,,76,,117,117.0,GLUE (melhor de 60.000),,,0.0
+7.0,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,50,,76,,117,117.0,GLUE (melhor de 60.000),,,0.0
+7.0,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,50,,76,,117,120.0,GLUE (melhor de 60.000),,,-3.0
+7.0,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,50,,75,,114,110.0,GLUE (melhor de 60.000),,,4.0
+7.0,B0530501.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,50,,75,,114,111.0,GLUE (melhor de 60.000),,,3.0
+7.0,B0530501.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,50,,75,,114,112.0,GLUE (melhor de 60.000),,,2.0
+7.0,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,48,,72,,115,122.0,GLUE (melhor de 60.000),,,-7.0
+7.0,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,48,,72,,115,126.0,GLUE (melhor de 60.000),,,-11.0
+7.0,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,48,,72,,115,123.0,GLUE (melhor de 60.000),,,-8.0
+7.0,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,50,,73,,112,114.0,GLUE (melhor de 60.000),,,-2.0
+7.0,B0530601.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,50,,73,,112,119.0,GLUE (melhor de 60.000),,,-7.0
+7.0,B0530601.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,50,,73,,112,112.0,GLUE (melhor de 60.000),,,0.0
+7.0,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,50,,76,,118,118.0,GLUE (melhor de 60.000),,,0.0
+7.0,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,50,,76,,118,118.0,GLUE (melhor de 60.000),,,0.0
+7.0,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,50,,76,,118,123.0,GLUE (melhor de 60.000),,,-5.0
+7.0,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,51,,75,,114,105.0,GLUE (melhor de 60.000),,,9.0
+7.0,B0530701.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,51,,75,,114,114.0,GLUE (melhor de 60.000),,,0.0
+7.0,B0530701.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,51,,75,,114,120.0,GLUE (melhor de 60.000),,,-6.0
+7.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,71,,103,,152,180.0,GLUE (melhor de 60.000),,,-28.0
+7.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,71,,103,,152,182.0,GLUE (melhor de 60.000),,,-30.0
+7.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,71,,103,,152,189.0,GLUE (melhor de 60.000),,,-37.0
+7.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,68,,94,,132,136.0,GLUE (melhor de 60.000),,,-4.0
+7.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,68,,94,,132,144.0,GLUE (melhor de 60.000),,,-12.0
+7.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,68,,94,,132,145.0,GLUE (melhor de 60.000),,,-13.0
+7.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,55,,74,,108,119.0,GLUE (melhor de 60.000),,,-11.0
+7.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,55,,74,,108,123.0,GLUE (melhor de 60.000),,,-15.0
+7.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,55,,74,,108,123.0,GLUE (melhor de 60.000),,,-15.0
+7.5,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,37,36.0,51,50.0,80,88.0,GLUE (melhor de 60.000),1.0,1.0,-8.0
+7.5,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,36,35.0,50,47.0,80,84.0,GLUE (melhor de 60.000),1.0,3.0,-4.0
+7.5,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,36,34.0,50,47.0,79,82.0,GLUE (melhor de 60.000),2.0,3.0,-3.0
+7.5,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,37,36.0,51,53.0,80,86.0,GLUE (melhor de 60.000),1.0,-2.0,-6.0
+7.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,80,,122,123.0,GLUE (melhor de 60.000),,,-1.0
+7.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,79,,118,115.0,GLUE (melhor de 60.000),,,3.0
+7.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,53,,77,,119,124.0,GLUE (melhor de 60.000),,,-5.0
+7.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,77,,116,117.0,GLUE (melhor de 60.000),,,-1.0
+7.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,56,,80,,122,126.0,GLUE (melhor de 60.000),,,-4.0
+7.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,56,,79,,118,123.0,GLUE (melhor de 60.000),,,-5.0
+7.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,76,,110,,159,185.0,GLUE (melhor de 60.000),,,-26.0
+7.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,76,,110,,159,190.0,GLUE (melhor de 60.000),,,-31.0
+7.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,76,,110,,159,189.0,GLUE (melhor de 60.000),,,-30.0
+7.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,76,,99,,136,148.0,GLUE (melhor de 60.000),,,-12.0
+7.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,76,,99,,136,147.0,GLUE (melhor de 60.000),,,-11.0
+7.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,76,,99,,136,153.0,GLUE (melhor de 60.000),,,-17.0
+7.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,59,,77,,109,133.0,GLUE (melhor de 60.000),,,-24.0
+7.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,59,,77,,109,121.0,GLUE (melhor de 60.000),,,-12.0
+7.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,59,,77,,109,133.0,GLUE (melhor de 60.000),,,-24.0
+8.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,7.8,57,61.0,73,101.0,102,105.0,GLUE (melhor de 60.000),-4.0,-28.0,-3.0
+8.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,75,,95,93.0,128,121.0,GLUE (melhor de 60.000),,2.0,7.0
+8.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,63,,79,63.0,109,99.0,GLUE (melhor de 60.000),,16.0,10.0
+8.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,44,36.0,60,,93,96.0,GLUE (melhor de 60.000),8.0,,-3.0
+8.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,43,43.0,58,,92,106.0,GLUE (melhor de 60.000),0.0,,-14.0
+8.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,42,40.0,57,,89,86.0,GLUE (melhor de 60.000),2.0,,3.0
+8.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,42,45.0,57,,89,95.0,GLUE (melhor de 60.000),-3.0,,-6.0
+8.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.2,42,42.0,58,,90,103.0,GLUE (melhor de 60.000),0.0,,-13.0
+8.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.2,43,39.0,59,,91,108.0,GLUE (melhor de 60.000),4.0,,-17.0
+8.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.2,43,53.0,58,,91,97.0,GLUE (melhor de 60.000),-10.0,,-6.0
+8.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.2,38,53.0,51,,80,90.0,GLUE (melhor de 60.000),-15.0,,-10.0
+8.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,47,44.0,64,,99,100.0,GLUE (melhor de 60.000),3.0,,-1.0
+8.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,46,45.0,63,,98,112.0,GLUE (melhor de 60.000),1.0,,-14.0
+8.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,45,46.0,61,,93,93.0,GLUE (melhor de 60.000),-1.0,,0.0
+8.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,46,54.0,61,,94,102.0,GLUE (melhor de 60.000),-8.0,,-8.0
+8.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.7,46,45.0,61,,95,106.0,GLUE (melhor de 60.000),1.0,,-11.0
+8.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.7,47,41.0,63,,96,100.0,GLUE (melhor de 60.000),6.0,,-4.0
+8.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.7,46,54.0,62,,97,98.0,GLUE (melhor de 60.000),-8.0,,-1.0
+8.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.7,40,52.0,54,,84,94.0,GLUE (melhor de 60.000),-12.0,,-10.0
+8.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,55,51.0,74,82.0,110,,GLUE (melhor de 60.000),4.0,-8.0,
+8.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,54,51.0,72,72.0,106,,GLUE (melhor de 60.000),3.0,0.0,
+8.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,53,55.0,70,75.0,103,,GLUE (melhor de 60.000),-2.0,-5.0,
+8.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,52,45.0,68,63.0,99,,GLUE (melhor de 60.000),7.0,5.0,
+9.0,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,40.0,59,60.0,92,98.0,GLUE (melhor de 60.000),5.0,-1.0,-6.0
+9.0,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,44,38.0,59,58.0,91,95.0,GLUE (melhor de 60.000),6.0,1.0,-4.0
+9.0,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,43,37.0,58,56.0,89,94.0,GLUE (melhor de 60.000),6.0,2.0,-5.0
+9.0,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,42.0,59,58.0,92,92.0,GLUE (melhor de 60.000),3.0,1.0,0.0
+9.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,52,43.0,69,,105,98.0,GLUE (melhor de 60.000),9.0,,7.0
+9.0,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,52,43.0,69,,105,104.0,GLUE (melhor de 60.000),9.0,,1.0
+9.0,B0471301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,52,45.0,69,,105,104.0,GLUE (melhor de 60.000),7.0,,1.0
+9.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,50,46.0,68,,104,113.0,GLUE (melhor de 60.000),4.0,,-9.0
+9.0,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,50,45.0,68,,104,113.0,GLUE (melhor de 60.000),5.0,,-9.0
+9.0,B0471401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,50,47.0,68,,104,112.0,GLUE (melhor de 60.000),3.0,,-8.0
+9.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,49,48.0,65,,99,92.0,GLUE (melhor de 60.000),1.0,,7.0
+9.0,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,49,48.0,65,,99,101.0,GLUE (melhor de 60.000),1.0,,-2.0
+9.0,B0481301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,49,46.0,65,,99,99.0,GLUE (melhor de 60.000),3.0,,0.0
+9.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,49,54.0,65,,100,106.0,GLUE (melhor de 60.000),-5.0,,-6.0
+9.0,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,49,56.0,65,,100,109.0,GLUE (melhor de 60.000),-7.0,,-9.0
+9.0,B0481401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,49,54.0,65,,100,107.0,GLUE (melhor de 60.000),-5.0,,-7.0
+9.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.9,50,47.0,66,,100,113.0,GLUE (melhor de 60.000),3.0,,-13.0
+9.0,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.0,50,45.0,66,,100,114.0,GLUE (melhor de 60.000),5.0,,-14.0
+9.0,B0491301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.1,50,44.0,66,,100,115.0,GLUE (melhor de 60.000),6.0,,-15.0
+9.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.9,51,42.0,67,,102,102.0,GLUE (melhor de 60.000),9.0,,0.0
+9.0,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.0,51,41.0,67,,102,102.0,GLUE (melhor de 60.000),10.0,,0.0
+9.0,B0501301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.1,51,41.0,67,,102,106.0,GLUE (melhor de 60.000),10.0,,-4.0
+9.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.9,50,55.0,67,,103,100.0,GLUE (melhor de 60.000),-5.0,,3.0
+9.0,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.0,50,54.0,67,,103,106.0,GLUE (melhor de 60.000),-4.0,,-3.0
+9.0,B0511301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.1,50,55.0,67,,103,111.0,GLUE (melhor de 60.000),-5.0,,-8.0
+9.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.9,43,53.0,58,,89,98.0,GLUE (melhor de 60.000),-10.0,,-9.0
+9.0,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.0,43,53.0,58,,89,97.0,GLUE (melhor de 60.000),-10.0,,-8.0
+9.0,B0521401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.1,43,49.0,58,,89,97.0,GLUE (melhor de 60.000),-6.0,,-8.0
+9.0,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,60,57.0,80,83.0,117,,GLUE (melhor de 60.000),3.0,-3.0,
+9.0,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,60,55.0,80,89.0,117,,GLUE (melhor de 60.000),5.0,-9.0,
+9.0,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,59,58.0,77,83.0,113,,GLUE (melhor de 60.000),1.0,-6.0,
+9.0,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,59,61.0,77,89.0,113,,GLUE (melhor de 60.000),-2.0,-12.0,
+9.0,B0540601.SBX,5,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,58,55.0,75,77.0,108,,GLUE (melhor de 60.000),3.0,-2.0,
+9.0,B0540601.SBX,6,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,58,61.0,75,83.0,108,,GLUE (melhor de 60.000),-3.0,-8.0,
+9.0,B0540601.SBX,7,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,56,48.0,73,70.0,104,,GLUE (melhor de 60.000),8.0,3.0,
+9.0,B0540601.SBX,8,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,56,53.0,73,77.0,104,,GLUE (melhor de 60.000),3.0,-4.0,
+9.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,56,46.0,74,,112,102.0,GLUE (melhor de 60.000),10.0,,10.0
+9.5,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,56,47.0,74,,112,106.0,GLUE (melhor de 60.000),9.0,,6.0
+9.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,55,49.0,74,,111,114.0,GLUE (melhor de 60.000),6.0,,-3.0
+9.5,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,55,54.0,74,,111,117.0,GLUE (melhor de 60.000),1.0,,-6.0
+9.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,53,48.0,70,,105,99.0,GLUE (melhor de 60.000),5.0,,6.0
+9.5,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,53,49.0,70,,105,103.0,GLUE (melhor de 60.000),4.0,,2.0
+9.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,54,57.0,70,,106,108.0,GLUE (melhor de 60.000),-3.0,,-2.0
+9.5,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,54,56.0,70,,106,111.0,GLUE (melhor de 60.000),-2.0,,-5.0
+9.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.3,54,46.0,71,,107,116.0,GLUE (melhor de 60.000),8.0,,-9.0
+9.5,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.4,54,47.0,71,,107,114.0,GLUE (melhor de 60.000),7.0,,-7.0
+9.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.3,55,41.0,72,,108,106.0,GLUE (melhor de 60.000),14.0,,2.0
+9.5,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.4,55,43.0,72,,108,100.0,GLUE (melhor de 60.000),12.0,,8.0
+9.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.3,55,56.0,72,,109,110.0,GLUE (melhor de 60.000),-1.0,,-1.0
+9.5,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.4,55,57.0,72,,109,115.0,GLUE (melhor de 60.000),-2.0,,-6.0
+9.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.3,47,53.0,61,,94,96.0,GLUE (melhor de 60.000),-6.0,,-2.0
+9.5,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.4,47,53.0,61,,94,104.0,GLUE (melhor de 60.000),-6.0,,-10.0
+9.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,66,55.0,87,86.0,124,,GLUE (melhor de 60.000),11.0,1.0,
+9.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,65,61.0,84,87.0,119,,GLUE (melhor de 60.000),4.0,-3.0,
+9.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,63,61.0,81,83.0,115,,GLUE (melhor de 60.000),2.0,-2.0,
+9.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,61,53.0,78,74.0,110,,GLUE (melhor de 60.000),8.0,4.0,
+5.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,4.8,48,44.0,63,78.0,92,86.0,TSE grade,4.0,-15.0,6.0
+5.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,57,,80,74.0,113,105.0,TSE grade,,6.0,8.0
+5.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,50,,66,52.0,95,89.0,TSE grade,,14.0,6.0
+5.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,67,,108,,160,171.0,TSE grade,,,-11.0
+5.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,63,,91,,128,127.0,TSE grade,,,1.0
+5.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,56,,71,,103,107.0,TSE grade,,,-4.0
+5.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,57,,85,74.0,115,111.0,TSE grade,,11.0,4.0
+5.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,57,,85,74.0,115,111.0,TSE grade,,11.0,4.0
+5.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,50,,71,52.0,99,93.0,TSE grade,,19.0,6.0
+5.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,50,,71,57.0,99,93.0,TSE grade,,14.0,6.0
+5.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,67,,115,,161,137.0,TSE grade,,,24.0
+5.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,67,,115,,161,152.0,TSE grade,,,9.0
+5.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,67,,115,,161,169.0,TSE grade,,,-8.0
+5.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,67,,115,,161,163.0,TSE grade,,,-2.0
+5.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,63,,96,,130,120.0,TSE grade,,,10.0
+5.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,63,,96,,130,134.0,TSE grade,,,-4.0
+5.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,63,,96,,130,133.0,TSE grade,,,-3.0
+5.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,63,,96,,130,131.0,TSE grade,,,-1.0
+5.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,56,,79,,111,107.0,TSE grade,,,4.0
+5.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,56,,79,,111,113.0,TSE grade,,,-2.0
+5.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,56,,79,,111,118.0,TSE grade,,,-7.0
+5.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,56,,79,,111,109.0,TSE grade,,,2.0
+6.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.8,48,47.0,67,82.0,101,89.0,TSE grade,1.0,-15.0,12.0
+6.0,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.9,48,47.0,67,83.0,101,89.0,TSE grade,1.0,-16.0,12.0
+6.0,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.2,48,49.0,67,86.0,101,92.0,TSE grade,-1.0,-19.0,9.0
+6.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,57,,82,81.0,116,115.0,TSE grade,,1.0,1.0
+6.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,57,,82,81.0,116,115.0,TSE grade,,1.0,1.0
+6.0,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,50,,69,57.0,102,96.0,TSE grade,,12.0,6.0
+6.0,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,50,,69,63.0,102,96.0,TSE grade,,6.0,6.0
+6.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,67,,106,,156,157.0,TSE grade,,,-1.0
+6.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,67,,106,,156,155.0,TSE grade,,,1.0
+6.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,67,,106,,156,157.0,TSE grade,,,-1.0
+6.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,67,,106,,156,167.0,TSE grade,,,-11.0
+6.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,63,,92,,130,136.0,TSE grade,,,-6.0
+6.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,63,,92,,130,134.0,TSE grade,,,-4.0
+6.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,63,,92,,130,136.0,TSE grade,,,-6.0
+6.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,63,,92,,130,136.0,TSE grade,,,-6.0
+6.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,56,,79,,117,116.0,TSE grade,,,1.0
+6.0,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,56,,79,,117,117.0,TSE grade,,,0.0
+6.0,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,56,,79,,117,120.0,TSE grade,,,-3.0
+6.0,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,56,,79,,117,116.0,TSE grade,,,1.0
+6.5,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,46,48.0,82,73.0,120,116.0,TSE grade,-2.0,9.0,4.0
+6.5,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,46,49.0,82,81.0,120,120.0,TSE grade,-3.0,1.0,0.0
+6.5,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,46,33.0,82,72.0,120,116.0,TSE grade,13.0,10.0,4.0
+6.5,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,46,59.0,82,100.0,120,130.0,TSE grade,-13.0,-18.0,-10.0
+6.5,B0000801.SBX,5,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,47,50.0,76,74.0,105,103.0,TSE grade,-3.0,2.0,2.0
+6.5,B0000801.SBX,6,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,47,51.0,76,75.0,105,109.0,TSE grade,-4.0,1.0,-4.0
+6.5,B0000801.SBX,7,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,47,43.0,76,71.0,105,99.0,TSE grade,4.0,5.0,6.0
+6.5,B0000801.SBX,8,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,47,61.0,76,85.0,105,112.0,TSE grade,-14.0,-9.0,-7.0
+6.5,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.3,48,49.0,72,88.0,101,92.0,TSE grade,-1.0,-16.0,9.0
+6.5,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.4,48,51.0,72,90.0,101,94.0,TSE grade,-3.0,-18.0,7.0
+6.5,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.7,48,55.0,72,99.0,101,110.0,TSE grade,-7.0,-27.0,-9.0
+6.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,57,,89,81.0,118,115.0,TSE grade,,8.0,3.0
+6.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,57,,89,88.0,118,121.0,TSE grade,,1.0,-3.0
+6.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,50,,74,63.0,103,96.0,TSE grade,,11.0,7.0
+6.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,50,,74,63.0,103,99.0,TSE grade,,11.0,4.0
+6.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,45,,83,,120,114.0,TSE grade,,,6.0
+6.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,45,,83,,120,112.0,TSE grade,,,8.0
+6.5,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,45,,81,,115,107.0,TSE grade,,,8.0
+6.5,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,45,,81,,115,104.0,TSE grade,,,11.0
+6.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,43,,81,,118,129.0,TSE grade,,,-11.0
+6.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,43,,81,,118,122.0,TSE grade,,,-4.0
+6.5,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,45,,80,,113,113.0,TSE grade,,,0.0
+6.5,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,45,,80,,113,113.0,TSE grade,,,0.0
+6.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,46,,83,,120,106.0,TSE grade,,,14.0
+6.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,46,,83,,120,116.0,TSE grade,,,4.0
+6.5,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,46,,82,,115,101.0,TSE grade,,,14.0
+6.5,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,46,,82,,115,118.0,TSE grade,,,-3.0
+6.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,67,,121,,161,158.0,TSE grade,,,3.0
+6.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,67,,121,,161,180.0,TSE grade,,,-19.0
+6.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,67,,121,,161,171.0,TSE grade,,,-10.0
+6.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,67,,121,,161,178.0,TSE grade,,,-17.0
+6.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,63,,100,,132,135.0,TSE grade,,,-3.0
+6.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,63,,100,,132,136.0,TSE grade,,,-4.0
+6.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,63,,100,,132,135.0,TSE grade,,,-3.0
+6.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,63,,100,,132,142.0,TSE grade,,,-10.0
+6.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,56,,85,,118,112.0,TSE grade,,,6.0
+6.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,56,,85,,118,115.0,TSE grade,,,3.0
+6.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,56,,85,,118,123.0,TSE grade,,,-5.0
+6.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,56,,85,,118,124.0,TSE grade,,,-6.0
+7.0,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,46,41.0,74,81.0,125,125.0,TSE grade,5.0,-7.0,0.0
+7.0,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,46,51.0,74,84.0,125,124.0,TSE grade,-5.0,-10.0,1.0
+7.0,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,47,48.0,70,76.0,110,110.0,TSE grade,-1.0,-6.0,0.0
+7.0,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,47,54.0,70,78.0,110,110.0,TSE grade,-7.0,-8.0,0.0
+7.0,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,45,,76,,126,117.0,TSE grade,,,9.0
+7.0,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,45,,76,,126,117.0,TSE grade,,,9.0
+7.0,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,45,,76,,126,120.0,TSE grade,,,6.0
+7.0,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,45,,74,,120,110.0,TSE grade,,,10.0
+7.0,B0530501.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,45,,74,,120,111.0,TSE grade,,,9.0
+7.0,B0530501.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,45,,74,,120,112.0,TSE grade,,,8.0
+7.0,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,43,,73,,124,122.0,TSE grade,,,2.0
+7.0,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,43,,73,,124,126.0,TSE grade,,,-2.0
+7.0,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,43,,73,,124,123.0,TSE grade,,,1.0
+7.0,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,45,,73,,118,114.0,TSE grade,,,4.0
+7.0,B0530601.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,45,,73,,118,119.0,TSE grade,,,-1.0
+7.0,B0530601.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,45,,73,,118,112.0,TSE grade,,,6.0
+7.0,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,46,,76,,126,118.0,TSE grade,,,8.0
+7.0,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,46,,76,,126,118.0,TSE grade,,,8.0
+7.0,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,46,,76,,126,123.0,TSE grade,,,3.0
+7.0,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,46,,75,,120,105.0,TSE grade,,,15.0
+7.0,B0530701.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,46,,75,,120,114.0,TSE grade,,,6.0
+7.0,B0530701.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,46,,75,,120,120.0,TSE grade,,,0.0
+7.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,67,,110,,167,180.0,TSE grade,,,-13.0
+7.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,67,,110,,167,182.0,TSE grade,,,-15.0
+7.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,67,,110,,167,189.0,TSE grade,,,-22.0
+7.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,63,,94,,138,136.0,TSE grade,,,2.0
+7.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,63,,94,,138,144.0,TSE grade,,,-6.0
+7.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,63,,94,,138,145.0,TSE grade,,,-7.0
+7.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,56,,79,,123,119.0,TSE grade,,,4.0
+7.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,56,,79,,123,123.0,TSE grade,,,0.0
+7.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,56,,79,,123,123.0,TSE grade,,,0.0
+7.5,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,39,36.0,57,50.0,86,88.0,TSE grade,3.0,7.0,-2.0
+7.5,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,39,35.0,56,47.0,85,84.0,TSE grade,4.0,9.0,1.0
+7.5,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,39,34.0,56,47.0,84,82.0,TSE grade,5.0,9.0,2.0
+7.5,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,39,36.0,57,53.0,86,86.0,TSE grade,3.0,4.0,0.0
+7.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,59,,92,,132,123.0,TSE grade,,,9.0
+7.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,59,,90,,126,115.0,TSE grade,,,11.0
+7.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,56,,88,,129,124.0,TSE grade,,,5.0
+7.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,58,,88,,124,117.0,TSE grade,,,7.0
+7.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,59,,92,,132,126.0,TSE grade,,,6.0
+7.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,60,,90,,126,123.0,TSE grade,,,3.0
+7.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,81,,128,,172,185.0,TSE grade,,,-13.0
+7.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,81,,128,,172,190.0,TSE grade,,,-18.0
+7.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,81,,128,,172,189.0,TSE grade,,,-17.0
+7.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,81,,110,,144,148.0,TSE grade,,,-4.0
+7.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,81,,110,,144,147.0,TSE grade,,,-3.0
+7.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,81,,110,,144,153.0,TSE grade,,,-9.0
+7.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,62,,85,,118,133.0,TSE grade,,,-15.0
+7.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,62,,85,,118,121.0,TSE grade,,,-3.0
+7.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,62,,85,,118,133.0,TSE grade,,,-15.0
+8.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,7.8,56,61.0,78,101.0,108,105.0,TSE grade,-5.0,-23.0,3.0
+8.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,62,,87,93.0,121,121.0,TSE grade,,-6.0,0.0
+8.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,59,,80,63.0,112,99.0,TSE grade,,17.0,13.0
+8.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,45,36.0,65,,97,96.0,TSE grade,9.0,,1.0
+8.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,44,43.0,64,,96,106.0,TSE grade,1.0,,-10.0
+8.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,44,40.0,63,,94,86.0,TSE grade,4.0,,8.0
+8.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,44,45.0,64,,95,95.0,TSE grade,-1.0,,0.0
+8.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.2,44,42.0,64,,95,103.0,TSE grade,2.0,,-8.0
+8.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.2,45,39.0,65,,96,108.0,TSE grade,6.0,,-12.0
+8.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.2,45,53.0,64,,96,97.0,TSE grade,-8.0,,-1.0
+8.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.2,41,53.0,59,,89,90.0,TSE grade,-12.0,,-1.0
+8.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,49,44.0,73,,112,100.0,TSE grade,5.0,,12.0
+8.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,48,45.0,72,,111,112.0,TSE grade,3.0,,-1.0
+8.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,48,46.0,72,,111,93.0,TSE grade,2.0,,18.0
+8.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,48,54.0,72,,111,102.0,TSE grade,-6.0,,9.0
+8.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.7,49,45.0,72,,112,106.0,TSE grade,4.0,,6.0
+8.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.7,49,41.0,73,,112,100.0,TSE grade,8.0,,12.0
+8.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.7,48,54.0,72,,111,98.0,TSE grade,-6.0,,13.0
+8.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.7,47,52.0,70,,109,94.0,TSE grade,-5.0,,15.0
+8.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,52,51.0,78,82.0,119,,TSE grade,1.0,-4.0,
+8.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,52,51.0,79,72.0,120,,TSE grade,1.0,7.0,
+8.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,53,55.0,79,75.0,120,,TSE grade,-2.0,4.0,
+8.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,54,45.0,80,63.0,121,,TSE grade,9.0,17.0,
+9.0,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,39,40.0,107,60.0,204,98.0,TSE grade,-1.0,47.0,106.0
+9.0,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,38,38.0,105,58.0,201,95.0,TSE grade,0.0,47.0,106.0
+9.0,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,37,37.0,99,56.0,197,94.0,TSE grade,0.0,43.0,103.0
+9.0,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,39,42.0,105,58.0,202,92.0,TSE grade,-3.0,47.0,110.0
+9.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,48,43.0,134,,214,98.0,TSE grade,5.0,,116.0
+9.0,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,48,43.0,134,,214,104.0,TSE grade,5.0,,110.0
+9.0,B0471301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,48,45.0,134,,214,104.0,TSE grade,3.0,,110.0
+9.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,47,46.0,134,,215,113.0,TSE grade,1.0,,102.0
+9.0,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,47,45.0,134,,215,113.0,TSE grade,2.0,,102.0
+9.0,B0471401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,47,47.0,134,,215,112.0,TSE grade,0.0,,103.0
+9.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,45,48.0,119,,201,92.0,TSE grade,-3.0,,109.0
+9.0,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,45,48.0,119,,201,101.0,TSE grade,-3.0,,100.0
+9.0,B0481301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,45,46.0,119,,201,99.0,TSE grade,-1.0,,102.0
+9.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,45,54.0,120,,203,106.0,TSE grade,-9.0,,97.0
+9.0,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,45,56.0,120,,203,109.0,TSE grade,-11.0,,94.0
+9.0,B0481401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,45,54.0,120,,203,107.0,TSE grade,-9.0,,96.0
+9.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.9,45,47.0,123,,205,113.0,TSE grade,-2.0,,92.0
+9.0,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.0,45,45.0,123,,205,114.0,TSE grade,0.0,,91.0
+9.0,B0491301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.1,45,44.0,123,,205,115.0,TSE grade,1.0,,90.0
+9.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.9,46,42.0,125,,206,102.0,TSE grade,4.0,,104.0
+9.0,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.0,46,41.0,125,,206,102.0,TSE grade,5.0,,104.0
+9.0,B0501301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.1,46,41.0,125,,206,106.0,TSE grade,5.0,,100.0
+9.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.9,46,55.0,130,,212,100.0,TSE grade,-9.0,,112.0
+9.0,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.0,46,54.0,130,,212,106.0,TSE grade,-8.0,,106.0
+9.0,B0511301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.1,46,55.0,130,,212,111.0,TSE grade,-9.0,,101.0
+9.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.9,38,53.0,99,,191,98.0,TSE grade,-15.0,,93.0
+9.0,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.0,38,53.0,99,,191,97.0,TSE grade,-15.0,,94.0
+9.0,B0521401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.1,38,49.0,99,,191,97.0,TSE grade,-11.0,,94.0
+9.0,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,59,57.0,146,83.0,217,,TSE grade,2.0,63.0,
+9.0,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,59,55.0,146,89.0,217,,TSE grade,4.0,57.0,
+9.0,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,57,58.0,135,83.0,206,,TSE grade,-1.0,52.0,
+9.0,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,57,61.0,135,89.0,206,,TSE grade,-4.0,46.0,
+9.0,B0540601.SBX,5,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,55,55.0,125,77.0,195,,TSE grade,0.0,48.0,
+9.0,B0540601.SBX,6,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,55,61.0,125,83.0,195,,TSE grade,-6.0,42.0,
+9.0,B0540601.SBX,7,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,52,48.0,116,70.0,186,,TSE grade,4.0,46.0,
+9.0,B0540601.SBX,8,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,52,53.0,116,77.0,186,,TSE grade,-1.0,39.0,
+9.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,51,46.0,88,,141,102.0,TSE grade,5.0,,39.0
+9.5,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,51,47.0,88,,141,106.0,TSE grade,4.0,,35.0
+9.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,50,49.0,88,,141,114.0,TSE grade,1.0,,27.0
+9.5,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,50,54.0,88,,141,117.0,TSE grade,-4.0,,24.0
+9.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,49,48.0,83,,134,99.0,TSE grade,1.0,,35.0
+9.5,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,49,49.0,83,,134,103.0,TSE grade,0.0,,31.0
+9.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,49,57.0,84,,135,108.0,TSE grade,-8.0,,27.0
+9.5,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,49,56.0,84,,135,111.0,TSE grade,-7.0,,24.0
+9.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.3,49,46.0,85,,136,116.0,TSE grade,3.0,,20.0
+9.5,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.4,49,47.0,85,,136,114.0,TSE grade,2.0,,22.0
+9.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.3,50,41.0,86,,138,106.0,TSE grade,9.0,,32.0
+9.5,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.4,50,43.0,86,,138,100.0,TSE grade,7.0,,38.0
+9.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.3,50,56.0,86,,139,110.0,TSE grade,-6.0,,29.0
+9.5,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.4,50,57.0,86,,139,115.0,TSE grade,-7.0,,24.0
+9.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.3,47,53.0,78,,126,96.0,TSE grade,-6.0,,30.0
+9.5,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.4,47,53.0,78,,126,104.0,TSE grade,-6.0,,22.0
+9.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,59,55.0,100,86.0,152,,TSE grade,4.0,14.0,
+9.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,58,61.0,97,87.0,147,,TSE grade,-3.0,10.0,
+9.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,57,61.0,93,83.0,142,,TSE grade,-4.0,10.0,
+9.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,56,53.0,91,74.0,138,,TSE grade,3.0,17.0,
+5.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,4.8,43,44.0,63,78.0,92,86.0,TSE redução de faixa,-1.0,-15.0,6.0
+5.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,42,,63,74.0,92,105.0,TSE redução de faixa,,-11.0,-13.0
+5.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.0,43,,62,52.0,91,89.0,TSE redução de faixa,,10.0,2.0
+5.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,59,,84,,122,171.0,TSE redução de faixa,,,-49.0
+5.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,45,,70,,100,127.0,TSE redução de faixa,,,-27.0
+5.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.1,49,,71,,104,107.0,TSE redução de faixa,,,-3.0
+5.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,41,,82,74.0,116,111.0,TSE redução de faixa,,8.0,5.0
+5.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,41,,82,74.0,116,111.0,TSE redução de faixa,,8.0,5.0
+5.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.5,34,,63,52.0,92,93.0,TSE redução de faixa,,11.0,-1.0
+5.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.6,34,,63,57.0,92,93.0,TSE redução de faixa,,6.0,-1.0
+5.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,43,,106,,163,137.0,TSE redução de faixa,,,26.0
+5.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,43,,106,,163,152.0,TSE redução de faixa,,,11.0
+5.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,43,,106,,163,169.0,TSE redução de faixa,,,-6.0
+5.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,43,,106,,163,163.0,TSE redução de faixa,,,0.0
+5.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,42,,94,,132,120.0,TSE redução de faixa,,,12.0
+5.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,42,,94,,132,134.0,TSE redução de faixa,,,-2.0
+5.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,42,,94,,132,133.0,TSE redução de faixa,,,-1.0
+5.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,42,,94,,132,131.0,TSE redução de faixa,,,1.0
+5.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.3,29,,57,,88,107.0,TSE redução de faixa,,,-19.0
+5.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.4,29,,57,,88,113.0,TSE redução de faixa,,,-25.0
+5.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.5,29,,57,,88,118.0,TSE redução de faixa,,,-30.0
+5.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.6,29,,57,,88,109.0,TSE redução de faixa,,,-21.0
+6.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.8,50,47.0,68,82.0,96,89.0,TSE redução de faixa,3.0,-14.0,7.0
+6.0,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,5.9,50,47.0,68,83.0,96,89.0,TSE redução de faixa,3.0,-15.0,7.0
+6.0,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.2,50,49.0,68,86.0,96,92.0,TSE redução de faixa,1.0,-18.0,4.0
+6.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,58,,81,81.0,111,115.0,TSE redução de faixa,,0.0,-4.0
+6.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,58,,81,81.0,111,115.0,TSE redução de faixa,,0.0,-4.0
+6.0,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,5.9,52,,69,57.0,97,96.0,TSE redução de faixa,,12.0,1.0
+6.0,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.1,52,,69,63.0,97,96.0,TSE redução de faixa,,6.0,1.0
+6.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,69,,104,,150,157.0,TSE redução de faixa,,,-7.0
+6.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,69,,104,,150,155.0,TSE redução de faixa,,,-5.0
+6.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,69,,104,,150,157.0,TSE redução de faixa,,,-7.0
+6.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,69,,104,,150,167.0,TSE redução de faixa,,,-17.0
+6.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,64,,91,,124,136.0,TSE redução de faixa,,,-12.0
+6.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,64,,91,,124,134.0,TSE redução de faixa,,,-10.0
+6.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,64,,91,,124,136.0,TSE redução de faixa,,,-12.0
+6.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,64,,91,,124,136.0,TSE redução de faixa,,,-12.0
+6.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,5.8,59,,80,,113,116.0,TSE redução de faixa,,,-3.0
+6.0,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.0,59,,80,,113,117.0,TSE redução de faixa,,,-4.0
+6.0,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.1,59,,80,,113,120.0,TSE redução de faixa,,,-7.0
+6.0,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.2,59,,80,,113,116.0,TSE redução de faixa,,,-3.0
+6.5,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,56,48.0,69,73.0,97,116.0,TSE redução de faixa,8.0,-4.0,-19.0
+6.5,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,56,49.0,69,81.0,97,120.0,TSE redução de faixa,7.0,-12.0,-23.0
+6.5,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,56,33.0,69,72.0,97,116.0,TSE redução de faixa,23.0,-3.0,-19.0
+6.5,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,56,59.0,69,100.0,97,130.0,TSE redução de faixa,-3.0,-31.0,-33.0
+6.5,B0000801.SBX,5,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.3,54,50.0,66,74.0,93,103.0,TSE redução de faixa,4.0,-8.0,-10.0
+6.5,B0000801.SBX,6,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.5,54,51.0,66,75.0,93,109.0,TSE redução de faixa,3.0,-9.0,-16.0
+6.5,B0000801.SBX,7,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.6,54,43.0,66,71.0,93,99.0,TSE redução de faixa,11.0,-5.0,-6.0
+6.5,B0000801.SBX,8,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.7,54,61.0,66,85.0,93,112.0,TSE redução de faixa,-7.0,-19.0,-19.0
+6.5,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.3,59,49.0,72,88.0,101,92.0,TSE redução de faixa,10.0,-16.0,9.0
+6.5,B0011801.SBX,2,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.4,59,51.0,72,90.0,101,94.0,TSE redução de faixa,8.0,-18.0,7.0
+6.5,B0011801.SBX,3,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,6.7,59,55.0,72,99.0,101,110.0,TSE redução de faixa,4.0,-27.0,-9.0
+6.5,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,56,,70,81.0,97,115.0,TSE redução de faixa,,-11.0,-18.0
+6.5,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,56,,70,88.0,97,121.0,TSE redução de faixa,,-18.0,-24.0
+6.5,B0012001.SBX,3,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.5,58,,71,63.0,100,96.0,TSE redução de faixa,,8.0,4.0
+6.5,B0012001.SBX,4,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,6.7,58,,71,63.0,100,99.0,TSE redução de faixa,,8.0,1.0
+6.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,53,,66,,95,114.0,TSE redução de faixa,,,-19.0
+6.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,53,,66,,95,112.0,TSE redução de faixa,,,-17.0
+6.5,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,51,,64,,91,107.0,TSE redução de faixa,,,-16.0
+6.5,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,51,,64,,91,104.0,TSE redução de faixa,,,-13.0
+6.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,50,,64,,92,129.0,TSE redução de faixa,,,-37.0
+6.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,50,,64,,92,122.0,TSE redução de faixa,,,-30.0
+6.5,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,50,,63,,90,113.0,TSE redução de faixa,,,-23.0
+6.5,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,50,,63,,90,113.0,TSE redução de faixa,,,-23.0
+6.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,53,,67,,95,106.0,TSE redução de faixa,,,-11.0
+6.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,53,,67,,95,116.0,TSE redução de faixa,,,-21.0
+6.5,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.5,52,,65,,92,101.0,TSE redução de faixa,,,-9.0
+6.5,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.7,52,,65,,92,118.0,TSE redução de faixa,,,-26.0
+6.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,74,,91,,127,158.0,TSE redução de faixa,,,-31.0
+6.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,74,,91,,127,180.0,TSE redução de faixa,,,-53.0
+6.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,74,,91,,127,171.0,TSE redução de faixa,,,-44.0
+6.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,74,,91,,127,178.0,TSE redução de faixa,,,-51.0
+6.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,61,,77,,106,135.0,TSE redução de faixa,,,-29.0
+6.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,61,,77,,106,136.0,TSE redução de faixa,,,-30.0
+6.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,61,,77,,106,135.0,TSE redução de faixa,,,-29.0
+6.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,61,,77,,106,142.0,TSE redução de faixa,,,-36.0
+6.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.3,69,,87,,121,112.0,TSE redução de faixa,,,9.0
+6.5,B0701201.SBX,10,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.4,69,,87,,121,115.0,TSE redução de faixa,,,6.0
+6.5,B0701201.SBX,11,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.5,69,,87,,121,123.0,TSE redução de faixa,,,-2.0
+6.5,B0701201.SBX,12,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.7,69,,87,,121,124.0,TSE redução de faixa,,,-3.0
+7.0,B0000801.SBX,1,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,32,41.0,71,81.0,118,125.0,TSE redução de faixa,-9.0,-10.0,-7.0
+7.0,B0000801.SBX,2,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,32,51.0,71,84.0,118,124.0,TSE redução de faixa,-19.0,-13.0,-6.0
+7.0,B0000801.SBX,3,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,6.9,35,48.0,71,76.0,109,110.0,TSE redução de faixa,-13.0,-5.0,-1.0
+7.0,B0000801.SBX,4,"Oliveira, A.B. (2010). Dissertação, UNESP/FCAV Jaboticabal, Tab. 2 e 4",Jaboticabal-SP,7.0,35,54.0,71,78.0,109,110.0,TSE redução de faixa,-19.0,-7.0,-1.0
+7.0,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,33,,74,,119,117.0,TSE redução de faixa,,,2.0
+7.0,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,33,,74,,119,117.0,TSE redução de faixa,,,2.0
+7.0,B0530501.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,33,,74,,119,120.0,TSE redução de faixa,,,-1.0
+7.0,B0530501.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,34,,73,,115,110.0,TSE redução de faixa,,,5.0
+7.0,B0530501.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,34,,73,,115,111.0,TSE redução de faixa,,,4.0
+7.0,B0530501.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,34,,73,,115,112.0,TSE redução de faixa,,,3.0
+7.0,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,32,,71,,117,122.0,TSE redução de faixa,,,-5.0
+7.0,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,32,,71,,117,126.0,TSE redução de faixa,,,-9.0
+7.0,B0530601.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,32,,71,,117,123.0,TSE redução de faixa,,,-6.0
+7.0,B0530601.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,34,,72,,114,114.0,TSE redução de faixa,,,0.0
+7.0,B0530601.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,34,,72,,114,119.0,TSE redução de faixa,,,-5.0
+7.0,B0530601.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,34,,72,,114,112.0,TSE redução de faixa,,,2.0
+7.0,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,34,,75,,120,118.0,TSE redução de faixa,,,2.0
+7.0,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,34,,75,,120,118.0,TSE redução de faixa,,,2.0
+7.0,B0530701.SBX,3,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,34,,75,,120,123.0,TSE redução de faixa,,,-3.0
+7.0,B0530701.SBX,4,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.8,34,,74,,116,105.0,TSE redução de faixa,,,11.0
+7.0,B0530701.SBX,5,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,6.9,34,,74,,116,114.0,TSE redução de faixa,,,2.0
+7.0,B0530701.SBX,6,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.2,34,,74,,116,120.0,TSE redução de faixa,,,-4.0
+7.0,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,49,,100,,154,180.0,TSE redução de faixa,,,-26.0
+7.0,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,49,,100,,154,182.0,TSE redução de faixa,,,-28.0
+7.0,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,49,,100,,154,189.0,TSE redução de faixa,,,-35.0
+7.0,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,44,,91,,132,136.0,TSE redução de faixa,,,-4.0
+7.0,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,44,,91,,132,144.0,TSE redução de faixa,,,-12.0
+7.0,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,44,,91,,132,145.0,TSE redução de faixa,,,-13.0
+7.0,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,6.9,36,,69,,108,119.0,TSE redução de faixa,,,-11.0
+7.0,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.1,36,,69,,108,123.0,TSE redução de faixa,,,-15.0
+7.0,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.2,36,,69,,108,123.0,TSE redução de faixa,,,-15.0
+7.5,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,48,36.0,60,50.0,86,88.0,TSE redução de faixa,12.0,10.0,-2.0
+7.5,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,47,35.0,60,47.0,86,84.0,TSE redução de faixa,12.0,13.0,2.0
+7.5,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,47,34.0,60,47.0,86,82.0,TSE redução de faixa,13.0,13.0,4.0
+7.5,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,7.7,48,36.0,60,53.0,86,86.0,TSE redução de faixa,12.0,7.0,0.0
+7.5,B0530501.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,76,,113,123.0,TSE redução de faixa,,,-10.0
+7.5,B0530501.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,54,,75,,108,115.0,TSE redução de faixa,,,-7.0
+7.5,B0530601.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,52,,74,,111,124.0,TSE redução de faixa,,,-13.0
+7.5,B0530601.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,53,,73,,107,117.0,TSE redução de faixa,,,-10.0
+7.5,B0530701.SBX,1,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,77,,114,126.0,TSE redução de faixa,,,-12.0
+7.5,B0530701.SBX,2,"Barbosa et al. (2013). Semina: Ciênc. Agrár. 34(3):945-960, Tab. 3",Umuarama-PR,7.3,55,,75,,108,123.0,TSE redução de faixa,,,-15.0
+7.5,B0701201.SBX,1,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,78,,110,,152,185.0,TSE redução de faixa,,,-33.0
+7.5,B0701201.SBX,2,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,78,,110,,152,190.0,TSE redução de faixa,,,-38.0
+7.5,B0701201.SBX,3,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,78,,110,,152,189.0,TSE redução de faixa,,,-37.0
+7.5,B0701201.SBX,4,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,75,,95,,127,148.0,TSE redução de faixa,,,-21.0
+7.5,B0701201.SBX,5,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,75,,95,,127,147.0,TSE redução de faixa,,,-20.0
+7.5,B0701201.SBX,6,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,75,,95,,127,153.0,TSE redução de faixa,,,-26.0
+7.5,B0701201.SBX,7,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.3,69,,89,,124,133.0,TSE redução de faixa,,,-9.0
+7.5,B0701201.SBX,8,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.4,69,,89,,124,121.0,TSE redução de faixa,,,3.0
+7.5,B0701201.SBX,9,"Strieder et al. (2013). Embrapa Trigo, Doc. Online 145 — Fenologia de cultivares de soja em seis épocas, Passo Fundo 2012/13",Passo Fundo-RS,7.7,69,,89,,124,133.0,TSE redução de faixa,,,-9.0
+8.0,B0011801.SBX,1,"Bubans et al. (2021). Agron. Sci. Biotechnol. 7:1–14, Tab. 1 e 4",Ijuí-RS,7.8,44,61.0,66,101.0,102,105.0,TSE redução de faixa,-17.0,-35.0,-3.0
+8.0,B0012001.SBX,1,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,43,,65,93.0,100,121.0,TSE redução de faixa,,-28.0,-21.0
+8.0,B0012001.SBX,2,"Bernardo et al. (2024). Int. J. Sci. Manag. Tour. 10(5):1-19, doi:10.55905/ijsmtv10n5-033, Quadro 2",Ijuí-RS,7.8,45,,65,63.0,100,99.0,TSE redução de faixa,,2.0,1.0
+8.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,38,36.0,56,,88,96.0,TSE redução de faixa,2.0,,-8.0
+8.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.2,37,43.0,55,,87,106.0,TSE redução de faixa,-6.0,,-19.0
+8.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,37,40.0,55,,87,86.0,TSE redução de faixa,-3.0,,1.0
+8.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.2,37,45.0,55,,87,95.0,TSE redução de faixa,-8.0,,-8.0
+8.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.2,38,42.0,55,,87,103.0,TSE redução de faixa,-4.0,,-16.0
+8.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.2,38,39.0,56,,88,108.0,TSE redução de faixa,-1.0,,-20.0
+8.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.2,37,53.0,55,,87,97.0,TSE redução de faixa,-16.0,,-10.0
+8.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.2,36,53.0,54,,85,90.0,TSE redução de faixa,-17.0,,-5.0
+8.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,46,44.0,71,,110,100.0,TSE redução de faixa,2.0,,10.0
+8.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.7,45,45.0,70,,109,112.0,TSE redução de faixa,0.0,,-3.0
+8.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,46,46.0,70,,109,93.0,TSE redução de faixa,0.0,,16.0
+8.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.7,46,54.0,70,,109,102.0,TSE redução de faixa,-8.0,,7.0
+8.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.7,46,45.0,70,,109,106.0,TSE redução de faixa,1.0,,3.0
+8.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.7,46,41.0,71,,110,100.0,TSE redução de faixa,5.0,,10.0
+8.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.7,46,54.0,70,,109,98.0,TSE redução de faixa,-8.0,,11.0
+8.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.7,45,52.0,68,,106,94.0,TSE redução de faixa,-7.0,,12.0
+8.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,50,51.0,76,82.0,117,,TSE redução de faixa,-1.0,-6.0,
+8.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,50,51.0,76,72.0,117,,TSE redução de faixa,-1.0,4.0,
+8.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,50,55.0,76,75.0,117,,TSE redução de faixa,-5.0,1.0,
+8.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,8.4,51,45.0,77,63.0,118,,TSE redução de faixa,6.0,14.0,
+9.0,B0021701.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,40.0,69,60.0,108,98.0,TSE redução de faixa,5.0,9.0,10.0
+9.0,B0021701.SBX,2,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,38.0,69,58.0,108,95.0,TSE redução de faixa,7.0,11.0,13.0
+9.0,B0021701.SBX,3,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,37.0,69,56.0,108,94.0,TSE redução de faixa,8.0,13.0,14.0
+9.0,B0021801.SBX,1,"Sampaio et al. (2021), J. Agric. Sci.; PARA1801.SBA (DSSAT)",Paragominas-PA,8.8,45,42.0,69,58.0,108,92.0,TSE redução de faixa,3.0,11.0,16.0
+9.0,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,46,43.0,71,,110,98.0,TSE redução de faixa,3.0,,12.0
+9.0,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,46,43.0,71,,110,104.0,TSE redução de faixa,3.0,,6.0
+9.0,B0471301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,46,45.0,71,,110,104.0,TSE redução de faixa,1.0,,6.0
+9.0,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,8.9,45,46.0,70,,109,113.0,TSE redução de faixa,-1.0,,-4.0
+9.0,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.0,45,45.0,70,,109,113.0,TSE redução de faixa,0.0,,-4.0
+9.0,B0471401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.1,45,47.0,70,,109,112.0,TSE redução de faixa,-2.0,,-3.0
+9.0,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,46,48.0,70,,109,92.0,TSE redução de faixa,-2.0,,17.0
+9.0,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,46,48.0,70,,109,101.0,TSE redução de faixa,-2.0,,8.0
+9.0,B0481301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,46,46.0,70,,109,99.0,TSE redução de faixa,0.0,,10.0
+9.0,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,8.9,46,54.0,70,,109,106.0,TSE redução de faixa,-8.0,,3.0
+9.0,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.0,46,56.0,70,,109,109.0,TSE redução de faixa,-10.0,,0.0
+9.0,B0481401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.1,46,54.0,70,,109,107.0,TSE redução de faixa,-8.0,,2.0
+9.0,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,8.9,46,47.0,70,,109,113.0,TSE redução de faixa,-1.0,,-4.0
+9.0,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.0,46,45.0,70,,109,114.0,TSE redução de faixa,1.0,,-5.0
+9.0,B0491301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.1,46,44.0,70,,109,115.0,TSE redução de faixa,2.0,,-6.0
+9.0,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,8.9,46,42.0,71,,110,102.0,TSE redução de faixa,4.0,,8.0
+9.0,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.0,46,41.0,71,,110,102.0,TSE redução de faixa,5.0,,8.0
+9.0,B0501301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.1,46,41.0,71,,110,106.0,TSE redução de faixa,5.0,,4.0
+9.0,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,8.9,46,55.0,70,,109,100.0,TSE redução de faixa,-9.0,,9.0
+9.0,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.0,46,54.0,70,,109,106.0,TSE redução de faixa,-8.0,,3.0
+9.0,B0511301.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.1,46,55.0,70,,109,111.0,TSE redução de faixa,-9.0,,-2.0
+9.0,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,8.9,45,53.0,68,,106,98.0,TSE redução de faixa,-8.0,,8.0
+9.0,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.0,45,53.0,68,,106,97.0,TSE redução de faixa,-8.0,,9.0
+9.0,B0521401.SBX,3,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.1,45,49.0,68,,106,97.0,TSE redução de faixa,-4.0,,9.0
+9.0,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,50,57.0,76,83.0,117,,TSE redução de faixa,-7.0,-7.0,
+9.0,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,50,55.0,76,89.0,117,,TSE redução de faixa,-5.0,-13.0,
+9.0,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,50,58.0,76,83.0,117,,TSE redução de faixa,-8.0,-7.0,
+9.0,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,50,61.0,76,89.0,117,,TSE redução de faixa,-11.0,-13.0,
+9.0,B0540601.SBX,5,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,50,55.0,76,77.0,117,,TSE redução de faixa,-5.0,-1.0,
+9.0,B0540601.SBX,6,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,50,61.0,76,83.0,117,,TSE redução de faixa,-11.0,-7.0,
+9.0,B0540601.SBX,7,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.1,51,48.0,77,70.0,118,,TSE redução de faixa,3.0,7.0,
+9.0,B0540601.SBX,8,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.2,51,53.0,77,77.0,118,,TSE redução de faixa,-2.0,0.0,
+9.5,B0471301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,49,46.0,73,,112,102.0,TSE redução de faixa,3.0,,10.0
+9.5,B0471301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,49,47.0,73,,112,106.0,TSE redução de faixa,2.0,,6.0
+9.5,B0471401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.3,48,49.0,72,,111,114.0,TSE redução de faixa,-1.0,,-3.0
+9.5,B0471401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Tasso Fragoso-MA,9.4,48,54.0,72,,111,117.0,TSE redução de faixa,-6.0,,-6.0
+9.5,B0481301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,48,48.0,72,,111,99.0,TSE redução de faixa,0.0,,12.0
+9.5,B0481301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,48,49.0,72,,111,103.0,TSE redução de faixa,-1.0,,8.0
+9.5,B0481401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.3,48,57.0,72,,111,108.0,TSE redução de faixa,-9.0,,3.0
+9.5,B0481401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,São Raimundo das Mangabeiras-MA,9.4,48,56.0,72,,111,111.0,TSE redução de faixa,-8.0,,0.0
+9.5,B0491301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.3,49,46.0,72,,112,116.0,TSE redução de faixa,3.0,,-4.0
+9.5,B0491301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Uruçuí-PI,9.4,49,47.0,72,,112,114.0,TSE redução de faixa,2.0,,-2.0
+9.5,B0501301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.3,49,41.0,73,,112,106.0,TSE redução de faixa,8.0,,6.0
+9.5,B0501301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Baixa Grande do Ribeiro-PI,9.4,49,43.0,73,,112,100.0,TSE redução de faixa,6.0,,12.0
+9.5,B0511301.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.3,48,56.0,72,,111,110.0,TSE redução de faixa,-8.0,,1.0
+9.5,B0511301.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Balsas-MA,9.4,48,57.0,72,,111,115.0,TSE redução de faixa,-9.0,,-4.0
+9.5,B0521401.SBX,1,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.3,47,53.0,70,,109,96.0,TSE redução de faixa,-6.0,,13.0
+9.5,B0521401.SBX,2,Silva et al. (2022). PLOS ONE 17:e0274726; dados: Harvard Dataverse doi:10.7910/DVN/C7KUE1,Chapadinha-MA,9.4,47,53.0,70,,109,104.0,TSE redução de faixa,-6.0,,5.0
+9.5,B0540601.SBX,1,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,52,55.0,78,86.0,119,,TSE redução de faixa,-3.0,-8.0,
+9.5,B0540601.SBX,2,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,52,61.0,79,87.0,120,,TSE redução de faixa,-9.0,-8.0,
+9.5,B0540601.SBX,3,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,53,61.0,79,83.0,120,,TSE redução de faixa,-8.0,-4.0,
+9.5,B0540601.SBX,4,"Cruz et al. (2010). Sci. Agrar. 11(1):33-42, Tab. 2",São Desidério-BA,9.3,54,53.0,80,74.0,122,,TSE redução de faixa,1.0,6.0,
