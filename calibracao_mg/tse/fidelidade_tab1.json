@@ -1,0 +1,3 @@
+{"cultura":"Soybean","modelo":"CRGRO","cultivar":"BRAGG","tratamentos":[["UFGA7801.SBX",1]],
+ "modo":"crescimento","variaveis":["GWAD","LAID","CWAD","LWAD"],
+ "coeficientes":{"LFMAX":[0.8,1.248,5]},"metodo":"faixa"}

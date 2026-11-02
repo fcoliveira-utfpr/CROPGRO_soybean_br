@@ -52,3 +52,15 @@ dssat_zone/resultados/validacao_municipio_ano.csv
 dssat_zone/resultados/preditores_celula_ano.csv
 dssat_zone/resultados/etapa0_custo_summary.csv
 dssat_zone/resultados/logs/
+.claude/settings.local.json
+
+# TSE no macOS: instalação simulada, bytecode extraído e logs
+calibracao_mg/tse/raiz/
+calibracao_mg/tse/pyc/
+calibracao_mg/tse/log_tse.txt
+calibracao_mg/tse/raiz_*/
+calibracao_mg/tse/saida_tse.txt
+calibracao_mg/tse/teste_*.json
+calibracao_mg/resultados/tse/*/
+calibracao_mg/resultados/tse/pid.txt
+calibracao_mg/resultados/tse/log_lote*.txt
