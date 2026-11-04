@@ -268,6 +268,22 @@ RMSE (dias) no DSSAT real, nos experimentos:
 - **Fora da amostra.** As retas ajustadas aos ótimos do TSE erram as médias multilocais de R8 em 28,0 d (grade) e 11,5 d (redução), contra 1,9 d da MCMC.
 - **A causa é o critério, não a busca:** erro absoluto por cultivar nos eventos comuns, sem efeito de estudo, sem os outros tipos de dado e sem expressar a não identificabilidade.
 
+**Produtividade com a fenologia de cada método.** Mesmo teste que derrubou a posterior sem restrição: Yp (sem estresse hídrico e de N), crescimento da BRS 284, GMR efetivo e semeadura do SBI, em 1.669 ponto-safras (224 pontos × 8 safras). Script: `calibracao_mg/tse/produtividade_tse.py`.
+
+| Método | Yp média (t/ha) | IC mediano | Ciclo médio (d) | Ponto-safras com \|ΔYp\| > 10% da MCMC | r com a MCMC |
+|---|---|---|---|---|---|
+| MCMC | 3,93 | 0,44 | 115 | — | — |
+| GLUE | 4,07 | 0,45 | 116 | 9% | 0,93 |
+| TSE grade | 4,29 | 0,45 | **152** | **51%** | 0,41 |
+| TSE redução | 4,03 | 0,49 | 108 | 30% | 0,54 |
+
+*Comentário:*
+- **A média e o IC não acusam o problema.** Os quatro métodos dão Yp de 3,9 a 4,3 t/ha e IC de 0,44 a 0,49.
+- **O padrão espacial e entre safras muda.** O TSE (grade) diverge da MCMC em mais de 10% na metade dos ponto-safras e em mais de 20% em 29%.
+- **Ciclo do TSE grade no Norte:** +73 d para GMR acima de 8,5. No MATOPIBA a maturidade sai aos 174 d, contra 111 d da MCMC, fora da estação chuvosa, o que viesa qualquer análise de Yw.
+- **TSE redução:** encurta o ciclo em 15 d para GMR de 7,5 a 8,5.
+- **Conclusão:** o erro na partição do ciclo vira ruído no padrão, não viés na média.
+
 ---
 
 ## 6. Coeficientes finais por GMR (v13)
