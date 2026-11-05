@@ -64,3 +64,6 @@ calibracao_mg/tse/teste_*.json
 calibracao_mg/resultados/tse/*/
 calibracao_mg/resultados/tse/pid.txt
 calibracao_mg/resultados/tse/log_lote*.txt
+
+# PDFs de artigos e teses baixados (direitos autorais)
+docs/artigos/

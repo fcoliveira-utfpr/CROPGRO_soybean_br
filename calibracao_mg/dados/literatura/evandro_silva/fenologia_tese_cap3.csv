@@ -1,0 +1,35 @@
+experimento,linha,tratamento,das_r1,das_r3,das_r5,das_r7,fonte,obs
+PI-1,observado,,43,60,65,101,"Silva (2021) tese ESALQ, Fig. 3.6 (digitalizada; ±1 d)",
+PI-1,simulado,R-0N,43,60,65,101,"Silva (2021) tese ESALQ, Fig. 3.6 (digitalizada; ±1 d)",
+PI-1,simulado,R-1000N,43,60,65,101,"Silva (2021) tese ESALQ, Fig. 3.6 (digitalizada; ±1 d)",
+PI-1,simulado,I-0N,43,60,65,101,"Silva (2021) tese ESALQ, Fig. 3.6 (digitalizada; ±1 d)",
+PI-1,simulado,I-1000N,43,60,65,101,"Silva (2021) tese ESALQ, Fig. 3.6 (digitalizada; ±1 d)",
+PI-2,observado,,45,65,72,115,"Silva (2021) tese ESALQ, Fig. 3.7 (digitalizada; ±1 d)",
+PI-2,simulado,R-0N,47,69,77,118,"Silva (2021) tese ESALQ, Fig. 3.7 (digitalizada; ±1 d)",
+PI-2,simulado,R-1000N,47,69,77,118,"Silva (2021) tese ESALQ, Fig. 3.7 (digitalizada; ±1 d)",
+PI-2,simulado,I-0N,47,68,75,119,"Silva (2021) tese ESALQ, Fig. 3.7 (digitalizada; ±1 d)",
+PI-2,simulado,I-1000N,47,68,75,119,"Silva (2021) tese ESALQ, Fig. 3.7 (digitalizada; ±1 d)",
+PI-3,observado,,46,67,77,108,"Silva (2021) tese ESALQ, Fig. 3.8 (digitalizada; ±1 d)",
+PI-3,simulado,R-0N,46,65,71,112,"Silva (2021) tese ESALQ, Fig. 3.8 (digitalizada; ±1 d)",
+PI-3,simulado,R-1000N,46,65,71,112,"Silva (2021) tese ESALQ, Fig. 3.8 (digitalizada; ±1 d)",
+PI-3,simulado,I-0N,46,65,71,112,"Silva (2021) tese ESALQ, Fig. 3.8 (digitalizada; ±1 d)",
+PI-3,simulado,I-1000N,46,65,71,112,"Silva (2021) tese ESALQ, Fig. 3.8 (digitalizada; ±1 d)",
+SO-1,observado,,32,48,56,103,"Silva (2021) tese ESALQ, Fig. 3.9 (digitalizada; ±1 d)",SO-1 e SO-2 quase idênticos na tese: possível painel repetido
+SO-1,simulado,R-0N,32,48,56,103,"Silva (2021) tese ESALQ, Fig. 3.9 (digitalizada; ±1 d)",SO-1 e SO-2 quase idênticos na tese: possível painel repetido
+SO-1,simulado,R-1000N,32,48,56,103,"Silva (2021) tese ESALQ, Fig. 3.9 (digitalizada; ±1 d)",SO-1 e SO-2 quase idênticos na tese: possível painel repetido
+SO-2,observado,,32,48,56,103,"Silva (2021) tese ESALQ, Fig. 3.10 (digitalizada; ±1 d)",SO-1 e SO-2 quase idênticos na tese: possível painel repetido
+SO-2,simulado,R-0N,32,48,56,103,"Silva (2021) tese ESALQ, Fig. 3.10 (digitalizada; ±1 d)",SO-1 e SO-2 quase idênticos na tese: possível painel repetido
+SO-2,simulado,R-1000N,32,48,56,103,"Silva (2021) tese ESALQ, Fig. 3.10 (digitalizada; ±1 d)",SO-1 e SO-2 quase idênticos na tese: possível painel repetido
+CA-1,observado,,56,81,87,130,"Silva (2021) tese ESALQ, Fig. 3.11 (digitalizada; ±1 d)",
+CA-1,simulado,R-0N,56,81,87,130,"Silva (2021) tese ESALQ, Fig. 3.11 (digitalizada; ±1 d)",
+CA-1,simulado,R-1000N,56,81,87,130,"Silva (2021) tese ESALQ, Fig. 3.11 (digitalizada; ±1 d)",
+TU-1,observado,,57,69,86,123,"Silva (2021) tese ESALQ, Fig. 3.12 (digitalizada; ±1 d)",
+TU-1,simulado,R-0N,54,70,78,118,"Silva (2021) tese ESALQ, Fig. 3.12 (digitalizada; ±1 d)",
+TU-1,simulado,R-1000N,54,70,78,118,"Silva (2021) tese ESALQ, Fig. 3.12 (digitalizada; ±1 d)",
+TU-1,simulado,I-0N,54,70,78,122,"Silva (2021) tese ESALQ, Fig. 3.12 (digitalizada; ±1 d)",
+TU-1,simulado,I-1000N,54,70,78,122,"Silva (2021) tese ESALQ, Fig. 3.12 (digitalizada; ±1 d)",
+TE-1,observado,,30,41,48,83,"Silva (2021) tese ESALQ, Fig. 3.13 (digitalizada; ±1 d)",
+TE-1,simulado,R-0N,30,41,49,78,"Silva (2021) tese ESALQ, Fig. 3.13 (digitalizada; ±1 d)",
+TE-1,simulado,R-1000N,30,41,49,78,"Silva (2021) tese ESALQ, Fig. 3.13 (digitalizada; ±1 d)",
+TE-1,simulado,I-0N,30,41,48,83,"Silva (2021) tese ESALQ, Fig. 3.13 (digitalizada; ±1 d)",
+TE-1,simulado,I-1000N,30,41,48,83,"Silva (2021) tese ESALQ, Fig. 3.13 (digitalizada; ±1 d)",

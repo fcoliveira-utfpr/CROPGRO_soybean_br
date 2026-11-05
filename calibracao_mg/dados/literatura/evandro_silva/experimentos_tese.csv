@@ -1,0 +1,13 @@
+experimento,capitulo,local,lat,lon,alt_m,safra,cultivar,gmr_informado,data_semeadura,data_colheita,tratamentos,densidade,irrigacao_efetiva_mm,preparo
+PI1-100,2,Piracicaba-SP,-22.717,-47.633,524,2016/17,BRS 399,6.0,2016-11-14,,irrigado,35.5 pl/m2,177.6,convencional
+PI2-100,2,Piracicaba-SP,-22.717,-47.633,524,2017/18,BRS 399,6.0,2017-12-16,,irrigado,35.5 pl/m2,242.4,plantio direto
+TE-100,2,Teresina-PI,-5.083,-42.800,,2019,8579RSF,8.0,2019-07-26,,irrigado 100%,22.0 pl/m2,418.3,convencional
+TE-50,2,Teresina-PI,-5.083,-42.800,,2019,8579RSF,8.0,2019-07-26,,irrigado 50%,22.0 pl/m2,271.6,convencional
+PI-1,3,Piracicaba-SP,-22.700,-47.500,546,2017/18,TMG 7062,6.0,2017-12-26,2018-04-13,"R,I x 0N,1000N",28 pl/m,,
+PI-2,3,Piracicaba-SP,-22.700,-47.500,546,2018/19,TMG 7062,6.0,2018-11-11,2019-03-17,"R,I x 0N,1000N",,,
+PI-3,3,Piracicaba-SP,-22.700,-47.500,546,2019/20,TMG 7062,6.0,2019-11-27,2020-03-23,"R,I x 0N,1000N",28 pl/m,,
+SO-1,3,Sorriso-MT,-12.700,-55.800,375,2018/19,TMG 7063,7.0,2018-11-20,2019-03-07,"R x 0N,1000N",30 pl/m,,
+SO-2,3,Sorriso-MT,-12.700,-55.800,375,2019/20,NS 7901,8.0,2019-11-01,2020-03-03,"R x 0N,1000N",30 pl/m,,
+CA-1,3,Cruz Alta-RS,-28.633,-53.600,476,2018/19,65i65RSF,6.0,2018-11-28,2019-03-31,"R x 0N,1000N",35 pl/m,,
+TU-1,3,Tupanciretã-RS,-28.800,-53.800,466,2019/20,65i65RSF,6.0,2019-12-03,2020-04-14,"R,I x 0N,1000N",35 pl/m,,
+TE-1,3,Teresina-PI,-5.033,-42.783,78,2019,8579RSF,8.0,2019-07-23,2019-10-21,"R,I x 0N,1000N",22 pl/m,,
