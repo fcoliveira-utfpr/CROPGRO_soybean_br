@@ -1,0 +1,7 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+conjunto estadio   n  rmse  vies   mae
+     v14      r1 100  6.71  1.54  5.72
+     v14      r5  60 13.02 -7.23  9.47
+     v14      r7 193 15.00 -9.35 11.42
+Sat Nov  7 11:36:54 -03 2026 fim

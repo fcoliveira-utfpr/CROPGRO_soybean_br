@@ -1,0 +1,37 @@
+experimento,local,cultivar,gmr,cenario_gmr,r1_obs,r1_sim,r1_erro,r3_obs,r3_sim,r3_erro,r5_obs,r5_sim,r5_erro,r7_obs,r7_sim,r7_erro,conjunto
+PI1-100,Piracicaba-SP,BRS 399,6.0,gmr_calibracao,39,43.0,4.0,54,58.0,4.0,64,63.0,-1.0,104,98.0,-6.0,v14 sem pira
+PI2-100,Piracicaba-SP,BRS 399,6.0,gmr_calibracao,36,39.0,3.0,51,53.0,2.0,58,58.0,0.0,91,88.0,-3.0,v14 sem pira
+PI-1,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,43,40.0,-3.0,60,54.0,-6.0,65,58.0,-7.0,101,86.0,-15.0,v14 sem pira
+PI-2,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,45,43.0,-2.0,65,59.0,-6.0,72,65.0,-7.0,115,100.0,-15.0,v14 sem pira
+PI-3,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,46,43.0,-3.0,67,58.0,-9.0,77,64.0,-13.0,108,97.0,-11.0,v14 sem pira
+TE-100,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,44.0,14.0,41,58.0,17.0,48,59.0,11.0,83,93.0,10.0,v14 sem tere
+TE-50,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,44.0,14.0,41,58.0,17.0,48,59.0,11.0,83,93.0,10.0,v14 sem tere
+TE-1,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,45.0,15.0,41,59.0,18.0,48,60.0,12.0,83,93.0,10.0,v14 sem tere
+SO-1,Sorriso-MT,TMG 7063,7.0,gmr_calibracao,32,39.0,7.0,48,53.0,5.0,56,55.0,-1.0,103,87.0,-16.0,v14 sem sorr
+SO-2,Sorriso-MT,NS 7901,7.9,gmr_calibracao,32,44.0,12.0,48,60.0,12.0,56,61.0,5.0,103,100.0,-3.0,v14 sem sorr
+CA-1,Cruz Alta-RS,65i65RSF,6.5,gmr_calibracao,56,54.0,-2.0,81,71.0,-10.0,87,75.0,-12.0,130,109.0,-21.0,v14 sem cruz
+TU-1,Tupanciretã-RS,65i65RSF,6.5,gmr_calibracao,57,55.0,-2.0,69,71.0,2.0,86,75.0,-11.0,123,107.0,-16.0,v14 sem tupa
+PI1-100,Piracicaba-SP,BRS 399,6.0,gmr_calibracao,39,43.0,4.0,54,58.0,4.0,64,64.0,0.0,104,99.0,-5.0,v14 completa
+PI2-100,Piracicaba-SP,BRS 399,6.0,gmr_calibracao,36,40.0,4.0,51,54.0,3.0,58,59.0,1.0,91,89.0,-2.0,v14 completa
+TE-100,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,44.0,14.0,41,58.0,17.0,48,59.0,11.0,83,93.0,10.0,v14 completa
+TE-50,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,44.0,14.0,41,58.0,17.0,48,59.0,11.0,83,93.0,10.0,v14 completa
+PI-1,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,43,41.0,-2.0,60,54.0,-6.0,65,58.0,-7.0,101,87.0,-14.0,v14 completa
+PI-2,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,45,44.0,-1.0,65,59.0,-6.0,72,65.0,-7.0,115,101.0,-14.0,v14 completa
+PI-3,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,46,43.0,-3.0,67,59.0,-8.0,77,64.0,-13.0,108,97.0,-11.0,v14 completa
+SO-1,Sorriso-MT,TMG 7063,7.0,gmr_calibracao,32,39.0,7.0,48,53.0,5.0,56,55.0,-1.0,103,87.0,-16.0,v14 completa
+SO-2,Sorriso-MT,NS 7901,7.9,gmr_calibracao,32,44.0,12.0,48,60.0,12.0,56,61.0,5.0,103,100.0,-3.0,v14 completa
+CA-1,Cruz Alta-RS,65i65RSF,6.5,gmr_calibracao,56,54.0,-2.0,81,71.0,-10.0,87,75.0,-12.0,130,109.0,-21.0,v14 completa
+TU-1,Tupanciretã-RS,65i65RSF,6.5,gmr_calibracao,57,55.0,-2.0,69,71.0,2.0,86,75.0,-11.0,123,108.0,-15.0,v14 completa
+TE-1,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,45.0,15.0,41,59.0,18.0,48,60.0,12.0,83,93.0,10.0,v14 completa
+PI1-100,Piracicaba-SP,BRS 399,6.0,gmr_calibracao,39,43.0,4.0,54,58.0,4.0,64,64.0,0.0,104,98.0,-6.0,v14b completa
+PI2-100,Piracicaba-SP,BRS 399,6.0,gmr_calibracao,36,39.0,3.0,51,53.0,2.0,58,59.0,1.0,91,88.0,-3.0,v14b completa
+TE-100,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,44.0,14.0,41,58.0,17.0,48,58.0,10.0,83,93.0,10.0,v14b completa
+TE-50,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,44.0,14.0,41,58.0,17.0,48,58.0,10.0,83,93.0,10.0,v14b completa
+PI-1,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,43,40.0,-3.0,60,54.0,-6.0,65,59.0,-6.0,101,86.0,-15.0,v14b completa
+PI-2,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,45,43.0,-2.0,65,59.0,-6.0,72,66.0,-6.0,115,101.0,-14.0,v14b completa
+PI-3,Piracicaba-SP,TMG 7062,6.2,gmr_calibracao,46,43.0,-3.0,67,58.0,-9.0,77,64.0,-13.0,108,97.0,-11.0,v14b completa
+SO-1,Sorriso-MT,TMG 7063,7.0,gmr_calibracao,32,39.0,7.0,48,53.0,5.0,56,55.0,-1.0,103,86.0,-17.0,v14b completa
+SO-2,Sorriso-MT,NS 7901,7.9,gmr_calibracao,32,44.0,12.0,48,59.0,11.0,56,60.0,4.0,103,99.0,-4.0,v14b completa
+CA-1,Cruz Alta-RS,65i65RSF,6.5,gmr_calibracao,56,54.0,-2.0,81,71.0,-10.0,87,76.0,-11.0,130,109.0,-21.0,v14b completa
+TU-1,Tupanciretã-RS,65i65RSF,6.5,gmr_calibracao,57,55.0,-2.0,69,71.0,2.0,86,76.0,-10.0,123,107.0,-16.0,v14b completa
+TE-1,Teresina-PI,8579RSF,7.9,gmr_calibracao,30,45.0,15.0,41,59.0,18.0,48,59.0,11.0,83,93.0,10.0,v14b completa

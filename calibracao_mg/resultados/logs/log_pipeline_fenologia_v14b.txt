@@ -1,0 +1,63 @@
+Sat Nov  7 18:16:58 -03 2026 início v14b (12000 passos)
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+conjunto estadio   n  rmse  vies   mae
+    v14b      r1 100  6.79  1.72  5.78
+    v14b      r5  60 13.11 -7.37  9.60
+    v14b      r7 193 15.38 -9.44 11.82
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/evandro created.
+experimento          local cultivar  gmr    cenario_gmr  r1_obs  r1_sim  r1_erro  r3_obs  r3_sim  r3_erro  r5_obs  r5_sim  r5_erro  r7_obs  r7_sim  r7_erro      conjunto
+    PI1-100  Piracicaba-SP  BRS 399  6.0 gmr_calibracao      39    43.0      4.0      54    58.0      4.0      64    63.0     -1.0     104    98.0     -6.0  v14 sem pira
+    PI2-100  Piracicaba-SP  BRS 399  6.0 gmr_calibracao      36    39.0      3.0      51    53.0      2.0      58    58.0      0.0      91    88.0     -3.0  v14 sem pira
+       PI-1  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      43    40.0     -3.0      60    54.0     -6.0      65    58.0     -7.0     101    86.0    -15.0  v14 sem pira
+       PI-2  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      45    43.0     -2.0      65    59.0     -6.0      72    65.0     -7.0     115   100.0    -15.0  v14 sem pira
+       PI-3  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      46    43.0     -3.0      67    58.0     -9.0      77    64.0    -13.0     108    97.0    -11.0  v14 sem pira
+     TE-100    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    44.0     14.0      41    58.0     17.0      48    59.0     11.0      83    93.0     10.0  v14 sem tere
+      TE-50    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    44.0     14.0      41    58.0     17.0      48    59.0     11.0      83    93.0     10.0  v14 sem tere
+       TE-1    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    45.0     15.0      41    59.0     18.0      48    60.0     12.0      83    93.0     10.0  v14 sem tere
+       SO-1     Sorriso-MT TMG 7063  7.0 gmr_calibracao      32    39.0      7.0      48    53.0      5.0      56    55.0     -1.0     103    87.0    -16.0  v14 sem sorr
+       SO-2     Sorriso-MT  NS 7901  7.9 gmr_calibracao      32    44.0     12.0      48    60.0     12.0      56    61.0      5.0     103   100.0     -3.0  v14 sem sorr
+       CA-1   Cruz Alta-RS 65i65RSF  6.5 gmr_calibracao      56    54.0     -2.0      81    71.0    -10.0      87    75.0    -12.0     130   109.0    -21.0  v14 sem cruz
+       TU-1 Tupanciretã-RS 65i65RSF  6.5 gmr_calibracao      57    55.0     -2.0      69    71.0      2.0      86    75.0    -11.0     123   107.0    -16.0  v14 sem tupa
+    PI1-100  Piracicaba-SP  BRS 399  6.0 gmr_calibracao      39    43.0      4.0      54    58.0      4.0      64    64.0      0.0     104    99.0     -5.0  v14 completa
+    PI2-100  Piracicaba-SP  BRS 399  6.0 gmr_calibracao      36    40.0      4.0      51    54.0      3.0      58    59.0      1.0      91    89.0     -2.0  v14 completa
+     TE-100    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    44.0     14.0      41    58.0     17.0      48    59.0     11.0      83    93.0     10.0  v14 completa
+      TE-50    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    44.0     14.0      41    58.0     17.0      48    59.0     11.0      83    93.0     10.0  v14 completa
+       PI-1  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      43    41.0     -2.0      60    54.0     -6.0      65    58.0     -7.0     101    87.0    -14.0  v14 completa
+       PI-2  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      45    44.0     -1.0      65    59.0     -6.0      72    65.0     -7.0     115   101.0    -14.0  v14 completa
+       PI-3  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      46    43.0     -3.0      67    59.0     -8.0      77    64.0    -13.0     108    97.0    -11.0  v14 completa
+       SO-1     Sorriso-MT TMG 7063  7.0 gmr_calibracao      32    39.0      7.0      48    53.0      5.0      56    55.0     -1.0     103    87.0    -16.0  v14 completa
+       SO-2     Sorriso-MT  NS 7901  7.9 gmr_calibracao      32    44.0     12.0      48    60.0     12.0      56    61.0      5.0     103   100.0     -3.0  v14 completa
+       CA-1   Cruz Alta-RS 65i65RSF  6.5 gmr_calibracao      56    54.0     -2.0      81    71.0    -10.0      87    75.0    -12.0     130   109.0    -21.0  v14 completa
+       TU-1 Tupanciretã-RS 65i65RSF  6.5 gmr_calibracao      57    55.0     -2.0      69    71.0      2.0      86    75.0    -11.0     123   108.0    -15.0  v14 completa
+       TE-1    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    45.0     15.0      41    59.0     18.0      48    60.0     12.0      83    93.0     10.0  v14 completa
+    PI1-100  Piracicaba-SP  BRS 399  6.0 gmr_calibracao      39    43.0      4.0      54    58.0      4.0      64    64.0      0.0     104    98.0     -6.0 v14b completa
+    PI2-100  Piracicaba-SP  BRS 399  6.0 gmr_calibracao      36    39.0      3.0      51    53.0      2.0      58    59.0      1.0      91    88.0     -3.0 v14b completa
+     TE-100    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    44.0     14.0      41    58.0     17.0      48    58.0     10.0      83    93.0     10.0 v14b completa
+      TE-50    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    44.0     14.0      41    58.0     17.0      48    58.0     10.0      83    93.0     10.0 v14b completa
+       PI-1  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      43    40.0     -3.0      60    54.0     -6.0      65    59.0     -6.0     101    86.0    -15.0 v14b completa
+       PI-2  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      45    43.0     -2.0      65    59.0     -6.0      72    66.0     -6.0     115   101.0    -14.0 v14b completa
+       PI-3  Piracicaba-SP TMG 7062  6.2 gmr_calibracao      46    43.0     -3.0      67    58.0     -9.0      77    64.0    -13.0     108    97.0    -11.0 v14b completa
+       SO-1     Sorriso-MT TMG 7063  7.0 gmr_calibracao      32    39.0      7.0      48    53.0      5.0      56    55.0     -1.0     103    86.0    -17.0 v14b completa
+       SO-2     Sorriso-MT  NS 7901  7.9 gmr_calibracao      32    44.0     12.0      48    59.0     11.0      56    60.0      4.0     103    99.0     -4.0 v14b completa
+       CA-1   Cruz Alta-RS 65i65RSF  6.5 gmr_calibracao      56    54.0     -2.0      81    71.0    -10.0      87    76.0    -11.0     130   109.0    -21.0 v14b completa
+       TU-1 Tupanciretã-RS 65i65RSF  6.5 gmr_calibracao      57    55.0     -2.0      69    71.0      2.0      86    76.0    -10.0     123   107.0    -16.0 v14b completa
+       TE-1    Teresina-PI  8579RSF  7.9 gmr_calibracao      30    45.0     15.0      41    59.0     18.0      48    59.0     11.0      83    93.0     10.0 v14b completa
+     conjunto estadio  n  rmse  vies   mae
+v14b completa      r1 36  8.49  4.83  6.72
+v14b completa      r3 36 10.55  3.86  8.97
+v14b completa      r5 36  8.65 -0.97  7.36
+v14b completa      r7 36 12.41 -6.22 11.22
+versao                    conjunto  locais_r1  media_rmse_r1  locais_r3  media_rmse_r3  locais_r5  media_rmse_r5  locais_r7  media_rmse_r7
+   v13        todos os locais (E2)         15           6.30          5           8.11          9           8.49         16           9.12
+   v14        todos os locais (E2)         15           6.38          5           8.13          9           9.32         16          10.58
+  v14b        todos os locais (E2)         15           6.42          5           8.18          9           9.03         16          11.01
+   v13               só Silva 2021          5           5.57          5           8.11          5           7.53          5          11.42
+   v13 só experimentos atuais (E3)         10           6.66          0            NaN          4           9.69         11           8.08
+   v14               só Silva 2021          5           5.81          5           8.13          5           8.66          5          14.48
+   v14 só experimentos atuais (E3)         10           6.67          0            NaN          4          10.14         11           8.80
+  v14b               só Silva 2021          5           5.81          5           8.18          5           7.99          5          14.97
+  v14b só experimentos atuais (E3)         10           6.72          0            NaN          4          10.33         11           9.20
+Sun Nov  8 08:31:50 -03 2026 fim

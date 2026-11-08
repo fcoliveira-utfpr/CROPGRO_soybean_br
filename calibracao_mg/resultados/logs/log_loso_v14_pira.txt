@@ -1,0 +1,27 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+excluídas 20 observações de ['Piracicaba-SP']
+1 avaliação: 267 ms
+Nova cadeia (mix): /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/loso/cadeia_v14_sem_pira.h5; inicialização de resultados/emulador_fenologia/cadeia_v14_a.h5
+250 passos totais (+250/2000)  1017 s  log-post máx -1653.0  aceitação acumulada 0.015
+500 passos totais (+500/2000)  1960 s  log-post máx -1652.0  aceitação acumulada 0.013
+750 passos totais (+750/2000)  3024 s  log-post máx -1650.3  aceitação acumulada 0.011
+1000 passos totais (+1000/2000)  4037 s  log-post máx -1649.6  aceitação acumulada 0.010
+1250 passos totais (+1250/2000)  5058 s  log-post máx -1649.3  aceitação acumulada 0.009
+1500 passos totais (+1500/2000)  6090 s  log-post máx -1649.3  aceitação acumulada 0.009
+1750 passos totais (+1750/2000)  7146 s  log-post máx -1649.0  aceitação acumulada 0.008
+2000 passos totais (+2000/2000)  8151 s  log-post máx -1649.0  aceitação acumulada 0.008
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/evandro created.
+experimento         local cultivar  gmr    cenario_gmr  r1_obs  r1_sim  r1_erro  r3_obs  r3_sim  r3_erro  r5_obs  r5_sim  r5_erro  r7_obs  r7_sim  r7_erro     conjunto
+    PI1-100 Piracicaba-SP  BRS 399  6.0 gmr_calibracao      39    43.0      4.0      54    58.0      4.0      64    63.0     -1.0     104    98.0     -6.0 v14 sem pira
+    PI2-100 Piracicaba-SP  BRS 399  6.0 gmr_calibracao      36    39.0      3.0      51    53.0      2.0      58    58.0      0.0      91    88.0     -3.0 v14 sem pira
+       PI-1 Piracicaba-SP TMG 7062  6.2 gmr_calibracao      43    40.0     -3.0      60    54.0     -6.0      65    58.0     -7.0     101    86.0    -15.0 v14 sem pira
+       PI-2 Piracicaba-SP TMG 7062  6.2 gmr_calibracao      45    43.0     -2.0      65    59.0     -6.0      72    65.0     -7.0     115   100.0    -15.0 v14 sem pira
+       PI-3 Piracicaba-SP TMG 7062  6.2 gmr_calibracao      46    43.0     -3.0      67    58.0     -9.0      77    64.0    -13.0     108    97.0    -11.0 v14 sem pira
+    conjunto estadio  n  rmse  vies  mae
+v14 sem pira      r1  5  3.07  -0.2  3.0
+v14 sem pira      r3  5  5.88  -3.0  5.4
+v14 sem pira      r5  5  7.32  -5.6  5.6
+v14 sem pira      r7  5 11.10 -10.0 10.0

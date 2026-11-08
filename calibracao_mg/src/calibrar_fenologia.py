@@ -49,6 +49,13 @@ PARAMS = ([(f"a_{k}", *FAIXAS[k], ini) for k, ini in zip(_CINCO, [12.3, 0.32, 21
            ("ln_s_r5", np.log(0.5), np.log(20), np.log(5)),           # R5 dos experimentos (v5)
            ("a_r1ppo", 0.2, 1.2, 0.5), ("b_r1ppo", -0.15, 0.15, 0.045),  # v6: R1PPO(GMR); ecótipos: 0,504 em GMR 7, +0,045/GMR
            ("ln_tau", np.log(0.1), np.log(20), np.log(3))])           # v6: desvio do efeito aleatório por ensaio × estádio
+# v14: R3 dos experimentos (Silva 2021) com escala própria quando R3 está definido. Sem R3, as observações de R3 ficam
+# de fora e o vetor mantém os 24 parâmetros da v13 (as cadeias antigas continuam legíveis pelos outros scripts).
+USAR_R3 = bool(os.environ.get("R3"))
+# v14b: R3=compartilhado → R3 usa a escala do R5 (na v14, ln_s_r3 com 9 termos não convergiu: R-hat 1,44).
+R3_COMPARTILHADO = os.environ.get("R3") == "compartilhado"
+if USAR_R3 and not R3_COMPARTILHADO:
+    PARAMS.append(("ln_s_r3", np.log(0.5), np.log(20), np.log(4)))
 NOMES = [p[0] for p in PARAMS]
 # v8: δ8 (R8 − R7) fixo quando DELTA8_FIXO está definido. Com R7 observado só em Paragominas, δ8 e SD-PM não são
 # identificáveis (v7: δ8 4,4 × 12,8; SD-PM 26,1 × 20,8 com o mesmo ajuste). O parâmetro continua no vetor (para manter
@@ -68,6 +75,12 @@ class Calibracao:
     def __init__(self):
         locais = pd.read_csv(DIR / "locais.csv", index_col="idx_local")
         self.obs = pd.read_csv(DIR / "observacoes_fenologia.csv")
+        # v14, validação deixando um local de fora: EXCLUIR_LOCAL="nome1;nome2" tira as observações desses locais
+        if os.environ.get("EXCLUIR_LOCAL"):
+            fora = os.environ["EXCLUIR_LOCAL"].split(";")
+            assert set(fora) <= set(self.obs.local), f"local desconhecido em EXCLUIR_LOCAL: {fora}"
+            print(f"excluídas {self.obs.local.isin(fora).sum()} observações de {fora}", flush=True)
+            self.obs = self.obs[~self.obs.local.isin(fora)].reset_index(drop=True)
         amb = ef.variaveis_ambiente(self.obs[["idx_local", "safra", "doy_sem"]], locais)
         self.X = pd.concat([self.obs[["gmr", "doy_sem"]], amb.drop(columns=[c for c in ["doy_sem"] if c in amb])], axis=1)
         for k in FAIXAS:
@@ -86,6 +99,10 @@ class Calibracao:
         if "r5" not in self.modelos:        # emulador anterior à v5: sem R5, as observações de R5 ficam de fora
             o.loc[o.estadio == "r5", "tipo"] = "sem_r5"
             self.exp = (o.tipo == "experimento").values
+        if not (USAR_R3 and "r3" in self.modelos):
+            o.loc[o.estadio == "r3", "tipo"] = "sem_r3"
+            self.exp = (o.tipo == "experimento").values
+        self.cat = (o.tipo != "experimento").values & ~o.tipo.isin(["sem_r3", "sem_r5"]).values
         self.est = o.estadio.values
         self.y = o.dias_ve.values
         # observações contadas da semeadura: soma de volta os dias até a emergência simulados
@@ -116,11 +133,11 @@ class Calibracao:
         X = self.X.copy()
         for k, v in self.coeficientes(th).items():
             X[k] = v
-        e, r1, r5, r7 = (self.modelos[s].predict(X)[self.inv] if s in self.modelos else np.zeros(len(self.inv))
-                         for s in ("e", "r1", "r5", "r7"))
+        e, r1, r3, r5, r7 = (self.modelos[s].predict(X)[self.inv] if s in self.modelos else np.zeros(len(self.inv))
+                             for s in ("e", "r1", "r3", "r5", "r7"))
         d8 = DELTA8_FIXO if DELTA8_FIXO is not None else dict(zip(NOMES, th))["delta8"]
         e = np.where(self.da_semeadura, 0.0, e)
-        return {"r1": r1 - e, "r5": r5 - e, "r7": r7 - e, "r8": r7 - e + d8}
+        return {"r1": r1 - e, "r3": r3 - e, "r5": r5 - e, "r7": r7 - e, "r8": r7 - e + d8}
 
     def log_post(self, th):
         return float(self.log_post_vet(np.asarray(th)[None, :])[0])
@@ -140,18 +157,24 @@ class Calibracao:
         ix = {nome: i for i, nome in enumerate(NOMES)}
         for k, (a, b) in FAIXAS.items():
             X[k] = np.clip(np.repeat(TH_ok[:, ix[f"a_{k}"]], m) + np.repeat(TH_ok[:, ix[f"b_{k}"]], m) * dg, a, b)
-        e, r1, r5, r7 = (self.modelos[s].predict(X).reshape(n, m)[:, self.inv] if s in self.modelos
-                         else np.zeros((n, len(self.inv))) for s in ("e", "r1", "r5", "r7"))
+        saidas = ("e", "r1", "r3", "r5", "r7") if USAR_R3 else ("e", "r1", "r5", "r7")
+        pred = {s: (self.modelos[s].predict(X).reshape(n, m)[:, self.inv] if s in self.modelos
+                    else np.zeros((n, len(self.inv)))) for s in saidas}
+        e, r1, r5, r7 = pred["e"], pred["r1"], pred["r5"], pred["r7"]
         d8 = (np.full((n, 1), DELTA8_FIXO) if DELTA8_FIXO is not None else TH_ok[:, ix["delta8"]][:, None])
         e = np.where(self.da_semeadura[None, :], 0.0, e)
         pr = {"r1": r1 - e, "r5": r5 - e, "r7": r7 - e, "r8": r7 - e + d8}
         s_r1, s_r5, s_r7, s_cat, s_agr = (np.exp(TH_ok[:, ix[c]])[:, None]
                                           for c in ("ln_s_r1", "ln_s_r5", "ln_s_r7", "ln_s_cat", "ln_s_agr"))
+        termos = [("r1", s_r1), ("r5", s_r5), ("r7", s_r7), ("r8", s_r7)]
+        if USAR_R3:
+            pr["r3"] = pred["r3"] - e
+            termos.append(("r3", s_r5 if R3_COMPARTILHADO else np.exp(TH_ok[:, ix["ln_s_r3"]])[:, None]))
         ll = np.zeros(n)
         # experimentos: r ~ N(0, D + τ² 1 1ᵀ) dentro de cada ensaio × estádio (Sherman–Morrison)
         P = np.zeros((n, len(self.i_exp)))
         S = np.zeros((n, len(self.i_exp)))
-        for est, sg in [("r1", s_r1), ("r5", s_r5), ("r7", s_r7), ("r8", s_r7)]:
+        for est, sg in termos:
             k = self.est_exp == est
             P[:, k] = pr[est][:, self.i_exp[k]]
             S[:, k] = sg
@@ -220,6 +243,9 @@ if __name__ == "__main__":
             inicial = emcee.backends.HDFBackend(str(origem), read_only=True)
             estado = inicial.get_last_sample()
             c0 = estado.coords
+            if R3_COMPARTILHADO and c0.shape[1] == len(PARAMS) + 1:     # v14b partindo da v14: descarta ln_s_r3 (último)
+                c0 = c0[:, :len(PARAMS)]
+                print("cadeia inicial com ln_s_r3; descartado (R3=compartilhado)", flush=True)
             if c0.shape[0] != nw or c0.shape[1] > len(PARAMS):
                 parser.error(f"dimensão da cadeia inicial {c0.shape} incompatível com {(nw, len(PARAMS))}")
             if c0.shape[1] < len(PARAMS):      # parâmetros novos (sempre no fim de PARAMS): valor inicial + ruído

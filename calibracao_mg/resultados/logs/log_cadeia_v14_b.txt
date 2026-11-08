@@ -1,0 +1,41 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+1 avaliação: 287 ms
+cadeia inicial com 19 parâmetros; acrescentados ['ln_s_r3']
+Nova cadeia (mix): /Users/coted-sh/Python/DSSAT/calibracao_mg/resultados/emulador_fenologia/cadeia_v14_b.h5; inicialização de resultados/emulador_fenologia/cadeia_v13_a.h5
+250 passos totais (+250/9000)  1352 s  log-post máx -1723.5  aceitação acumulada 0.042
+500 passos totais (+500/9000)  2667 s  log-post máx -1716.8  aceitação acumulada 0.027
+750 passos totais (+750/9000)  3896 s  log-post máx -1717.4  aceitação acumulada 0.021
+1000 passos totais (+1000/9000)  5221 s  log-post máx -1715.1  aceitação acumulada 0.018
+1250 passos totais (+1250/9000)  6552 s  log-post máx -1711.1  aceitação acumulada 0.016
+1500 passos totais (+1500/9000)  8077 s  log-post máx -1710.8  aceitação acumulada 0.014
+1750 passos totais (+1750/9000)  9662 s  log-post máx -1707.1  aceitação acumulada 0.013
+2000 passos totais (+2000/9000)  11001 s  log-post máx -1704.5  aceitação acumulada 0.012
+2250 passos totais (+2250/9000)  12467 s  log-post máx -1702.9  aceitação acumulada 0.011
+2500 passos totais (+2500/9000)  13685 s  log-post máx -1702.9  aceitação acumulada 0.010
+2750 passos totais (+2750/9000)  14918 s  log-post máx -1702.9  aceitação acumulada 0.009
+3000 passos totais (+3000/9000)  16036 s  log-post máx -1702.0  aceitação acumulada 0.009
+3250 passos totais (+3250/9000)  17178 s  log-post máx -1703.1  aceitação acumulada 0.009
+3500 passos totais (+3500/9000)  18275 s  log-post máx -1702.3  aceitação acumulada 0.008
+3750 passos totais (+3750/9000)  19375 s  log-post máx -1697.5  aceitação acumulada 0.008
+4000 passos totais (+4000/9000)  20618 s  log-post máx -1697.5  aceitação acumulada 0.008
+4250 passos totais (+4250/9000)  21852 s  log-post máx -1694.7  aceitação acumulada 0.007
+4500 passos totais (+4500/9000)  23077 s  log-post máx -1694.7  aceitação acumulada 0.007
+4750 passos totais (+4750/9000)  24288 s  log-post máx -1694.7  aceitação acumulada 0.007
+5000 passos totais (+5000/9000)  25422 s  log-post máx -1694.7  aceitação acumulada 0.007
+5250 passos totais (+5250/9000)  26555 s  log-post máx -1694.7  aceitação acumulada 0.007
+5500 passos totais (+5500/9000)  27734 s  log-post máx -1694.7  aceitação acumulada 0.007
+5750 passos totais (+5750/9000)  28779 s  log-post máx -1694.7  aceitação acumulada 0.007
+6000 passos totais (+6000/9000)  29891 s  log-post máx -1694.7  aceitação acumulada 0.006
+6250 passos totais (+6250/9000)  31004 s  log-post máx -1694.7  aceitação acumulada 0.006
+6500 passos totais (+6500/9000)  32086 s  log-post máx -1694.1  aceitação acumulada 0.006
+6750 passos totais (+6750/9000)  33198 s  log-post máx -1694.1  aceitação acumulada 0.006
+7000 passos totais (+7000/9000)  34193 s  log-post máx -1694.1  aceitação acumulada 0.006
+7250 passos totais (+7250/9000)  35219 s  log-post máx -1694.1  aceitação acumulada 0.006
+7500 passos totais (+7500/9000)  36230 s  log-post máx -1694.1  aceitação acumulada 0.006
+7750 passos totais (+7750/9000)  37294 s  log-post máx -1694.1  aceitação acumulada 0.006
+8000 passos totais (+8000/9000)  38341 s  log-post máx -1694.1  aceitação acumulada 0.006
+8250 passos totais (+8250/9000)  39403 s  log-post máx -1694.1  aceitação acumulada 0.006
+8500 passos totais (+8500/9000)  40460 s  log-post máx -1694.1  aceitação acumulada 0.006
+8750 passos totais (+8750/9000)  41451 s  log-post máx -1694.1  aceitação acumulada 0.006
+9000 passos totais (+9000/9000)  42435 s  log-post máx -1694.1  aceitação acumulada 0.006

@@ -1,0 +1,33 @@
+bloco,metrica,n,rmse_d,vies_d,valor,fonte
+fenologia,experimento (DSSAT) r1,100.0,6.68,0.77,,resultados/tse/comparacao_erros.csv
+fenologia,experimento (DSSAT) r5,60.0,12.67,-6.6,,resultados/tse/comparacao_erros.csv
+fenologia,experimento (DSSAT) r7,193.0,13.57,-8.68,,resultados/tse/comparacao_erros.csv
+fenologia,experimento r1,116.0,6.32,-0.04,,resultados/tse/comparacao_erros.csv
+fenologia,experimento r5,70.0,11.94,-6.16,,resultados/tse/comparacao_erros.csv
+fenologia,experimento r7,8.0,3.68,-3.17,,resultados/tse/comparacao_erros.csv
+fenologia,experimento r8,259.0,16.73,-12.24,,resultados/tse/comparacao_erros.csv
+fenologia,media_multilocal r1,88.0,3.24,-0.65,,resultados/tse/comparacao_erros.csv
+fenologia,media_multilocal r8,88.0,1.87,1.05,,resultados/tse/comparacao_erros.csv
+fenologia,catalogo r8,117.0,8.4,2.32,,resultados/tse/comparacao_erros.csv
+produtividade,"GO/MG/DF/norte MS: Yp, Yw (kg/ha), Yw/Yp, P(Yw/Yp<0,5)",720.0,,,4223; 3397; 0.807; 0.128,resultados/produtividade/limitacao_regiao.csv
+produtividade,"MATOPIBA: Yp, Yw (kg/ha), Yw/Yp, P(Yw/Yp<0,5)",782.0,,,4207; 2932; 0.709; 0.176,resultados/produtividade/limitacao_regiao.csv
+produtividade,"MT/RO/Norte: Yp, Yw (kg/ha), Yw/Yp, P(Yw/Yp<0,5)",1051.0,,,3709; 3400; 0.916; 0.025,resultados/produtividade/limitacao_regiao.csv
+produtividade,"PR/SP/MS: Yp, Yw (kg/ha), Yw/Yp, P(Yw/Yp<0,5)",951.0,,,4170; 2802; 0.672; 0.268,resultados/produtividade/limitacao_regiao.csv
+produtividade,"RS/SC: Yp, Yw (kg/ha), Yw/Yp, P(Yw/Yp<0,5)",526.0,,,4324; 2273; 0.529; 0.540,resultados/produtividade/limitacao_regiao.csv
+produtividade,"Brasil: Yp, Yw (kg/ha), Yw/Yp, P(Yw/Yp<0,5)",4030.0,,,4080; 2991; 0.742; 0.197,resultados/produtividade/limitacao_regiao.csv
+ibge,GO/MG/DF/norte MS: r anomalias Yw × IBGE (ponto-safra; região-ano),24.0,,,0.408; 0.600,resultados/produtividade/anomalias_correlacao.csv
+ibge,MATOPIBA: r anomalias Yw × IBGE (ponto-safra; região-ano),24.0,,,0.602; 0.852,resultados/produtividade/anomalias_correlacao.csv
+ibge,MT/RO/Norte: r anomalias Yw × IBGE (ponto-safra; região-ano),24.0,,,0.309; 0.599,resultados/produtividade/anomalias_correlacao.csv
+ibge,PR/SP/MS: r anomalias Yw × IBGE (ponto-safra; região-ano),24.0,,,0.644; 0.839,resultados/produtividade/anomalias_correlacao.csv
+ibge,RS/SC: r anomalias Yw × IBGE (ponto-safra; região-ano),24.0,,,0.540; 0.756,resultados/produtividade/anomalias_correlacao.csv
+ibge,Brasil: r anomalias Yw × IBGE (ponto-safra; região-ano),120.0,,,0.550; 0.757,resultados/produtividade/anomalias_correlacao.csv
+sbi,GMR efetivo: RMSE; cobertura 90%,,,,"0,75; 0,88",README (etapa 06); resultados/sbi/validacao_final.csv
+cadeia,R-hat máx; ESS,,,,"1,08; ~760",README (etapa 05); comparacao_cadeias_v13.txt
+evandro,"v13 fora da amostra, avaliação (9 exp.) r1",9.0,5.41,1.22,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, avaliação (9 exp.) r3",9.0,7.86,0.67,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, avaliação (9 exp.) r5",9.0,7.76,-3.56,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, avaliação (9 exp.) r7",9.0,10.09,-6.78,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, todos (12 exp.) r1",12.0,7.48,3.83,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, todos (12 exp.) r3",12.0,10.15,4.25,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, todos (12 exp.) r5",12.0,7.85,-0.67,,resultados/evandro/v13_fora_amostra_erros.csv
+evandro,"v13 fora da amostra, todos (12 exp.) r7",12.0,9.37,-4.0,,resultados/evandro/v13_fora_amostra_erros.csv

@@ -30,11 +30,11 @@ def experimentos(locais):
     for r in f.itertuples():
         ds = pd.Timestamp(r.data_semeadura)
         safra = ds.year - (ds.month < 7)
-        for est in ("r1", "r5", "r7", "r8"):
+        for est in ("r1", "r3", "r5", "r7", "r8"):       # r3: desde a v14 (dados de Silva 2021)
             # contagem desde a emergência quando existe; senão desde a semeadura (base = "semeadura")
-            v, base = getattr(r, f"ve_{est}"), "emergencia"
+            v, base = getattr(r, f"ve_{est}", np.nan), "emergencia"
             if pd.isna(v):
-                v, base = getattr(r, f"das_{est}"), "semeadura"
+                v, base = getattr(r, f"das_{est}", np.nan), "semeadura"
             if pd.notna(v):
                 linhas.append(dict(tipo="experimento", fonte=r.fonte, idx_local=idx[r.local], safra=safra,
                                    data_semeadura=ds.strftime("%m-%d"), gmr=r.gmr, estadio=est, dias_ve=float(v), peso=1.0,
@@ -110,10 +110,17 @@ def catalogos_extra(locais):
     return pd.DataFrame(linhas)
 
 
+def doy_sem(md):
+    """Dias após 10/set (base 2001/02). Semeaduras de inverno (julho a 9/set, só nos trópicos) ficam negativas:
+    o resto da divisão por 365 as levaria para o ano seguinte (295–364), fora do treino (máximo 171)."""
+    d = (pd.Timestamp(f"2001-{md}") - pd.Timestamp("2001-09-10")).days % 365
+    return d - 365 if d > 250 else d
+
+
 def montar():
     locais = pd.read_csv(DIR_EMU / "locais.csv", index_col="idx_local")
     obs = pd.concat([experimentos(locais), catalogos(locais), catalogos_extra(locais), agregados(locais)], ignore_index=True)
-    obs["doy_sem"] = obs.data_semeadura.map(lambda md: (pd.Timestamp(f"2001-{md}") - pd.Timestamp("2001-09-10")).days % 365)
+    obs["doy_sem"] = obs.data_semeadura.map(doy_sem)
     obs = obs.join(locais[["local", "lon", "lat", "elev"]], on="idx_local")
     obs.to_csv(DIR_EMU / "observacoes_fenologia.csv", index=False)
     return obs

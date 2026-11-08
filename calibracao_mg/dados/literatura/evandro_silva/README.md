@@ -8,12 +8,12 @@ of soybean in Brazil*, ESALQ/USP, doi 10.11606/T.11.2021.tde-12042022-143612). P
 | Experimento | Local | Safra | Cultivar (GMR) | Semeadura | Tratamentos |
 |---|---|---|---|---|---|
 | PI1-100, PI2-100 | Piracicaba-SP | 2016/17, 2017/18 | BRS 399 (6.0) | 14/11/2016, 16/12/2017 | irrigado |
-| TE-100, TE-50 | Teresina-PI | 2019 (inverno) | 8579RSF (8.0) | 26/07/2019 | irrigação 100% e 50% |
-| PI-1, PI-2, PI-3 | Piracicaba-SP | 2017/18 a 2019/20 | TMG 7062 (6.0) | 26/12, 11/11, 27/11 | sequeiro/irrigado × 0/1000 kg N |
-| SO-1, SO-2 | Sorriso-MT | 2018/19, 2019/20 | TMG 7063 (7.0), NS 7901 (8.0) | 20/11/2018, 01/11/2019 | sequeiro × 0/1000 N |
-| CA-1 | Cruz Alta-RS | 2018/19 | 65i65RSF (6.0) | 28/11/2018 | sequeiro × 0/1000 N |
-| TU-1 | Tupanciretã-RS | 2019/20 | 65i65RSF (6.0) | 03/12/2019 | sequeiro/irrigado × 0/1000 N |
-| TE-1 | Teresina-PI | 2019 (inverno) | 8579RSF (8.0) | 23/07/2019 | sequeiro/irrigado × 0/1000 N |
+| TE-100, TE-50 | Teresina-PI | 2019 (inverno) | BMX Bônus 8579RSF (7.9) | 26/07/2019 | irrigação 100% e 50% |
+| PI-1, PI-2, PI-3 | Piracicaba-SP | 2017/18 a 2019/20 | TMG 7062 (6.2) | 26/12, 11/11, 27/11 | sequeiro/irrigado × 0/1000 kg N |
+| SO-1, SO-2 | Sorriso-MT | 2018/19, 2019/20 | TMG 7063 (6.3; 7.0 no Cerrado?), NS 7901 (7.9) | 20/11/2018, 01/11/2019 | sequeiro × 0/1000 N |
+| CA-1 | Cruz Alta-RS | 2018/19 | BMX Compacta 65i65RSF (6.5) | 28/11/2018 | sequeiro × 0/1000 N |
+| TU-1 | Tupanciretã-RS | 2019/20 | BMX Compacta 65i65RSF (6.5) | 03/12/2019 | sequeiro/irrigado × 0/1000 N |
+| TE-1 | Teresina-PI | 2019 (inverno) | BMX Bônus 8579RSF (7.9) | 23/07/2019 | sequeiro/irrigado × 0/1000 N |
 
 ## Arquivos
 | Arquivo | Conteúdo | Origem |
@@ -36,7 +36,7 @@ of soybean in Brazil*, ESALQ/USP, doi 10.11606/T.11.2021.tde-12042022-143612). P
 - **Cuidados:**
   - SO-1 e SO-2 têm barras de fenologia quase idênticas na tese (possível painel repetido).
   - As tabelas de RMSE dentro das figuras se repetem entre experimentos (TE-1 = PI-1; TU-1 = PI-3); os pontos não.
-  - O GMR das cultivares é o informado (arredondado).
+  - GMR na tabela acima: o comercial, conferido nos obtentores (colunas `gmr_comercial`, `gmr_calibracao` e `fonte_gmr` de `experimentos_tese.csv`). A tese usa o grupo do DSSAT arredondado (`gmr_tese`). A transcrição antiga do EJA acertava BMX Compacta (TU-1) e BMX Bônus (TE-1), que são os nomes comerciais de 65i65RSF e 8579RSF.
 
 ## Outras publicações
 - **Dissertação de mestrado (2018):** E4 e E5 em Piracicaba (BRS 399, 2015/16 e 2016/17) só em figuras, sem

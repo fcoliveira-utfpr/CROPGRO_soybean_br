@@ -193,7 +193,12 @@
   "florescimento R1 (dias)": "flowering R1 (days)",
   "maturação R7 (dias)": "maturity R7 (days)",
   "grãos (kg ha⁻¹)": "grain (kg ha⁻¹)",
-  "IAF máximo": "maximum LAI"
+  "IAF máximo": "maximum LAI",
+  "validação independente (Silva 2021)": "independent validation (Silva 2021)",
+  "tratamentos da calibração": "calibration treatments",
+  "observado (dias após a semeadura)": "observed (days after sowing)",
+  "simulado (dias após a semeadura)": "simulated (days after sowing)",
+  "Validação independente — experimentos de Silva (2021), DSSAT com a mediana da posterior": "Independent validation — experiments of Silva (2021), DSSAT at the posterior median"
  },
  "trecho": [
   [
@@ -259,6 +264,10 @@
   [
    "nacional por GMR",
    "national, by RMG"
+  ],
+  [
+   " · calibração ",
+   " · calibration "
   ]
  ]
 }

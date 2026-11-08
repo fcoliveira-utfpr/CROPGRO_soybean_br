@@ -67,3 +67,9 @@ calibracao_mg/resultados/tse/log_lote*.txt
 
 # PDFs de artigos e teses baixados (direitos autorais)
 docs/artigos/
+
+# Versões rejeitadas/cópias do emulador de fenologia (v14 com Silva 2021; cópias de segurança idênticas à v13)
+calibracao_mg/resultados/emulador_fenologia/emulador_v13/
+calibracao_mg/resultados/emulador_fenologia/emulador_v14/*.joblib
+calibracao_mg/resultados/emulador_fenologia/emulador_v14/tarefas.csv
+calibracao_mg/resultados/emulador_fenologia/*.bak.csv

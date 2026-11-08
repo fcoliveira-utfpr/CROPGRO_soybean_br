@@ -1,13 +1,13 @@
-experimento,capitulo,local,lat,lon,alt_m,safra,cultivar,gmr_informado,data_semeadura,data_colheita,tratamentos,densidade,irrigacao_efetiva_mm,preparo
-PI1-100,2,Piracicaba-SP,-22.717,-47.633,524,2016/17,BRS 399,6.0,2016-11-14,,irrigado,35.5 pl/m2,177.6,convencional
-PI2-100,2,Piracicaba-SP,-22.717,-47.633,524,2017/18,BRS 399,6.0,2017-12-16,,irrigado,35.5 pl/m2,242.4,plantio direto
-TE-100,2,Teresina-PI,-5.083,-42.800,,2019,8579RSF,8.0,2019-07-26,,irrigado 100%,22.0 pl/m2,418.3,convencional
-TE-50,2,Teresina-PI,-5.083,-42.800,,2019,8579RSF,8.0,2019-07-26,,irrigado 50%,22.0 pl/m2,271.6,convencional
-PI-1,3,Piracicaba-SP,-22.700,-47.500,546,2017/18,TMG 7062,6.0,2017-12-26,2018-04-13,"R,I x 0N,1000N",28 pl/m,,
-PI-2,3,Piracicaba-SP,-22.700,-47.500,546,2018/19,TMG 7062,6.0,2018-11-11,2019-03-17,"R,I x 0N,1000N",,,
-PI-3,3,Piracicaba-SP,-22.700,-47.500,546,2019/20,TMG 7062,6.0,2019-11-27,2020-03-23,"R,I x 0N,1000N",28 pl/m,,
-SO-1,3,Sorriso-MT,-12.700,-55.800,375,2018/19,TMG 7063,7.0,2018-11-20,2019-03-07,"R x 0N,1000N",30 pl/m,,
-SO-2,3,Sorriso-MT,-12.700,-55.800,375,2019/20,NS 7901,8.0,2019-11-01,2020-03-03,"R x 0N,1000N",30 pl/m,,
-CA-1,3,Cruz Alta-RS,-28.633,-53.600,476,2018/19,65i65RSF,6.0,2018-11-28,2019-03-31,"R x 0N,1000N",35 pl/m,,
-TU-1,3,Tupanciretã-RS,-28.800,-53.800,466,2019/20,65i65RSF,6.0,2019-12-03,2020-04-14,"R,I x 0N,1000N",35 pl/m,,
-TE-1,3,Teresina-PI,-5.033,-42.783,78,2019,8579RSF,8.0,2019-07-23,2019-10-21,"R,I x 0N,1000N",22 pl/m,,
+experimento,capitulo,local,lat,lon,alt_m,safra,cultivar,gmr_tese,data_semeadura,data_colheita,tratamentos,densidade,irrigacao_efetiva_mm,preparo,nome_comercial,gmr_comercial,gmr_calibracao,fonte_gmr,obs_gmr
+PI1-100,2,Piracicaba-SP,-22.717,-47.633,524.0,2016/17,BRS 399,6.0,2016-11-14,,irrigado,35.5 pl/m2,177.6,convencional,BRS 399RR,6.0,6.0,Embrapa (página do produto e folder BRS 399RR): 6.0 nas RECs 102/103/201/203; 6.7 na REC 303,
+PI2-100,2,Piracicaba-SP,-22.717,-47.633,524.0,2017/18,BRS 399,6.0,2017-12-16,,irrigado,35.5 pl/m2,242.4,plantio direto,BRS 399RR,6.0,6.0,Embrapa (página do produto e folder BRS 399RR): 6.0 nas RECs 102/103/201/203; 6.7 na REC 303,
+TE-100,2,Teresina-PI,-5.083,-42.8,,2019,8579RSF,8.0,2019-07-26,,irrigado 100%,22.0 pl/m2,418.3,convencional,BMX Bônus 8579RSF IPRO (GDM),7.9,7.9,Agrolink (Brasmax Bônus IPRO): 7.9,
+TE-50,2,Teresina-PI,-5.083,-42.8,,2019,8579RSF,8.0,2019-07-26,,irrigado 50%,22.0 pl/m2,271.6,convencional,BMX Bônus 8579RSF IPRO (GDM),7.9,7.9,Agrolink (Brasmax Bônus IPRO): 7.9,
+PI-1,3,Piracicaba-SP,-22.7,-47.5,546.0,2017/18,TMG 7062,6.0,2017-12-26,2018-04-13,"R,I x 0N,1000N",28 pl/m,,,TMG 7062 IPRO,6.2,6.2,"Agrolink e TMG: 6.2 no Sul, 6.9 no Cerrado",Piracicaba fica entre as regiões; Cerrado daria 6.9
+PI-2,3,Piracicaba-SP,-22.7,-47.5,546.0,2018/19,TMG 7062,6.0,2018-11-11,2019-03-17,"R,I x 0N,1000N",,,,TMG 7062 IPRO,6.2,6.2,"Agrolink e TMG: 6.2 no Sul, 6.9 no Cerrado",Piracicaba fica entre as regiões; Cerrado daria 6.9
+PI-3,3,Piracicaba-SP,-22.7,-47.5,546.0,2019/20,TMG 7062,6.0,2019-11-27,2020-03-23,"R,I x 0N,1000N",28 pl/m,,,TMG 7062 IPRO,6.2,6.2,"Agrolink e TMG: 6.2 no Sul, 6.9 no Cerrado",Piracicaba fica entre as regiões; Cerrado daria 6.9
+SO-1,3,Sorriso-MT,-12.7,-55.8,375.0,2018/19,TMG 7063,7.0,2018-11-20,2019-03-07,"R x 0N,1000N",30 pl/m,,,TMG 7063 IPRO,6.3,7.0,Revista Cultivar (2017): 6.3 (lançamento no Sul/MS/GO/SP/MG),incerto: sem GMR do Cerrado; a TMG 7062 sobe 0.7 do Sul para o Cerrado e a tese usa 7.0; testar 6.3 e 7.0
+SO-2,3,Sorriso-MT,-12.7,-55.8,375.0,2019/20,NS 7901,8.0,2019-11-01,2020-03-03,"R x 0N,1000N",30 pl/m,,,NS 7901 IPRO,7.9,7.9,Anais Conf. Bras. Pós-Colheita (2023): 7.9,
+CA-1,3,Cruz Alta-RS,-28.633,-53.6,476.0,2018/19,65i65RSF,6.0,2018-11-28,2019-03-31,"R x 0N,1000N",35 pl/m,,,BMX Compacta 65I65RSF IPRO (GDM),6.5,6.5,Brasmax/GDM (revendas) e Frísia 2024: 6.5; registro MAPA 36887,
+TU-1,3,Tupanciretã-RS,-28.8,-53.8,466.0,2019/20,65i65RSF,6.0,2019-12-03,2020-04-14,"R,I x 0N,1000N",35 pl/m,,,BMX Compacta 65I65RSF IPRO (GDM),6.5,6.5,Brasmax/GDM (revendas) e Frísia 2024: 6.5; registro MAPA 36887,
+TE-1,3,Teresina-PI,-5.033,-42.783,78.0,2019,8579RSF,8.0,2019-07-23,2019-10-21,"R,I x 0N,1000N",22 pl/m,,,BMX Bônus 8579RSF IPRO (GDM),7.9,7.9,Agrolink (Brasmax Bônus IPRO): 7.9,

@@ -16,7 +16,7 @@ import treino_fenologia as tf
 
 DIR = tf.DIR
 COEFS = ["csdl", "ppsen", "em-fl", "fl-sd", "sd-pm", "r1ppo"]
-SAIDAS = ["e", "r1", "r5", "r7"]      # r5 (início do enchimento) só existe nos lotes ≥ 4 do treino; cada saída é treinada nas linhas em que existe
+SAIDAS = ["e", "r1", "r3", "r5", "r7"]   # r3 e r5 só existem nos lotes ≥ 4 do treino (r3 a partir da v14); cada saída é treinada nas linhas em que existe
 JANELAS = [(0, 30), (30, 60), (60, 90), (90, 130)]
 
 

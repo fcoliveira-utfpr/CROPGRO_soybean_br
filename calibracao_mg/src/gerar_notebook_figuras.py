@@ -324,16 +324,9 @@ pontos representativos dos catálogos e os 224 pontos com fenologia de satélite
 torna a calibração nacional.
 """)
 py("""
-L = pd.read_csv(DE / "locais.csv", index_col="idx_local")
-o = pd.read_csv(DE / "observacoes_fenologia.csv")
-sat = pd.read_csv(RAIZ / "resultados/fenologia_satelite/fenologia_modis_pontos.csv").dropna(subset=["sos_p50"])[["lon", "lat"]].drop_duplicates()
-fig, ax = plt.subplots(figsize=(6.6, 6.6)); fg.mapa_base(ax)
-ax.scatter(sat.lon, sat.lat, s=7, color="#b5b3ad", zorder=2, label="satélite (224 pontos)")
-for k, (tipo, nome, mk) in enumerate([("experimento", "experimentos", "o"), ("agregado", "Alliprandini et al. (2009)", "s"), ("catalogo", "catálogos", "^")]):
-    ii = o[o.tipo == tipo].idx_local.unique()
-    ax.scatter(L.loc[ii, "lon"], L.loc[ii, "lat"], marker=mk, s=46, color=CAT[k], edgecolor="white", linewidth=0.8, zorder=4, label=nome)
-ax.legend(loc="lower left"); ax.set_title("Observações de fenologia usadas na calibração")
-fg.salvar(fig, "5_1_mapa_observacoes")
+# desde a v14 os arquivos atuais incluem os locais de Silva (2021); o mapa usa os da v13 e marca Silva como validação
+import figuras_validacao_silva as fvs
+fvs.mapa_observacoes()
 """)
 
 md("""

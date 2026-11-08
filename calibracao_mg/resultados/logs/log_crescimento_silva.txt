@@ -1,0 +1,102 @@
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.venv/lib/python3.11/site-packages/DSSATTools/__init__.py:105: DeprecationWarning: DSSATTools version 3.0.0 is a major upgrade and will not be backwards compatible with previous versions. If you are running code that was developed  using a previous DSSATTools version, then install DSSATTools version 2.1.6
+  warnings.warn(
+200/4011 conjuntos
+400/4011 conjuntos
+600/4011 conjuntos
+800/4011 conjuntos
+1000/4011 conjuntos
+1200/4011 conjuntos
+1400/4011 conjuntos
+1600/4011 conjuntos
+1800/4011 conjuntos
+2000/4011 conjuntos
+2200/4011 conjuntos
+2400/4011 conjuntos
+2600/4011 conjuntos
+2800/4011 conjuntos
+3000/4011 conjuntos
+3200/4011 conjuntos
+3400/4011 conjuntos
+3600/4011 conjuntos
+3800/4011 conjuntos
+4000/4011 conjuntos
+amostra: 4011 conjuntos
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/cs08 created.
+   dobra  partida  J_amostra     J  lfmax   slavr   sizlf  xfrt  wtpsd  sfdur  sdpdv
+completo lhs01523      6.306 6.250  1.261 302.827 173.185 0.973  0.216 21.213  2.307
+sem PI-1 lhs03109      6.607 6.444  1.174 311.139 149.115 1.000  0.200 21.900  1.850
+sem PI-2 lhs01185      5.045 4.934  1.163 304.745 165.892 0.959  0.195 21.419  1.868
+sem PI-3 lhs01076      7.074 6.919  1.161 329.361 158.585 0.984  0.172 20.098  2.232
+sem TE-1 lhs02947      4.975 4.874  1.450 340.834 193.048 0.969  0.177 22.499  1.814
+sem TU-1 lhs02414      6.030 5.544  1.450 300.000 161.558 1.000  0.155 19.428  2.459
+/Users/coted-sh/Python/DSSAT/calibracao_mg/.run/cs12 created.
+                criterio      versao  n    rmse     vies
+G1 produtividade I-1000N     BRS 284  5 1131.56  -610.60
+G2 produtividade R-1000N     BRS 284  8 1356.39 -1003.12
+       G3 biomassa final     BRS 284 13 2282.47 -1115.31
+           G3 IAF máximo     BRS 284 13    1.31     0.10
+G1 produtividade I-1000N    apG fora  5 1230.58  -796.80
+G2 produtividade R-1000N    apG fora  8 1447.02 -1064.25
+       G3 biomassa final    apG fora 13 2459.24 -1391.38
+           G3 IAF máximo    apG fora 13    1.55     0.58
+G1 produtividade I-1000N apG própria  5 1058.80  -409.20
+G2 produtividade R-1000N apG própria  8 1323.13  -966.50
+       G3 biomassa final apG própria 13 2213.27  -901.54
+           G3 IAF máximo apG própria 13    1.78     0.95
+G1 produtividade I-1000N       silva  5 1325.74  -497.40
+G2 produtividade R-1000N       silva  8 1263.46  -949.88
+       G3 biomassa final       silva 13 2383.85  -867.69
+           G3 IAF máximo       silva 13    1.55    -0.27
+experimento tratamento      versao  yield_obs_kgha   hwam  cwam_obs    cwam  laix_obs  laix
+       CA-1    R-1000N       silva            6373 4533.0   12782.0  9483.0       8.0   7.0
+       CA-1    R-1000N     BRS 284            6373 4314.0   12782.0  8960.0       8.0   7.0
+       CA-1    R-1000N    apG fora            6373 4039.0   12782.0  8386.0       8.0   7.0
+       CA-1    R-1000N apG própria            6373 4370.0   12782.0  9229.0       8.0   8.0
+       PI-1    I-1000N       silva            5121 3999.0    9828.0  6909.0       6.0   4.0
+       PI-1    I-1000N     BRS 284            5121 4107.0    9828.0  7179.0       6.0   5.0
+       PI-1    I-1000N    apG fora            5121 3947.0    9828.0  6873.0       6.0   5.0
+       PI-1    I-1000N apG própria            5121 4312.0    9828.0  7576.0       6.0   6.0
+       PI-1    R-1000N       silva            5036 3303.0    6681.0  5940.0       5.0   4.0
+       PI-1    R-1000N     BRS 284            5036 3295.0    6681.0  6063.0       5.0   5.0
+       PI-1    R-1000N    apG fora            5036 3118.0    6681.0  5722.0       5.0   5.0
+       PI-1    R-1000N apG própria            5036 3441.0    6681.0  6392.0       5.0   6.0
+       PI-2    I-1000N       silva            6399 4251.0   13426.0  8719.0       7.0   5.0
+       PI-2    I-1000N     BRS 284            6399 4416.0   13426.0  8750.0       7.0   6.0
+       PI-2    I-1000N    apG fora            6399 4233.0   13426.0  8319.0       7.0   7.0
+       PI-2    I-1000N apG própria            6399 4574.0   13426.0  9074.0       7.0   7.0
+       PI-2    R-1000N       silva            3658 4133.0    6825.0  8356.0       5.0   5.0
+       PI-2    R-1000N     BRS 284            3658 4241.0    6825.0  8276.0       5.0   5.0
+       PI-2    R-1000N    apG fora            3658 4051.0    6825.0  7874.0       5.0   6.0
+       PI-2    R-1000N apG própria            3658 4434.0    6825.0  8676.0       5.0   6.0
+       PI-3    I-1000N       silva            5410 4366.0   10455.0  8138.0       7.0   5.0
+       PI-3    I-1000N     BRS 284            5410 4429.0   10455.0  8157.0       7.0   6.0
+       PI-3    I-1000N    apG fora            5410 4249.0   10455.0  7744.0       7.0   6.0
+       PI-3    I-1000N apG própria            5410 4605.0   10455.0  8495.0       7.0   7.0
+       PI-3    R-1000N       silva            5260 4367.0    9978.0  8145.0       6.0   5.0
+       PI-3    R-1000N     BRS 284            5260 4430.0    9978.0  8163.0       6.0   6.0
+       PI-3    R-1000N    apG fora            5260 4249.0    9978.0  7742.0       6.0   6.0
+       PI-3    R-1000N apG própria            5260 4605.0    9978.0  8502.0       6.0   7.0
+       SO-1    R-1000N       silva            4582 3625.0    7371.0  6758.0       4.0   5.0
+       SO-1    R-1000N     BRS 284            4582 3572.0    7371.0  6526.0       4.0   5.0
+       SO-1    R-1000N    apG fora            4582 3815.0    7371.0  6888.0       4.0   6.0
+       SO-1    R-1000N apG própria            4582 3434.0    7371.0  6151.0       4.0   7.0
+       SO-2    R-1000N       silva            3774 3994.0    8176.0  8385.0       5.0   6.0
+       SO-2    R-1000N     BRS 284            3774 3953.0    8176.0  8042.0       5.0   6.0
+       SO-2    R-1000N    apG fora            3774 4134.0    8176.0  8311.0       5.0   7.0
+       SO-2    R-1000N apG própria            3774 3719.0    8176.0  7480.0       5.0   7.0
+       TE-1    I-1000N       silva            3390 4024.0    6460.0  8599.0       4.0   6.0
+       TE-1    I-1000N     BRS 284            3390 3692.0    6460.0  7747.0       4.0   5.0
+       TE-1    I-1000N    apG fora            3390 3548.0    6460.0  7413.0       4.0   6.0
+       TE-1    I-1000N apG própria            3390 4118.0    6460.0  8444.0       4.0   7.0
+       TE-1    R-1000N       silva            1471  405.0    2649.0   606.0       3.0   0.0
+       TE-1    R-1000N     BRS 284            1471  353.0    2649.0   528.0       3.0   0.0
+       TE-1    R-1000N    apG fora            1471  348.0    2649.0   514.0       3.0   0.0
+       TE-1    R-1000N apG própria            1471  414.0    2649.0   607.0       3.0   0.0
+       TU-1    I-1000N       silva            4004 5197.0    7950.0 11344.0       6.0   7.0
+       TU-1    I-1000N     BRS 284            4004 4627.0    7950.0 10365.0       6.0   8.0
+       TU-1    I-1000N    apG fora            4004 4363.0    7950.0  9762.0       6.0   8.0
+       TU-1    I-1000N apG própria            4004 4669.0    7950.0 10646.0       6.0   8.0
+       TU-1    R-1000N       silva            3496 1691.0    6839.0  6758.0       6.0   7.0
+       TU-1    R-1000N     BRS 284            3496 1467.0    6839.0  6165.0       6.0   7.0
+       TU-1    R-1000N    apG fora            3496 1382.0    6839.0  5784.0       6.0   8.0
+       TU-1    R-1000N apG própria            3496 1501.0    6839.0  6428.0       6.0   8.0

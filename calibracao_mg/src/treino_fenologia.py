@@ -65,6 +65,15 @@ EXPERIMENTOS_LOTE3 = {"Tasso Fragoso-MA": (-45.75, -8.45, 242), "São Raimundo d
 # Lote 4 (17/10/2026): Strieder et al. (2013, Passo Fundo) e Centro-Norte de MS (catálogo MS 2010/11; Santana et al. 2022)
 EXPERIMENTOS_LOTE4 = {"Passo Fundo-RS": (-52.45, -28.25, 687), "São Gabriel do Oeste-MS": (-54.55, -19.35, 658),
                       "Chapadão do Sul-MS": (-52.65, -18.75, 810)}
+# Lote 7 (06/11/2026): experimentos de Evandro H. F. M. da Silva (tese ESALQ 2021), célula do Xavier do experimento
+# (Sorriso e Cruz Alta com a célula exata, distinta da dos locais de Alliprandini). Teresina tem semeadura em julho
+# (inverno): a janela de semeadura do lote 7 desce até DOY_INVERNO dias antes de 10/set nos locais tropicais
+# (lat > −10°), nos novos e em 4 tropicais já existentes (só a parte de inverno), para o emulador não extrapolar.
+EXPERIMENTOS_LOTE7 = {"Piracicaba-SP": (-47.65, -22.75, 546), "Teresina-PI": (-42.75, -5.05, 78),
+                      "Sorriso-MT (Silva 2021)": (-55.75, -12.75, 375), "Cruz Alta-RS (Silva 2021)": (-53.55, -28.65, 476),
+                      "Tupanciretã-RS": (-53.75, -28.85, 466)}
+DOY_INVERNO = -70                       # 2 de julho
+TROPICAIS_INVERNO = ["Paragominas-PA", "Chapadinha-MA", "Uruçuí-PI", "Balsas-MA"]
 SEMENTE = 7
 _D, _WS = None, {}
 
@@ -95,6 +104,7 @@ def locais():
         d["lote_local"] = 1
     L += [dict(local=k, lon=v[0], lat=v[1], elev=v[2], tipo="experimento", arq="px", lote_local=3) for k, v in EXPERIMENTOS_LOTE3.items()]
     L += [dict(local=k, lon=v[0], lat=v[1], elev=v[2], tipo="experimento", arq="px", lote_local=4) for k, v in EXPERIMENTOS_LOTE4.items()]
+    L += [dict(local=k, lon=v[0], lat=v[1], elev=v[2], tipo="experimento", arq="px", lote_local=7) for k, v in EXPERIMENTOS_LOTE7.items()]
     return pd.DataFrame(L).reset_index(drop=True)
 
 
@@ -108,6 +118,8 @@ def tarefas(n, lote=1):
     L = locais()
     lo, hi = np.array([p[1] for p in PARAM]), np.array([p[2] for p in PARAM])
     lista = []
+    if lote == 7:
+        return L, tarefas_lote7(L, n, lo, hi)
     for j, loc in L.iterrows():
         # lotes 1 e 2: 47 locais originais; lotes 3 e 4: só os seus locais; lote ≥ 5: todos (ressimulação com R3/R5/R8)
         if lote < 5 and loc["lote_local"] != (1 if lote <= 2 else lote):
@@ -118,6 +130,26 @@ def tarefas(n, lote=1):
         for i, x in enumerate(X):
             lista.append(dict(id=base + j * n + i, amostra=i, lote=lote, idx_local=j, **loc.to_dict(), **dict(zip([p[0] for p in PARAM], x))))
     return L, lista
+
+
+def tarefas_lote7(L, n, lo, hi):
+    """Novos locais: n amostras (semeadura até DOY_INVERNO nos tropicais); tropicais existentes: n/2 só no inverno."""
+    k = [p[0] for p in PARAM].index("doy_sem")
+    lista = []
+    for j, loc in L.iterrows():
+        novo, inverno = loc["lote_local"] == 7, loc["local"] in TROPICAIS_INVERNO
+        if not (novo or inverno):
+            continue
+        a, b = lo.copy(), hi.copy()
+        if novo and loc["lat"] > -10:
+            a[k] = DOY_INVERNO
+        elif inverno:
+            a[k], b[k] = DOY_INVERNO, 0
+        m = n if novo else n // 2
+        X = qmc.scale(qmc.LatinHypercube(d=len(PARAM), seed=SEMENTE + 7000 + j).random(m), a, b)
+        for i, x in enumerate(X):
+            lista.append(dict(id=700000 + j * n + i, amostra=i, lote=7, idx_local=j, **loc.to_dict(), **dict(zip([p[0] for p in PARAM], x))))
+    return lista
 
 
 def _ini():
